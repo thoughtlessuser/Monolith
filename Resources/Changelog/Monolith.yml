@@ -9905,3 +9905,14 @@ Entries:
   id: 1105
   time: '2025-08-08T14:46:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1810
+- author: starch70
+  changes:
+    - type: Add
+      message: Grass, desert tiles, snow, and rain now use RMC-14/CM-13 sprites.
+    - type: Add
+      message: >-
+        Expeds can now generate with light rain, clear weather, and desert
+        biomes.
+  id: 1106
+  time: '2025-08-08T15:11:05.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1811
