@@ -9923,3 +9923,18 @@ Entries:
   id: 1107
   time: '2025-08-08T15:50:24.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1809
+- author: tonotom1
+  changes:
+    - type: Add
+      message: >-
+        Ported The People's Shovel from Frontier, the meme Chinese multitool
+        shovel. It can be rarely found in salvage. Credit: dvir001
+    - type: Tweak
+      message: Added holoflare guns and antique power cells to salvage tables
+    - type: Fix
+      message: >-
+        Fixed a weighting issue with salvmaints gacha prize table. The basic
+        guns shouldn't overdilute prize variety now.
+  id: 1108
+  time: '2025-08-08T15:52:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1808
