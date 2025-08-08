@@ -9916,3 +9916,10 @@ Entries:
   id: 1106
   time: '2025-08-08T15:11:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1811
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: added a wall recharger and medical techfab to the taichi
+  id: 1107
+  time: '2025-08-08T15:50:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1809
