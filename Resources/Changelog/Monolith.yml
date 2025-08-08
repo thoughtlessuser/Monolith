@@ -9896,3 +9896,12 @@ Entries:
   id: 1104
   time: '2025-08-08T14:00:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1790
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Mobs will now attack you even in open space and should otherwise behave
+        better in 0-gravity.
+  id: 1105
+  time: '2025-08-08T14:46:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1810
