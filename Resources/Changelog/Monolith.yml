@@ -10021,3 +10021,10 @@ Entries:
   id: 1118
   time: '2025-08-09T18:39:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1803
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed grid garbage-clean deleting non-expedition planets.
+  id: 1119
+  time: '2025-08-09T18:56:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1825
