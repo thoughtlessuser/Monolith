@@ -10058,3 +10058,10 @@ Entries:
   id: 1123
   time: '2025-08-09T23:53:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1830
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: Breaching Hammer can now pry unpowered doors open
+  id: 1124
+  time: '2025-08-09T23:53:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1831
