@@ -10044,3 +10044,10 @@ Entries:
   id: 1121
   time: '2025-08-09T21:44:37.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1829
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: PMC WL-01's helmet light is the same as the Scaf's now
+  id: 1122
+  time: '2025-08-09T23:20:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1832
