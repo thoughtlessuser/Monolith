@@ -10014,3 +10014,10 @@ Entries:
   id: 1117
   time: '2025-08-09T18:19:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1824
+- author: BoskiYourk
+  changes:
+    - type: Tweak
+      message: Moved faction leader firearms out of loadouts onto maps
+  id: 1118
+  time: '2025-08-09T18:39:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1803
