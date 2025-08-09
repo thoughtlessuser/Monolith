@@ -9987,3 +9987,12 @@ Entries:
   id: 1114
   time: '2025-08-09T11:39:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1819
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        Added the carp caller, a machine that can attract wild space carp, as a
+        T1 experimental research.
+  id: 1115
+  time: '2025-08-09T14:48:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1818
