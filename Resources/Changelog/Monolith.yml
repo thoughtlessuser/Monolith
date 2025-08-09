@@ -10028,3 +10028,10 @@ Entries:
   id: 1119
   time: '2025-08-09T18:56:26.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1825
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Ship FTL times are now modified by ship mass.
+  id: 1120
+  time: '2025-08-09T18:58:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1823
