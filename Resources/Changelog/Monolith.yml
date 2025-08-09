@@ -9977,3 +9977,13 @@ Entries:
   id: 1113
   time: '2025-08-09T02:18:38.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1817
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Desert planet returns w/ changes to rock generation that should make it
+        less laggy for the server (rocks are rarer and its mostly flat now,
+        rocks you do find are very rich with ore though compared to before.)
+  id: 1114
+  time: '2025-08-09T11:39:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1819
