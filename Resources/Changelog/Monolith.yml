@@ -10128,3 +10128,13 @@ Entries:
   id: 1132
   time: '2025-08-10T19:38:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1657
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Missile acceleration buffed substantially to make juking missiles take a
+        mild amount of effort and tracking more consistent. Track delay reduced.
+        Yes, you can juke missiles now.
+  id: 1133
+  time: '2025-08-10T20:19:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1843
