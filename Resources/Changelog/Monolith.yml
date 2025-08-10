@@ -10082,3 +10082,12 @@ Entries:
   id: 1126
   time: '2025-08-10T00:58:40.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1833
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Implemented roofs on every ship, so exped/planet lighting shouldnt show
+        in your ship anymore.
+  id: 1127
+  time: '2025-08-10T15:59:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1840
