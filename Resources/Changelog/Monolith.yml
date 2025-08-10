@@ -10098,3 +10098,12 @@ Entries:
   id: 1128
   time: '2025-08-10T16:00:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1835
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Cryo lag fix
+    - type: Tweak
+      message: Bodies shouldn't be frictionless in space anymore probably
+  id: 1129
+  time: '2025-08-10T16:11:08.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1834
