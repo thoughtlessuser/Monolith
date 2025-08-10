@@ -10091,3 +10091,10 @@ Entries:
   id: 1127
   time: '2025-08-10T15:59:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1840
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: M82 helmet NVs brighter.
+  id: 1128
+  time: '2025-08-10T16:00:05.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1835
