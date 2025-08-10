@@ -10138,3 +10138,23 @@ Entries:
   id: 1133
   time: '2025-08-10T20:19:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1843
+- author: starch70
+  changes:
+    - type: Add
+      message: Roofs can now be built/deconstructed.
+    - type: Add
+      message: >-
+        You can now dig up tiles on desert planet with a shovel, so now you can
+        build lattice (and thus plating and whatnot) with only a shovel instead
+        of needing a RCD.
+    - type: Tweak
+      message: >-
+        Planets now have a bedrock parallax instead of empty void for missing
+        tiles.
+    - type: Fix
+      message: Fixed planet shelter not having a roof.
+    - type: Fix
+      message: Fixed ship's pre-defined roofs being overwritten.
+  id: 1134
+  time: '2025-08-10T20:31:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1845
