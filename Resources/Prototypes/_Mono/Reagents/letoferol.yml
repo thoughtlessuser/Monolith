@@ -42,12 +42,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 10
-      - !type:AdjustReagent
-        reagent: Letoferol
-        amount: -0.5
-        conditions:
-        - !type:ReagentThreshold
-          min: 10
       - !type:PopupMessage
         conditions:
         - !type:ReagentThreshold
@@ -55,7 +49,7 @@
         type: Local
         visualType: Medium
         messages: [ "generic-reagent-effect-nauseous" ]
-        probability: 0.5
+        probability: 0.25
       - !type:Drunk
         boozePower: 15
         conditions:
@@ -106,12 +100,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 15
-      - !type:AdjustReagent
-        reagent: NaturalLetoferol
-        amount: -2.5
-        conditions:
-        - !type:ReagentThreshold
-          min: 15
       - !type:PopupMessage
         conditions:
         - !type:ReagentThreshold
@@ -119,7 +107,7 @@
         type: Local
         visualType: Medium
         messages: [ "generic-reagent-effect-nauseous" ]
-        probability: 0.5
+        probability: 0.2
       - !type:Drunk
         boozePower: 15
         conditions:
