@@ -10189,3 +10189,10 @@ Entries:
   id: 1137
   time: '2025-08-11T05:42:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1850
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: tweaked the Claymore to be more balanced + have a little more RP space
+  id: 1138
+  time: '2025-08-11T10:36:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1853
