@@ -10216,3 +10216,10 @@ Entries:
   id: 1140
   time: '2025-08-11T15:17:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1857
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Liberated Syndiedrobe from its unanchorable status
+  id: 1141
+  time: '2025-08-11T15:31:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1852
