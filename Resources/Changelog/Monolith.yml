@@ -10230,3 +10230,10 @@ Entries:
   id: 1142
   time: '2025-08-11T15:36:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1812
+- author: Ilya246
+  changes:
+    - type: Add
+      message: You can now build containment field generators.
+  id: 1143
+  time: '2025-08-11T16:36:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1859
