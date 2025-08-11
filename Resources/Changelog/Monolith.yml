@@ -10276,3 +10276,12 @@ Entries:
   id: 1148
   time: '2025-08-11T19:27:39.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1799
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: >-
+        changed the arkansaws medbay into a factory room instead. tweaked the
+        arkansaw to be a lil better. 
+  id: 1149
+  time: '2025-08-11T19:29:21.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1855
