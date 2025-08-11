@@ -10237,3 +10237,10 @@ Entries:
   id: 1143
   time: '2025-08-11T16:36:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1859
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Mechs can now be sold. USSP bounty enjoyers rejoice.
+  id: 1144
+  time: '2025-08-11T16:50:04.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1861
