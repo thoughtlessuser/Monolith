@@ -10205,3 +10205,14 @@ Entries:
   id: 1139
   time: '2025-08-11T13:03:47.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1854
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        More desert planet improvements (can build forges now w/ rocks from
+        boulders, added some fauna, bushes now drop more logs and 0-2 cloth,
+        piluma is a shitty melee weapon now, tiles drop useless sand instead of
+        dirt tiles.)
+  id: 1140
+  time: '2025-08-11T15:17:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1857
