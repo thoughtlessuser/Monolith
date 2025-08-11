@@ -10196,3 +10196,12 @@ Entries:
   id: 1138
   time: '2025-08-11T10:36:07.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1853
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        IFF-less POIs (other than LPB and Rogue hideout) have had all their
+        spawning ranges set to 10km-15km standard.
+  id: 1139
+  time: '2025-08-11T13:03:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1854
