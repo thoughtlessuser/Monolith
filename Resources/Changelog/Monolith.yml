@@ -10223,3 +10223,10 @@ Entries:
   id: 1141
   time: '2025-08-11T15:31:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1852
+- author: Honestly101
+  changes:
+    - type: Add
+      message: Added rogue thrusters
+  id: 1142
+  time: '2025-08-11T15:36:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1812
