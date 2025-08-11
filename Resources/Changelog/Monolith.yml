@@ -10244,3 +10244,10 @@ Entries:
   id: 1144
   time: '2025-08-11T16:50:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1861
+- author: Onezero0
+  changes:
+    - type: Fix
+      message: Removed nanotrasen references in event announcements.
+  id: 1145
+  time: '2025-08-11T17:08:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1862
