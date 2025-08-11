@@ -10182,3 +10182,10 @@ Entries:
   id: 1136
   time: '2025-08-11T03:52:41.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1849
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed (dead) mobs taken from wrecks or expeditions randomly despawning.
+  id: 1137
+  time: '2025-08-11T05:42:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1850
