@@ -10169,3 +10169,16 @@ Entries:
   id: 1135
   time: '2025-08-11T00:53:49.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1846
+- author: starch70
+  changes:
+    - type: Add
+      message: Added organs to chimeras (and thus chimeras are now surgery targets).
+    - type: Add
+      message: Added guidebook page for Chimeras and Letoferol.
+    - type: Tweak
+      message: >-
+        Chimera abilities (bone spikes, hivemind) are now reliant on their
+        organs instead of being innate.
+  id: 1136
+  time: '2025-08-11T03:52:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1849
