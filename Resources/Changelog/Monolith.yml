@@ -10330,3 +10330,10 @@ Entries:
   id: 1154
   time: '2025-08-12T04:42:57.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1876
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: 10 hour playtime requirement for borers
+  id: 1155
+  time: '2025-08-12T05:06:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1877
