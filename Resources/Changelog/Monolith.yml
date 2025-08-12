@@ -10357,3 +10357,12 @@ Entries:
   id: 1157
   time: '2025-08-12T16:17:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1866
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        Added voidboots - magboots that let you walk on space. They can be
+        researched as T2 experimental.
+  id: 1158
+  time: '2025-08-12T16:22:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1881
