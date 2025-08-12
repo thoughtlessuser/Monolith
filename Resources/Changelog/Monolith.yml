@@ -10323,3 +10323,10 @@ Entries:
   id: 1153
   time: '2025-08-12T04:01:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1875
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: Cortical Borer's Take Control now has a 5-minute cooldown
+  id: 1154
+  time: '2025-08-12T04:42:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1876
