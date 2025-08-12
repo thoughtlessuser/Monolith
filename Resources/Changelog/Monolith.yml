@@ -10314,3 +10314,12 @@ Entries:
   id: 1152
   time: '2025-08-12T01:54:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1871
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: >-
+        Cortical Borers can now permanently take control of mobs who don't have
+        a ghost role or mind at the cost of being able to lay eggs.
+  id: 1153
+  time: '2025-08-12T04:01:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1875
