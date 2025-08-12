@@ -10373,3 +10373,10 @@ Entries:
   id: 1159
   time: '2025-08-12T16:48:19.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1804
+- author: 'Scyron '
+  changes:
+    - type: Add
+      message: Added Languages from EE.
+  id: 1160
+  time: '2025-08-12T23:04:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1882
