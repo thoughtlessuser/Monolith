@@ -10437,3 +10437,14 @@ Entries:
   id: 1167
   time: '2025-08-13T21:44:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1893
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: Borers know every language
+    - type: Fix
+      message: Borers can now talk to their hosts again
+    - type: Fix
+      message: Borers no longer make a ghost role when taking control of their host
+  id: 1168
+  time: '2025-08-13T23:57:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1897
