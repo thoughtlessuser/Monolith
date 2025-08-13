@@ -10387,3 +10387,12 @@ Entries:
   id: 1161
   time: '2025-08-13T14:00:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1885
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Fixed lathe upgrade kits not being in any lathes - they now are in
+        protolathe.
+  id: 1162
+  time: '2025-08-13T15:37:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1891
