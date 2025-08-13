@@ -10403,3 +10403,10 @@ Entries:
   id: 1163
   time: '2025-08-13T15:45:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1890
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Mini jetpack is now 2x2 in inventory.
+  id: 1164
+  time: '2025-08-13T15:45:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1887
