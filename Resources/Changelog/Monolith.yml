@@ -10417,3 +10417,14 @@ Entries:
   id: 1165
   time: '2025-08-13T15:47:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1883
+- author: Ark
+  changes:
+    - type: Tweak
+      message: Cortical Borer no longer appears on thermals.
+    - type: Tweak
+      message: Cortical Borer no longer has a status icon.
+    - type: Tweak
+      message: Cortical Borer do-after is now silent.
+  id: 1166
+  time: '2025-08-13T15:47:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1886
