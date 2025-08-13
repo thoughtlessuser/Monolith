@@ -10380,3 +10380,10 @@ Entries:
   id: 1160
   time: '2025-08-12T23:04:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1882
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Vespera is less painful to the ears when out of ammo
+  id: 1161
+  time: '2025-08-13T14:00:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1885
