@@ -10467,3 +10467,12 @@ Entries:
   id: 1169
   time: '2025-08-14T00:05:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1894
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Fixed automation upgrade kit not being in any lathes. Is now in
+        protolathe.
+  id: 1170
+  time: '2025-08-14T00:05:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1895
