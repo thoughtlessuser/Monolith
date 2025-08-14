@@ -10476,3 +10476,10 @@ Entries:
   id: 1170
   time: '2025-08-14T00:05:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1895
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed the sprite for containment fields rotating weirdly
+  id: 1171
+  time: '2025-08-14T00:29:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1898
