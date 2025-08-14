@@ -10448,3 +10448,22 @@ Entries:
   id: 1168
   time: '2025-08-13T23:57:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1897
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Readded Elyran as a trait, added Nekomimetic as a trait, and uncommented
+        Foreigner.
+    - type: Add
+      message: >-
+        Resomi can understand and speak Elyran now, Protogens can understand and
+        speak Canilunzt now (plus being able to understand but not speak binary)
+    - type: Tweak
+      message: >-
+        Gatekept translators & translator implants to research, sorry, not
+        sorry.
+    - type: Tweak
+      message: Ported better ZH text support from Goob.
+  id: 1169
+  time: '2025-08-14T00:05:08.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1894
