@@ -10513,3 +10513,12 @@ Entries:
   id: 1175
   time: '2025-08-15T15:16:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1910
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added Mercury to Rogue shipyard. Real Monolith veterans will recognize
+        it.
+  id: 1176
+  time: '2025-08-15T17:33:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1913
