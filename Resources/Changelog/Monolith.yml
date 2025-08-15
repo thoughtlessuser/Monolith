@@ -10483,3 +10483,12 @@ Entries:
   id: 1171
   time: '2025-08-14T00:29:02.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1898
+- author: Avalon-Proto
+  changes:
+    - type: Fix
+      message: Mechs should be able to doorbump again, alongside other vehicles
+    - type: Fix
+      message: 'S2 and S4 mechs speeds fixed '
+  id: 1172
+  time: '2025-08-15T01:48:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1904
