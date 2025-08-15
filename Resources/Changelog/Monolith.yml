@@ -10522,3 +10522,10 @@ Entries:
   id: 1176
   time: '2025-08-15T17:33:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1913
+- author: Onezero0
+  changes:
+    - type: Fix
+      message: Removed ghost role chance from desert planet kangaroo spawns.
+  id: 1177
+  time: '2025-08-15T17:44:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1912
