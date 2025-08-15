@@ -10545,3 +10545,10 @@ Entries:
   id: 1179
   time: '2025-08-15T18:57:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1906
+- author: starch70
+  changes:
+    - type: Add
+      message: USSP gets their own language now.
+  id: 1180
+  time: '2025-08-15T19:02:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1916
