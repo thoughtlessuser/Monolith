@@ -10538,3 +10538,10 @@ Entries:
   id: 1178
   time: '2025-08-15T18:46:16.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1914
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Sentinel to TSFMC shipyard.
+  id: 1179
+  time: '2025-08-15T18:57:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1906
