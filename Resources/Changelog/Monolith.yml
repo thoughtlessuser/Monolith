@@ -10506,3 +10506,10 @@ Entries:
   id: 1174
   time: '2025-08-15T13:58:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1909
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Ported inline filter and radiator for atmos from goob.
+  id: 1175
+  time: '2025-08-15T15:16:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1910
