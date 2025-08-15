@@ -10529,3 +10529,12 @@ Entries:
   id: 1177
   time: '2025-08-15T17:44:57.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1912
+- author: starch70
+  changes:
+    - type: Add
+      message: 'Ported support for 7 segment displays from Wizden #37070.'
+    - type: Add
+      message: Updated APC UI again.
+  id: 1178
+  time: '2025-08-15T18:46:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1914
