@@ -10569,3 +10569,12 @@ Entries:
   id: 1181
   time: '2025-08-16T16:09:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1922
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Sevastopol disk printer and laser drill now make sound while working.
+    - type: Tweak
+      message: Laser drill now has to be on lattice or on the planet directly to work.
+  id: 1182
+  time: '2025-08-16T16:11:37.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1921
