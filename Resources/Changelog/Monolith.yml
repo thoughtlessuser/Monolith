@@ -10552,3 +10552,20 @@ Entries:
   id: 1180
   time: '2025-08-15T19:02:41.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1916
+- author: Scyron
+  changes:
+    - type: Add
+      message: >-
+        Atmospheric pipes can now be built on three different sublayers,
+        allowing for multiple pipe networks on a single tile
+    - type: Add
+      message: >-
+        Pipe manifolds can now be constructed to connect pipes across different
+        sublayers
+    - type: Tweak
+      message: >-
+        Gas vent under-pressure lockout releases are now performed using the
+        right-click menu - a screwdriver is no longer required
+  id: 1181
+  time: '2025-08-16T16:09:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1922
