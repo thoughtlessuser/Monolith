@@ -10587,3 +10587,10 @@ Entries:
   id: 1183
   time: '2025-08-16T18:17:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1926
+- author: starch70
+  changes:
+    - type: Add
+      message: Added 2 more fighters to Tumour.
+  id: 1184
+  time: '2025-08-16T18:17:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1924
