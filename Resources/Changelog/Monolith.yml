@@ -10594,3 +10594,10 @@ Entries:
   id: 1184
   time: '2025-08-16T18:17:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1924
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Shuttle max speed now scales with thrust-weight ratio.
+  id: 1185
+  time: '2025-08-17T00:48:25.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1856
