@@ -10632,3 +10632,10 @@ Entries:
   id: 1188
   time: '2025-08-17T17:36:52.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1932
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: Link to the guidebook on chimeras on examine. Some extra edits too.
+  id: 1189
+  time: '2025-08-17T21:01:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1934
