@@ -10601,3 +10601,12 @@ Entries:
   id: 1185
   time: '2025-08-17T00:48:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1856
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Some fluids (such as oxygen, welding fuel, napalm, etc) have flammable
+        puddles now.
+  id: 1186
+  time: '2025-08-17T01:54:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1929
