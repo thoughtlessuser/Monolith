@@ -10625,3 +10625,10 @@ Entries:
   id: 1187
   time: '2025-08-17T02:11:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1927
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed a certain debug research being available ingame.
+  id: 1188
+  time: '2025-08-17T17:36:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1932
