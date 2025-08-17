@@ -10639,3 +10639,10 @@ Entries:
   id: 1189
   time: '2025-08-17T21:01:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1934
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Nerfed the amount of heat reagent fires can make.
+  id: 1190
+  time: '2025-08-17T23:49:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1937
