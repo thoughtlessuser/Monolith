@@ -10610,3 +10610,18 @@ Entries:
   id: 1186
   time: '2025-08-17T01:54:47.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1929
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed Modsuits not being craftable.
+    - type: Fix
+      message: >-
+        Buffed small weapon/ammo/explosive cases to 4x4 storage, so they can fit
+        all the big ammo boxes they might spawn with.
+    - type: Tweak
+      message: >-
+        The medical multitool is finally no longer roundstart, and is now
+        gatekept to the T3 high-end surgery research like intended.
+  id: 1187
+  time: '2025-08-17T02:11:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1927
