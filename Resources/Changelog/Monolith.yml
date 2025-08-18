@@ -10662,3 +10662,10 @@ Entries:
   id: 1192
   time: '2025-08-18T20:16:26.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1942
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: 'PTK-1500e: damage 15->40 blunt, 15->400 structural'
+  id: 1193
+  time: '2025-08-18T20:38:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1939
