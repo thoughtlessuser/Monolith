@@ -10646,3 +10646,12 @@ Entries:
   id: 1190
   time: '2025-08-17T23:49:23.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1937
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Autumn to CO shipyard.
+    - type: Remove
+      message: Retired Seraphim
+  id: 1191
+  time: '2025-08-18T00:18:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1928
