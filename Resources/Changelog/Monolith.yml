@@ -10655,3 +10655,10 @@ Entries:
   id: 1191
   time: '2025-08-18T00:18:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1928
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed laser drills not working on expedition.
+  id: 1192
+  time: '2025-08-18T20:16:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1942
