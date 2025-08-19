@@ -10702,3 +10702,17 @@ Entries:
   id: 1196
   time: '2025-08-19T15:20:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1940
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed Chimera passive regen, made biomass more vulnerable to fire, gave
+        chimeras a proper damage modifier set (takes more burn/rads/shock
+        damage, but takes less cold blunt and slash damage, pierce is still 1x)
+    - type: Fix
+      message: Fixed Chimera AI being stupid and trying to pick up worse weapons.
+    - type: Fix
+      message: Chimeras can infect dead people again.
+  id: 1197
+  time: '2025-08-19T18:54:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1958
