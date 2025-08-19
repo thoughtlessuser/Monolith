@@ -10693,3 +10693,12 @@ Entries:
   id: 1195
   time: '2025-08-19T14:27:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1954
+- author: Honestly101
+  changes:
+    - type: Tweak
+      message: Changed rogue viro into a RnD lab
+    - type: Add
+      message: added civilian RnD server to Rogue outpost
+  id: 1196
+  time: '2025-08-19T15:20:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1940
