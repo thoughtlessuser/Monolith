@@ -10716,3 +10716,10 @@ Entries:
   id: 1197
   time: '2025-08-19T18:54:24.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1958
+- author: Onezero0
+  changes:
+    - type: Remove
+      message: Removed the desert planet for now, due to lag. Rest in peace.
+  id: 1198
+  time: '2025-08-19T20:12:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1961
