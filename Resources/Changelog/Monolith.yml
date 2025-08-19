@@ -10732,3 +10732,12 @@ Entries:
   id: 1199
   time: '2025-08-19T20:41:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1962
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: >-
+        Helmet Attachments now require a head slot item to be worn instead of a
+        helmet cover
+  id: 1200
+  time: '2025-08-19T22:02:00.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1964
