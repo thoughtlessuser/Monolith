@@ -10678,3 +10678,18 @@ Entries:
   id: 1194
   time: '2025-08-18T21:47:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1945
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Outerclothing/jumpsuits with more than 20% poison prot will now block
+        solution injectors (this includes Chimera melee attacks)
+    - type: Add
+      message: >-
+        MOPP jumpsuit to TSF T2 equipment. Free poison/rad/caustic protections,
+        at the cost of minor slowdowns. Comes with gloves too.
+    - type: Tweak
+      message: Buffed biosuits.
+  id: 1195
+  time: '2025-08-19T14:27:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1954
