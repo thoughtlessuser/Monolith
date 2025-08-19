@@ -10741,3 +10741,13 @@ Entries:
   id: 1200
   time: '2025-08-19T22:02:00.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1964
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Plastitanium is now obtainable via crystallization, and you can now
+        build plastitanium walls. Don't bother trying to deconstruct for it,
+        you'll only get slag.
+  id: 1201
+  time: '2025-08-19T22:27:36.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1959
