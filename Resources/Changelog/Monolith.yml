@@ -10723,3 +10723,12 @@ Entries:
   id: 1198
   time: '2025-08-19T20:12:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1961
+- author: Redrover1760
+  changes:
+    - type: Remove
+      message: >-
+        Cult of the Machine God and Zealots of Balaam removed from playable
+        companies
+  id: 1199
+  time: '2025-08-19T20:41:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1962
