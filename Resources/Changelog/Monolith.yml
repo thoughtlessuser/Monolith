@@ -10758,3 +10758,10 @@ Entries:
   id: 1202
   time: '2025-08-20T10:12:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1966
+- author: Honestly101
+  changes:
+    - type: Tweak
+      message: Changed faction research server sprites
+  id: 1203
+  time: '2025-08-20T10:13:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1956
