@@ -10774,3 +10774,23 @@ Entries:
   id: 1204
   time: '2025-08-20T19:55:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1972
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Updated M-Class and Archer visually and mechanically. M-Class now has
+        large thrusters, scrap processor, and 2 core AME. Archer interior has
+        been redone mostly, and now has a small medbay area. Both have recieved
+        the same low/no pressure blue lights such as the ones on the Autumn +
+        pipe layering.
+    - type: Remove
+      message: >-
+        Retired exped variants of archer and praetorian, no longer needed as we
+        have more than 5 exped ships, and they were annoying to maintain.
+    - type: Remove
+      message: >-
+        Retired A-class and Akasono, they were kinda garbage if I'll be honest.
+        You have like 6 other atmos ships now anyways.
+  id: 1205
+  time: '2025-08-20T20:28:08.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1969
