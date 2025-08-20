@@ -10751,3 +10751,10 @@ Entries:
   id: 1201
   time: '2025-08-19T22:27:36.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1959
+- author: Cojoke-dot
+  changes:
+    - type: Add
+      message: You can now see your spawn coordinates in your character menu
+  id: 1202
+  time: '2025-08-20T10:12:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1966
