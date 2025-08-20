@@ -10765,3 +10765,12 @@ Entries:
   id: 1203
   time: '2025-08-20T10:13:39.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1956
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Powercrept Flyssa
+    - type: Fix
+      message: Fixed Flyssa not having a fax machine.
+  id: 1204
+  time: '2025-08-20T19:55:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1972
