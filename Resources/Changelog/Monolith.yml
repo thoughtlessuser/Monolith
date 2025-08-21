@@ -10876,3 +10876,12 @@ Entries:
   id: 1215
   time: '2025-08-21T17:29:48.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1976
+- author: Rubeebeebee
+  changes:
+    - type: Add
+      message: >-
+        adding the HME Artemis, the replacement to the Orit (rest in peace
+        king) 
+  id: 1216
+  time: '2025-08-21T17:35:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1745
