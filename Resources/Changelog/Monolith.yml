@@ -10855,3 +10855,10 @@ Entries:
   id: 1212
   time: '2025-08-21T15:48:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1986
+- author: Rubeebeebee
+  changes:
+    - type: Add
+      message: the PB Bratan, a CIV service megaship with a hidden drug lab
+  id: 1213
+  time: '2025-08-21T17:27:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1641
