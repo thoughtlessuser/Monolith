@@ -10862,3 +10862,10 @@ Entries:
   id: 1213
   time: '2025-08-21T17:27:16.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1641
+- author: bitcrushing
+  changes:
+    - type: Add
+      message: Ported multigas filters from Funky Station.
+  id: 1214
+  time: '2025-08-21T17:28:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1971
