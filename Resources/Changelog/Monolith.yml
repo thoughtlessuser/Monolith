@@ -10839,3 +10839,12 @@ Entries:
   id: 1210
   time: '2025-08-21T14:58:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1983
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: >-
+        VGroids, unidentified vessels, and other temporary grids will no longer
+        despawn with non-dead players on or near them.
+  id: 1211
+  time: '2025-08-21T15:03:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1981
