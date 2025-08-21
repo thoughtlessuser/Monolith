@@ -10794,3 +10794,14 @@ Entries:
   id: 1205
   time: '2025-08-20T20:28:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1969
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Implemented muzzle flashes for some ship guns.
+    - type: Tweak
+      message: Buffed some more shipgun HP.
+    - type: Fix
+      message: Fixed plasma cannons having only ~750 health.
+  id: 1206
+  time: '2025-08-21T00:49:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1975
