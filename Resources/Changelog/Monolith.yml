@@ -10830,3 +10830,12 @@ Entries:
   id: 1209
   time: '2025-08-21T14:57:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1982
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: VGroids are no longer static and may be moved.
+    - type: Tweak
+      message: Artifacts can now activate on VGroids.
+  id: 1210
+  time: '2025-08-21T14:58:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1983
