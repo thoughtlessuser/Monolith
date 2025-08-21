@@ -10848,3 +10848,10 @@ Entries:
   id: 1211
   time: '2025-08-21T15:03:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1981
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Shortband no longer goes across maps.
+  id: 1212
+  time: '2025-08-21T15:48:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1986
