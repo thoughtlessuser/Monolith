@@ -10885,3 +10885,10 @@ Entries:
   id: 1216
   time: '2025-08-21T17:35:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1745
+- author: Onezero0
+  changes:
+    - type: Remove
+      message: Removed FMC value from gatfruit Pythons. Oh well.
+  id: 1217
+  time: '2025-08-21T21:52:40.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1988
