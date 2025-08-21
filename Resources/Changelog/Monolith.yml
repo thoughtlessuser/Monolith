@@ -10812,3 +10812,12 @@ Entries:
   id: 1207
   time: '2025-08-21T00:57:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1979
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        The engineering techfab can now make gas mining drill and portable
+        gaslock flatpacks.
+  id: 1208
+  time: '2025-08-21T14:35:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1984
