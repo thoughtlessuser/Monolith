@@ -10805,3 +10805,10 @@ Entries:
   id: 1206
   time: '2025-08-21T00:49:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1975
+- author: Onezero0
+  changes:
+    - type: Tweak
+      message: Gatfruits are worth less FMC. Sorry, Alfie.
+  id: 1207
+  time: '2025-08-21T00:57:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1979
