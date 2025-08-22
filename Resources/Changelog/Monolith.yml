@@ -10899,3 +10899,10 @@ Entries:
   id: 1218
   time: '2025-08-21T22:08:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1989
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed turrets trying to shoot you through walls.
+  id: 1219
+  time: '2025-08-22T21:15:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1993
