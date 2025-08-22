@@ -10906,3 +10906,14 @@ Entries:
   id: 1219
   time: '2025-08-22T21:15:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1993
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Halved ballistic and laser turret rotation speed.
+    - type: Tweak
+      message: >-
+        Ballistic and laser turrets now start off very inaccurate and get more
+        accurate as they fire.
+  id: 1220
+  time: '2025-08-22T21:17:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1994
