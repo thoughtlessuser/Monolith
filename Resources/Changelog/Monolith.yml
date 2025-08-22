@@ -10973,3 +10973,10 @@ Entries:
   id: 1225
   time: '2025-08-22T22:21:02.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1957
+- author: johnnny34y
+  changes:
+    - type: Add
+      message: Drunk driving
+  id: 1226
+  time: '2025-08-22T22:46:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1873
