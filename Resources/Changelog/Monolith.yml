@@ -10946,3 +10946,23 @@ Entries:
   id: 1223
   time: '2025-08-22T22:19:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1978
+- author: grandalff
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Gruznyk, but had to make it shittier, so to compensate, I gave its
+        fridge two potatoes. It can now, again, haul cargo...
+    - type: Tweak
+      message: Gave Akula extra fuel and a defib.
+    - type: Tweak
+      message: >-
+        Removed the second APC from Sekunda's med room, changed wiring a bit,
+        removed the roller bed (even when collapsed it has a hitbox), replaced
+        the fore gyros with sec variants.
+    - type: Tweak
+      message: >-
+        Gave Remontnik a defib, turned on that one thruster, removed the
+        extinguisher on top of the air alarm.
+  id: 1224
+  time: '2025-08-22T22:20:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1923
