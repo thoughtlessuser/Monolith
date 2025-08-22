@@ -10927,3 +10927,15 @@ Entries:
   id: 1221
   time: '2025-08-22T21:23:21.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1987
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added Jupiter as a mobile secondary Rogue base focused on carrying
+        mechs, with a shipyard console only capable of spawning smaller rogue
+        ships.
+    - type: Tweak
+      message: Buffed 1x1 mechs (such as Gygax) in both space speed and durability.
+  id: 1222
+  time: '2025-08-22T22:07:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1995
