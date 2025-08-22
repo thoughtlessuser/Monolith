@@ -10980,3 +10980,12 @@ Entries:
   id: 1226
   time: '2025-08-22T22:46:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1873
+- author: Rubeebeebee
+  changes:
+    - type: Add
+      message: >-
+        the Leaf; a MED Botany/Chemistry ship to replace the Eden (rest in peace
+        king)
+  id: 1227
+  time: '2025-08-22T22:48:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1758
