@@ -10917,3 +10917,13 @@ Entries:
   id: 1220
   time: '2025-08-22T21:17:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1994
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        Banners (the ones you can craft) can now be used to claim
+        debris/vgroid/UIV/etc grids via altclick if anchored, preventing them
+        from despawning.
+  id: 1221
+  time: '2025-08-22T21:23:21.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1987
