@@ -11039,3 +11039,12 @@ Entries:
   id: 1232
   time: '2025-08-23T09:46:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2002
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Redid Jupiter air alarms and lighting, added more station maps.
+    - type: Fix
+      message: Fixed Jupiter having a missing disposals tube.
+  id: 1233
+  time: '2025-08-23T22:08:25.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2007
