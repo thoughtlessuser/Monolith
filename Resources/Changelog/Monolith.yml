@@ -11089,3 +11089,10 @@ Entries:
   id: 1238
   time: '2025-08-23T22:51:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2009
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Reduced asteroid spawnrate significantly to help with physics lag.
+  id: 1239
+  time: '2025-08-23T23:26:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2010
