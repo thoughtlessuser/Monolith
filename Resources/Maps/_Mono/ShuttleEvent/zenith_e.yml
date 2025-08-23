@@ -24,7 +24,7 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/23/2025 00:29:37
+  time: 08/23/2025 00:30:17
   entityCount: 656
 maps: []
 grids:
@@ -2459,17 +2459,19 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -1.5,-13.5
       parent: 1
-- proto: GunneryServerUltra
+- proto: GunneryServerOmega
   entities:
   - uid: 357
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
-    - type: ApcPowerReceiver
-      powerLoad: 50
     - type: Battery
-      startingCharge: 0
+      startingCharge: 1800
+    - type: ApcPowerReceiver
+      powerLoad: 100
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: GyroscopeSecurity
   entities:
   - uid: 358
@@ -3911,31 +3913,37 @@ entities:
       rot: 3.141592653589793 rad
       pos: -0.5,11.5
       parent: 1
-- proto: WeaponTurretL85Autocannon
+- proto: WeaponTurretTovek
   entities:
-  - uid: 607
-    components:
-    - type: Transform
-      pos: -7.5,-10.5
-      parent: 1
-  - uid: 608
-    components:
-    - type: Transform
-      pos: 6.5,-10.5
-      parent: 1
-- proto: WeaponTurretType35
-  entities:
-  - uid: 609
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,10.5
-      parent: 1
   - uid: 610
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 2.5,7.5
+      pos: 8.5,-2.5
+      parent: 1
+  - uid: 613
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -9.5,-2.5
+      parent: 1
+- proto: WeaponTurretType54
+  entities:
+  - uid: 607
+    components:
+    - type: Transform
+      pos: 6.5,-10.5
+      parent: 1
+  - uid: 608
+    components:
+    - type: Transform
+      pos: -7.5,-10.5
+      parent: 1
+  - uid: 609
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -3.5,7.5
       parent: 1
   - uid: 611
     components:
@@ -3947,20 +3955,12 @@ entities:
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: -3.5,7.5
-      parent: 1
-- proto: WeaponTurretVanyk
-  entities:
-  - uid: 613
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.5,-2.5
+      pos: 1.5,10.5
       parent: 1
   - uid: 614
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: -9.5,-2.5
+      pos: 2.5,7.5
       parent: 1
 ...
