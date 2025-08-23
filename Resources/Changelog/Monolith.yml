@@ -11055,3 +11055,10 @@ Entries:
   id: 1234
   time: '2025-08-23T22:09:09.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2004
+- author: Ilya246
+  changes:
+    - type: Add
+      message: VGroids now have deep gas deposits, which can be gas mined indefinitely.
+  id: 1235
+  time: '2025-08-23T22:11:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2005
