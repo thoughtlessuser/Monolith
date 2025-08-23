@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2024 DrSmugleaf
+// SPDX-FileCopyrightText: 2024 Leon Friedrich
+// SPDX-FileCopyrightText: 2025 Coenx-flex
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Content.Server.GameTicking;
 using Content.Server.Shuttles.Components;
@@ -17,7 +23,8 @@ public sealed class EvacShuttleTest
     /// <summary>
     /// Ensure that the emergency shuttle can be called, and that it will travel to centcomm
     /// </summary>
-    [Test]
+    // Mono change: disable test... we ain't getting a flight back to cc
+    // [Test]
     public async Task EmergencyEvacTest()
     {
         await using var pair = await PoolManager.GetServerClient(new PoolSettings { DummyTicker = true, Dirty = true });
