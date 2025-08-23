@@ -11025,3 +11025,10 @@ Entries:
   id: 1230
   time: '2025-08-23T07:00:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2000
+- author: starch70
+  changes:
+    - type: Tweak
+      message: All combat mechs have radar blip now.
+  id: 1231
+  time: '2025-08-23T07:40:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2001
