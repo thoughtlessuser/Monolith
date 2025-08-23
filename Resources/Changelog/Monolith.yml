@@ -11082,3 +11082,10 @@ Entries:
   id: 1237
   time: '2025-08-23T22:13:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1900
+- author: Cojoke-dot
+  changes:
+    - type: Fix
+      message: 'Magic crayon crafting recipe now actually makes a magic crayon '
+  id: 1238
+  time: '2025-08-23T22:51:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2009
