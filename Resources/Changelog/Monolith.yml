@@ -11071,3 +11071,14 @@ Entries:
   id: 1236
   time: '2025-08-23T22:11:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1999
+- author: tonotom1
+  changes:
+    - type: Add
+      message: >-
+        WHEWW What's that SMELL?? Ported BZ, Healium, and Nitrium! Credit to
+        marc-pelletier for all the actual work
+    - type: Add
+      message: Frontierized canister sprites for the new gases
+  id: 1237
+  time: '2025-08-23T22:13:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1900
