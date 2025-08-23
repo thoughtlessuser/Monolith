@@ -11007,3 +11007,10 @@ Entries:
   id: 1228
   time: '2025-08-23T00:46:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1996
+- author: starch70
+  changes:
+    - type: Remove
+      message: Removed ambient noise from pipes.
+  id: 1229
+  time: '2025-08-23T06:57:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1997
