@@ -11032,3 +11032,10 @@ Entries:
   id: 1231
   time: '2025-08-23T07:40:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2001
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Syringe cases can scoop items up and dump its contents
+  id: 1232
+  time: '2025-08-23T09:46:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2002
