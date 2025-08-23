@@ -11048,3 +11048,10 @@ Entries:
   id: 1233
   time: '2025-08-23T22:08:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2007
+- author: Ilya246
+  changes:
+    - type: Add
+      message: You can now build gaslocks.
+  id: 1234
+  time: '2025-08-23T22:09:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2004
