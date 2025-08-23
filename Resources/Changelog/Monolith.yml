@@ -10989,3 +10989,21 @@ Entries:
   id: 1227
   time: '2025-08-22T22:48:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1758
+- author: starch70
+  changes:
+    - type: Add
+      message: Added an alternate variant of ADS Zenith w/ different weapons.
+    - type: Tweak
+      message: Increased the max amount of time ADS Zenith & ADS Nebula can spawn to 6.
+    - type: Tweak
+      message: >-
+        Legionnaire has 4 autopulsers now instead of ASM-302, QJ-490 now has
+        autopulsers instead of 20mms. Sadly, this means price increases for
+        both.
+    - type: Tweak
+      message: >-
+        Updated ADS zenith to modern visual and mechanical standards. Better
+        shield gen, better FTL drive, and better interior.
+  id: 1228
+  time: '2025-08-23T00:46:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1996
