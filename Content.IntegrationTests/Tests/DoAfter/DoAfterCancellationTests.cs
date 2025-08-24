@@ -3,6 +3,7 @@
 // SPDX-FileCopyrightText: 2024 Leon Friedrich
 // SPDX-FileCopyrightText: 2024 Nemanja
 // SPDX-FileCopyrightText: 2025 Coenx-flex
+// SPDX-FileCopyrightText: 2025 Cojoke
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -70,7 +71,8 @@ public sealed class DoAfterCancellationTests : InteractionTest
     }
 
     // Mono Disable: Goob's instant pry means you can't even do this and a fix is pointless
-    // [Test]
+    [Test]
+    [Ignore("Goob instant pry makes this pointless")]
     public async Task CancelTilePry()
     {
         await SetTile(Floor);
@@ -83,7 +85,8 @@ public sealed class DoAfterCancellationTests : InteractionTest
     }
 
     // Mono Disable: Goob's instant pry means you can't even do this and their fix is pointless
-    // [Test]
+    [Test]
+    [Ignore("Goob instant pry makes this pointless")]
     public async Task CancelRepeatedTilePry()
     {
         await SetTile(Floor);
