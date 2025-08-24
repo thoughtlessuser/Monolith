@@ -11110,3 +11110,12 @@ Entries:
   id: 1241
   time: '2025-08-24T16:14:57.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2020
+- author: Danchi299
+  changes:
+    - type: Add
+      message: Engineering TechFab can now make Automation items without research.
+    - type: Add
+      message: RPED is now printable with Engineering TechFab.
+  id: 1242
+  time: '2025-08-24T16:16:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2019
