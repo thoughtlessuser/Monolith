@@ -11096,3 +11096,10 @@ Entries:
   id: 1239
   time: '2025-08-23T23:26:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2010
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Radar blips should now move more smoothly.
+  id: 1240
+  time: '2025-08-24T16:13:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2021
