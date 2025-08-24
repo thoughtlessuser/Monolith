@@ -11156,3 +11156,10 @@ Entries:
   id: 1247
   time: '2025-08-24T20:51:41.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2027
+- author: Hyenh
+  changes:
+    - type: Add
+      message: Added new ponchos
+  id: 1248
+  time: '2025-08-24T20:53:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2017
