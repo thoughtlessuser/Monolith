@@ -11128,3 +11128,10 @@ Entries:
   id: 1243
   time: '2025-08-24T16:16:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2016
+- author: Danchi299
+  changes:
+    - type: Add
+      message: You can now handcraft shooting target for 5 steel each.
+  id: 1244
+  time: '2025-08-24T19:58:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2026
