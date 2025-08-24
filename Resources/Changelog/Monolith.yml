@@ -11142,3 +11142,10 @@ Entries:
   id: 1245
   time: '2025-08-24T20:03:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2025
+- author: Danchi299
+  changes:
+    - type: Tweak
+      message: Ship telecommunications servers now start with shortband encryption key.
+  id: 1246
+  time: '2025-08-24T20:47:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2023
