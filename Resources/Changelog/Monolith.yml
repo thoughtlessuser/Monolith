@@ -11149,3 +11149,10 @@ Entries:
   id: 1246
   time: '2025-08-24T20:47:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2023
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed radar blips not showing up away from CO.
+  id: 1247
+  time: '2025-08-24T20:51:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2027
