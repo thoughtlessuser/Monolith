@@ -11103,3 +11103,10 @@ Entries:
   id: 1240
   time: '2025-08-24T16:13:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2021
+- author: Danchi299
+  changes:
+    - type: Fix
+      message: MK58 loot now comes with .45 ACP magazines instead of 9x19mm.
+  id: 1241
+  time: '2025-08-24T16:14:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2020
