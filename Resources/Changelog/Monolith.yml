@@ -11135,3 +11135,10 @@ Entries:
   id: 1244
   time: '2025-08-24T19:58:57.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2026
+- author: SlamBamActionman
+  changes:
+    - type: Fix
+      message: Crates on conveyor belts can now go around tight corners again!
+  id: 1245
+  time: '2025-08-24T20:03:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2025
