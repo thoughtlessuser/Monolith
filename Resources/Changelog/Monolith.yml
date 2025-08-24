@@ -11119,3 +11119,12 @@ Entries:
   id: 1242
   time: '2025-08-24T16:16:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2019
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Some Frontier ship advert posters that didn't make sense to show were
+        removed.
+  id: 1243
+  time: '2025-08-24T16:16:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2016
