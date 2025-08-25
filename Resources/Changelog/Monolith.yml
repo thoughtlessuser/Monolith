@@ -11172,3 +11172,10 @@ Entries:
   id: 1249
   time: '2025-08-25T01:49:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2030
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: The price of some ships has been increased to match appraisal
+  id: 1250
+  time: '2025-08-25T02:17:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2032
