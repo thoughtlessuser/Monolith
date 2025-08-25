@@ -18,7 +18,7 @@ public sealed class AirlockPryingTest : InteractionTest
         await SpawnTarget(Airlock);
         await SpawnEntity("APCBasic", SEntMan.GetCoordinates(TargetCoords));
 
-        await RunTicks(10);
+        await RunTicks(20); // Mono increase
 
         Assert.That(TryComp<AirlockComponent>(out var airlockComp), "Airlock does not have AirlockComponent?");
         Assert.That(airlockComp.Powered, "Airlock should be powered for this test.");
