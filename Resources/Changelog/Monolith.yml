@@ -1,9 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 significant harassment
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 Entries:
 - author: Ark
   changes:
@@ -11203,3 +11197,75 @@ Entries:
   id: 1252
   time: '2025-08-25T17:54:48.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2038
+- author: Evil Maint Overlords
+  changes:
+    - type: Tweak
+      message: 'The Rebalance Op is now live, with the following changes:'
+    - type: Add
+      message: 'New gun content!:'
+    - type: Add
+      message: >-
+        (Onezero0) Added the Knallstock, a new merc SMG, and changed out the
+        stock of liberation station and loadouts.
+    - type: Add
+      message: Added FCL prometheus as light merc burst assault rifle in the libvend.
+    - type: Add
+      message: >-
+        added a weaker version of typewritter for mercs in the libvend, the
+        Keyboard!
+    - type: Add
+      message: >-
+        added the Ratel LMG, which uses a 60 round ammo belt/box, for mercenary
+        research.
+    - type: Add
+      message: >-
+        added the grizzly MMG to TSF research, which uses an uo to 200 round
+        caseless ammo box.
+    - type: Add
+      message: added the big buddy (merc big leady) for mercenary research.
+    - type: Add
+      message: (Starch) Added the AK-410 DMR to USSP research.
+    - type: Add
+      message: >-
+        (Starch) Added MK-290 turret to TSF uplink, feeds from
+        5.56x45mm/6.8x52mm/7.62x39mm magazines.
+    - type: Add
+      message: 'Research Tech Tree!:'
+    - type: Add
+      message: (Starch) Ported tech tree from Goob and Frontier.
+    - type: Add
+      message: >-
+        (Starch) Faction servers can research civ technologies, finally. This
+        includes mechs.
+    - type: Add
+      message: (Avtomata) Added 3 new tech for mercs to be able to print weapons.
+    - type: Add
+      message: 'Resprites!:'
+    - type: Tweak
+      message: (Starch, Onezero0) Resprited TSF and USSP guns.
+    - type: Tweak
+      message: Caseless cartridges now have a unique sprite.
+    - type: Add
+      message: Ported RMC14/CM13 weapon-specific crosshairs.
+    - type: Add
+      message: 'Ammo rebalance!:'
+    - type: Tweak
+      message: >-
+        (Avtomata) Ammo Rebalance: Rifle ammo has around 0.05-0.1 partial AP
+        now, shotgun and pistol ammo damage buffed, but receives a bit of
+        negative partial AP in return (so its worse against armor). Also, 4.6
+        and 5.7 now have a bit of partial AP too, so WT550 should be useful
+        again.
+    - type: Tweak
+      message: The Lecter now fires caseless ammunition.
+    - type: Tweak
+      message: Rebalanced all faction-only hardsuits.
+    - type: Add
+      message: >-
+        AP and anti-flesh focused ammo types have been added to universal
+        faction tech.
+    - type: Tweak
+      message: the descriptions of the vulcans and their names have been adjusted.
+  id: 1253
+  time: '2025-08-25T22:57:36.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1903
