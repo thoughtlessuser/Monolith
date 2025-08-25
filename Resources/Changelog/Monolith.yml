@@ -11282,3 +11282,12 @@ Entries:
   id: 1254
   time: '2025-08-25T23:01:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2037
+- author: grandalff
+  changes:
+    - type: Tweak
+      message: >-
+        Reverts prior Gruznyk change to the belts, adds two more backwards
+        thrusters.
+  id: 1255
+  time: '2025-08-25T23:02:19.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2041
