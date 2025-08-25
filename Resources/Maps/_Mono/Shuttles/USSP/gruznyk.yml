@@ -8,6 +8,7 @@
 # SPDX-FileCopyrightText: 2024 Salvantrix
 # SPDX-FileCopyrightText: 2024 dustylens
 # SPDX-FileCopyrightText: 2025 Alkheemist
+# SPDX-FileCopyrightText: 2025 Coenx-flex
 # SPDX-FileCopyrightText: 2025 Honestly101
 # SPDX-FileCopyrightText: 2025 RikuTheKiller
 # SPDX-FileCopyrightText: 2025 UnicornOnLSD
@@ -2081,8 +2082,6 @@ entities:
       pos: -1.5,-0.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 248
       - 246
