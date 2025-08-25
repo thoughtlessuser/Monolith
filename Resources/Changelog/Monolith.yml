@@ -11190,3 +11190,10 @@ Entries:
   id: 1251
   time: '2025-08-25T09:30:27.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2036
+- author: Ilya246
+  changes:
+    - type: Add
+      message: You can now craft ore crabs.
+  id: 1252
+  time: '2025-08-25T17:54:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2038
