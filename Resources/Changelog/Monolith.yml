@@ -11269,3 +11269,16 @@ Entries:
   id: 1253
   time: '2025-08-25T22:57:36.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1903
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Fixed lathes sometimes not letting you make recipes when you have just
+        above the requirement.
+    - type: Fix
+      message: >-
+        Fixed upgrades not properly applying to upgraded-type machines like
+        industrial ore processor.
+  id: 1254
+  time: '2025-08-25T23:01:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2037
