@@ -11179,3 +11179,14 @@ Entries:
   id: 1250
   time: '2025-08-25T02:17:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2032
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Borgs can now build things by drag and dropping - goob port.
+    - type: Tweak
+      message: Borgs can now (un)lock borgs.
+    - type: Tweak
+      message: Borgs can now pilot mechs.
+  id: 1251
+  time: '2025-08-25T09:30:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2036
