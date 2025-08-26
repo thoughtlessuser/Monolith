@@ -11291,3 +11291,14 @@ Entries:
   id: 1255
   time: '2025-08-25T23:02:19.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2041
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        The ammo techfab can now make all ammo recipes (if you have the
+        research)
+    - type: Fix
+      message: Fixed some errors with lathe recipes.
+  id: 1256
+  time: '2025-08-26T00:02:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2051
