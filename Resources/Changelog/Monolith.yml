@@ -11375,3 +11375,10 @@ Entries:
   id: 1263
   time: '2025-08-26T15:47:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2054
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed climbing and other drag-and-drop interactions.
+  id: 1264
+  time: '2025-08-26T19:22:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2069
