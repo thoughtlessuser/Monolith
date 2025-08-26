@@ -11366,3 +11366,12 @@ Entries:
   id: 1262
   time: '2025-08-26T15:10:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2064
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        Ship prices drastically changed. Plastitanium wall prices increased
+        heavily from "generic wall"
+  id: 1263
+  time: '2025-08-26T15:47:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2054
