@@ -11324,3 +11324,10 @@ Entries:
   id: 1258
   time: '2025-08-26T10:39:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2061
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Borgs can now toggle radar signature on themselves via rightclick.
+  id: 1259
+  time: '2025-08-26T10:40:20.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2060
