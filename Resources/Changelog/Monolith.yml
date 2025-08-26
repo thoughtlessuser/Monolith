@@ -11331,3 +11331,10 @@ Entries:
   id: 1259
   time: '2025-08-26T10:40:20.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2060
+- author: Ilya246
+  changes:
+    - type: Add
+      message: You can now swipe ID cards on borgs to grant them the card's accesses.
+  id: 1260
+  time: '2025-08-26T10:41:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2058
