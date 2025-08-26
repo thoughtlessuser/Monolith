@@ -386,8 +386,8 @@
     staticPacks:
     - ChemistryStatic
     - SurgeryStatic
-    dynamicPacks:
     - PartsStatic
+    dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
     - ScienceExplosives
@@ -639,7 +639,6 @@
     - SecurityWeaponsStatic
     dynamicPacks:
     - SecurityEquipment
-    - SecurityBoards
     - SecurityExplosives
     - AdvancedAmmoRecipePack
     - SecurityWeapons
@@ -653,14 +652,11 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
-    - MonoTSFAmmo
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
-    - MonoRogueAmmo
     - MonoUSSPMiscDynamic
     - MonoUSSPWeaponsDynamicRanged
-    - MonoUSSPAmmo
     - UniversalShellAmmo
     # Mono end
   - type: MaterialStorage
@@ -700,6 +696,7 @@
     - CivilianAmmoRecipePack
     dynamicPacks:
     - AdvancedAmmoRecipePack
+    - AllTheAmmo # Mono
   - type: MaterialStorage
     whitelist:
       tags:
