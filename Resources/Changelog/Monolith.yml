@@ -11347,3 +11347,22 @@ Entries:
   id: 1261
   time: '2025-08-26T13:35:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2062
+- author: Danchi299
+  changes:
+    - type: Tweak
+      message: >-
+        All of PMC Liberation Station weapons are once again accessable to
+        Mercenaries from Loadout.
+    - type: Add
+      message: >-
+        Civilians now have Agrenti, Makeshift pistol, and Svalinn pistols as a
+        weapon option in Loadout.
+    - type: Add
+      message: >-
+        PMC Liberation Station now has MK58, Pollocks, Throwing Knifes, and
+        Laser Pistols in stock.
+    - type: Tweak
+      message: Mercenaries now start with Pollock instead of MK32.
+  id: 1262
+  time: '2025-08-26T15:10:25.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2064
