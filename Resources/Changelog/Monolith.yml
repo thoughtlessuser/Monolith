@@ -11338,3 +11338,12 @@ Entries:
   id: 1260
   time: '2025-08-26T10:41:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2058
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        No longer are the prices of the special faction guns in civ loadout
+        balanced around the rich man (basically like halved all of them).
+  id: 1261
+  time: '2025-08-26T13:35:08.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2062
