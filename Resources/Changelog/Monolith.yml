@@ -1,9 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 Entries:
 - author: Ark
   changes:
@@ -8522,8 +8516,8 @@ Entries:
       message: Drozd, Lecter, and Annie now use Shiptest SFX/sprites.
     - type: Add
       message: >-
-        45 ACP SMG mags, 556x45mm rifle mags, and 762x51mm mags now use
-        Shiptest sprites.
+        45 ACP SMG mags, 556x45mm rifle mags, and 762x51mm mags now use Shiptest
+        sprites.
     - type: Fix
       message: Fixed TSF T1 weapon research using Wizden Lecter sprite instead of Mono.
     - type: Tweak
@@ -11476,3 +11470,15 @@ Entries:
   id: 1273
   time: '2025-08-27T17:34:34.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2090
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Ported Hullrot's systems for cargo trading (with different trade goods
+        of course). Various goods can be bought at TM, cargo depots, and Baikal,
+        and can be sold at TM, cargo depots, Baikal, Halcyon, and ASR Jupiter.
+    - type: Tweak
+      message: Buffed cargo depots to have 1.25x sell rate.
+  id: 1274
+  time: '2025-08-27T23:16:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2094
