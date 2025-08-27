@@ -11444,3 +11444,10 @@ Entries:
   id: 1270
   time: '2025-08-27T12:31:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2085
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: You can now scan your ID on derelict borgs too.
+  id: 1271
+  time: '2025-08-27T12:32:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2086
