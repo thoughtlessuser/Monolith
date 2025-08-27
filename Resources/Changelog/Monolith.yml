@@ -11437,3 +11437,10 @@ Entries:
   id: 1269
   time: '2025-08-27T12:29:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2068
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Wrecks should be common again.
+  id: 1270
+  time: '2025-08-27T12:31:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2085
