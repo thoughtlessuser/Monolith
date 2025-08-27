@@ -11460,3 +11460,13 @@ Entries:
   id: 1272
   time: '2025-08-27T13:08:09.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2067
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        Diagonal walls, tables, etc, all items will always properly trigger ship
+        projectile explosions on collision. Projectiles probably will explode on
+        shields too.
+  id: 1273
+  time: '2025-08-27T17:34:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2090
