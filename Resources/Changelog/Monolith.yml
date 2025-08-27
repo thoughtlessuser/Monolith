@@ -11430,3 +11430,10 @@ Entries:
   id: 1268
   time: '2025-08-27T01:04:49.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2083
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: 'Tweaked the price of the Leaf from 72k to 64k '
+  id: 1269
+  time: '2025-08-27T12:29:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2068
