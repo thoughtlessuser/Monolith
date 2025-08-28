@@ -11535,3 +11535,10 @@ Entries:
   id: 1280
   time: '2025-08-28T19:05:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2111
+- author: core-mene
+  changes:
+    - type: Tweak
+      message: thou shall not use flesh ammo to kill armor
+  id: 1281
+  time: '2025-08-28T19:13:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2108
