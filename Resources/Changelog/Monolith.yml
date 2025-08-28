@@ -11526,3 +11526,12 @@ Entries:
   id: 1279
   time: '2025-08-28T11:36:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2091
+- author: ScarKy0
+  changes:
+    - type: Fix
+      message: >-
+        Being pushed while an anomaly host no longer breaks your legs
+        permanently.
+  id: 1280
+  time: '2025-08-28T19:05:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2111
