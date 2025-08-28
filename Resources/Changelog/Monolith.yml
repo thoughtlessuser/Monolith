@@ -11496,3 +11496,10 @@ Entries:
   id: 1275
   time: '2025-08-28T00:35:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2095
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: GLASK
+  id: 1276
+  time: '2025-08-28T00:40:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2096
