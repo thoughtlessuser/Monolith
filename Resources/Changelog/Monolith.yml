@@ -11542,3 +11542,12 @@ Entries:
   id: 1281
   time: '2025-08-28T19:13:53.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2108
+- author: Honestly101
+  changes:
+    - type: Add
+      message: Added chemvend to cove
+    - type: Tweak
+      message: alterations to rogue med/chem
+  id: 1282
+  time: '2025-08-28T19:14:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2106
