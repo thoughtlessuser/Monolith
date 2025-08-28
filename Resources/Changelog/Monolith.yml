@@ -11503,3 +11503,10 @@ Entries:
   id: 1276
   time: '2025-08-28T00:40:38.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2096
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: I am a parrot. CL fix also
+  id: 1277
+  time: '2025-08-28T01:09:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2097
