@@ -11482,3 +11482,17 @@ Entries:
   id: 1274
   time: '2025-08-27T23:16:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2094
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Cargo crate instruction papers now despawn after 20 minutes.
+    - type: Fix
+      message: Fixed insurgency hideout not having a crate chute.
+    - type: Fix
+      message: >-
+        Fixed Jupiter spawnroom being commander locked, having no
+        defibs/extinguishers/ATMs, and fixed Jupiter crate chute spawning in a
+        vending machine.
+  id: 1275
+  time: '2025-08-28T00:35:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2095
