@@ -11572,3 +11572,14 @@ Entries:
   id: 1284
   time: '2025-08-28T22:51:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2113
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        Borgs can now select their sprite out of a per-type selection - goob
+        port.
+    - type: Add
+      message: Borgs can now scream and do some other emote sounds - goob port.
+  id: 1285
+  time: '2025-08-28T22:53:36.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2104
