@@ -11565,3 +11565,10 @@ Entries:
   id: 1283
   time: '2025-08-28T22:41:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2105
+- author: starch70
+  changes:
+    - type: Tweak
+      message: 2x'd sell rates for cargo trade goods (not crates).
+  id: 1284
+  time: '2025-08-28T22:51:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2113
