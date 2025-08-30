@@ -11630,3 +11630,12 @@ Entries:
   id: 1290
   time: '2025-08-30T00:23:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2126
+- author: core-mene
+  changes:
+    - type: Fix
+      message: fixed RIP shotgun shell box dropping OO buckshot
+    - type: Fix
+      message: fixed 45 magnum AP speedloader not being in recipes
+  id: 1291
+  time: '2025-08-30T00:26:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2089
