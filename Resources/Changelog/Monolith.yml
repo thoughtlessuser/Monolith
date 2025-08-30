@@ -11639,3 +11639,12 @@ Entries:
   id: 1291
   time: '2025-08-30T00:26:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2089
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Fixed borg power cells draining rapidly after turning on after a long
+        time of being off.
+  id: 1292
+  time: '2025-08-30T07:39:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2130
