@@ -11623,3 +11623,10 @@ Entries:
   id: 1289
   time: '2025-08-30T00:22:49.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2127
+- author: core-mene
+  changes:
+    - type: Fix
+      message: Fixed only OO buckshot being printable and not regular one
+  id: 1290
+  time: '2025-08-30T00:23:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2126
