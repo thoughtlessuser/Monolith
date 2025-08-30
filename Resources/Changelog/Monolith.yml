@@ -11684,3 +11684,10 @@ Entries:
   id: 1296
   time: '2025-08-30T14:31:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2132
+- author: OneZerooo0
+  changes:
+    - type: Fix
+      message: Ghostrole ship bugs
+  id: 1297
+  time: '2025-08-30T16:48:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2136
