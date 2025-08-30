@@ -157,6 +157,9 @@
   - Magazine45_magnumPistolHP
   - Magazine45_magnumPistolRIP
   - SpeedLoader45_magnumFMJ
+  - SpeedLoader45_magnumSteelAP
+  - SpeedLoader45_magnumPlasteelAP
+  - SpeedLoader45_magnumSynthAP
   - SpeedLoader45_magnumRubber
   - SpeedLoader45_magnumIncendiary
   - SpeedLoader45_magnumPractice
@@ -546,6 +549,7 @@
   - AmmoBox762x39mmSteelAP
   - Magazine45_magnumPistolSteelAP
   - AmmoBox45_magnumSteelAP
+  - SpeedLoader45_magnumSteelAP
   - Magazine46x30mmPistolSteelAP
   - Magazine46x30mmSubMachineGunSteelAP
   - AmmoBox46x30mmSteelAP
@@ -571,6 +575,7 @@
   - AmmoBox762x39mmPlasteelAP
   - Magazine45_magnumPistolPlasteelAP
   - AmmoBox45_magnumPlasteelAP
+  - SpeedLoader45_magnumPlasteelAP
   - Magazine46x30mmPistolPlasteelAP
   - Magazine46x30mmSubMachineGunPlasteelAP
   - AmmoBox46x30mmPlasteelAP
@@ -602,6 +607,7 @@
   - AmmoBox762x39mmSynthAP
   - Magazine45_magnumPistolSynthAP
   - AmmoBox45_magnumSynthAP
+  - SpeedLoader45_magnumSynthAP
   - Magazine46x30mmPistolSynthAP
   - Magazine46x30mmSubMachineGunSynthAP
   - AmmoBox46x30mmSynthAP
@@ -857,6 +863,7 @@
   - AmmoBox762x39mmSteelAP
   - Magazine45_magnumPistolSteelAP
   - AmmoBox45_magnumSteelAP
+  - SpeedLoader45_magnumSteelAP
   - Magazine46x30mmPistolSteelAP
   - Magazine46x30mmSubMachineGunSteelAP
   - AmmoBox46x30mmSteelAP
@@ -952,6 +959,7 @@
   - AmmoBox762x39mmPlasteelAP
   - Magazine45_magnumPistolPlasteelAP
   - AmmoBox45_magnumPlasteelAP
+  - SpeedLoader45_magnumPlasteelAP
   - Magazine46x30mmPistolPlasteelAP
   - Magazine46x30mmSubMachineGunPlasteelAP
   - AmmoBox46x30mmPlasteelAP
@@ -983,6 +991,7 @@
   - AmmoBox762x39mmSynthAP
   - Magazine45_magnumPistolSynthAP
   - AmmoBox45_magnumSynthAP
+  - SpeedLoader45_magnumSynthAP
   - Magazine46x30mmPistolSynthAP
   - Magazine46x30mmSubMachineGunSynthAP
   - AmmoBox46x30mmSynthAP
