@@ -11706,3 +11706,10 @@ Entries:
   id: 1298
   time: '2025-08-30T17:00:30.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2131
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Massively buffed shotgun cycling ASMR again
+  id: 1299
+  time: '2025-08-30T17:37:05.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2133
