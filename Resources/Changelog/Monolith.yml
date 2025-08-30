@@ -11648,3 +11648,12 @@ Entries:
   id: 1292
   time: '2025-08-30T07:39:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2130
+- author: Honestly101
+  changes:
+    - type: Add
+      message: Added station records console to Jupiter
+    - type: Fix
+      message: Fixed missing pipes and atmos on Jupiter
+  id: 1293
+  time: '2025-08-30T07:40:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2125
