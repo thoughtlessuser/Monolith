@@ -11664,3 +11664,16 @@ Entries:
   id: 1294
   time: '2025-08-30T07:42:57.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2107
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        A new fragging ghostrole has been added for after the 3 hour mark (with
+        atleast 40 players on). This time, its playtime locked instead of WL'd.
+    - type: Tweak
+      message: ADS now can speak reptillian, no reason.
+    - type: Fix
+      message: Fixed Reptillian language names using EE lore.
+  id: 1295
+  time: '2025-08-30T07:56:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2129
