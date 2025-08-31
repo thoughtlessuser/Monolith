@@ -11794,3 +11794,12 @@ Entries:
   id: 1307
   time: '2025-08-31T08:50:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2157
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Reduced Kasature combat harness pierce protection to 70% from 80%,
+        removed damage slowdown removal, reduced explosion prot to 65% from 90%
+  id: 1308
+  time: '2025-08-31T09:02:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2158
