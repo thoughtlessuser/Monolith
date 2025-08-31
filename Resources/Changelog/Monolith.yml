@@ -11803,3 +11803,10 @@ Entries:
   id: 1308
   time: '2025-08-31T09:02:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2158
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Added gambling (reenabled grand lottery).
+  id: 1309
+  time: '2025-08-31T16:04:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2156
