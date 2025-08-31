@@ -11810,3 +11810,12 @@ Entries:
   id: 1309
   time: '2025-08-31T16:04:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2156
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Shipyard consoles are now Titlecard. (Invincible.)
+    - type: Fix
+      message: Fixed carrier computers being Titlecard. (Invincible.)
+  id: 1310
+  time: '2025-08-31T22:33:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2164
