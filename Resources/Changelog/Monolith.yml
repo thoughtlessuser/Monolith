@@ -11747,3 +11747,13 @@ Entries:
   id: 1303
   time: '2025-08-30T23:59:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2151
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Ocelot to TSF shipyard as a expensive small ship, high burst damage with
+        autopulsers and torps but bad for prolonged combat. Capable of
+        cloakhunting.
+  id: 1304
+  time: '2025-08-31T06:06:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2153
