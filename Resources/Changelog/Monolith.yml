@@ -11774,3 +11774,14 @@ Entries:
   id: 1305
   time: '2025-08-31T06:09:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2134
+- author: core-mene
+  changes:
+    - type: Add
+      message: New rogue silicons tech disk in silicon lootbox.
+    - type: Tweak
+      message: >-
+        Buffed silicon loot box in exchange for twice as much HP + more armor
+        for most silicons (minus boss).
+  id: 1306
+  time: '2025-08-31T06:10:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2114
