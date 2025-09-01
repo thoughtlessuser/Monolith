@@ -11937,3 +11937,31 @@ Entries:
   id: 1322
   time: '2025-09-01T20:09:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2101
+- author: starch70
+  changes:
+    - type: Add
+      message: Added a ADS capital. Only spawns after 5 hour mark.
+    - type: Add
+      message: >-
+        Added Type-241 plasma lance as a superheavy energy weapon that fires a
+        large ~0.5km long beam of plasma in 1 giant burst. Don't get hit by it.
+        Currently only mapped on ADS capital.
+    - type: Tweak
+      message: >-
+        Changed ADS events to be more aggressive after 5 hour mark, and locked
+        zenith alt-variant to post 5 hour mark.
+    - type: Tweak
+      message: >-
+        Gave ADS ships a unique IFF color, and gave ADS systems/Asakim a unique
+        radio channel (its :j to access it).
+    - type: Tweak
+      message: Added a new law to ADS lawset.
+    - type: Tweak
+      message: >-
+        Buffed omega gunnery server to 500 capacity from 150, replaced Flyssa
+        station server with Omega server.
+    - type: Fix
+      message: Fixed Asakim medium ship missing a gyro.
+  id: 1323
+  time: '2025-09-01T20:14:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2167
