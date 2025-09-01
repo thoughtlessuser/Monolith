@@ -11928,3 +11928,12 @@ Entries:
   id: 1321
   time: '2025-09-01T20:07:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2103
+- author: bitcrushing
+  changes:
+    - type: Fix
+      message: >-
+        Fixed ported Funky Station gases not displaying correctly on the gas
+        sale console
+  id: 1322
+  time: '2025-09-01T20:09:05.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2101
