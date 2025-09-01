@@ -11909,3 +11909,22 @@ Entries:
   id: 1320
   time: '2025-09-01T19:46:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2174
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Borgs now have inbuilt mass scanner and can freely float in space.
+    - type: Tweak
+      message: >-
+        Borg appraisal module renamed to cargo module and given tether gun and
+        gravity gun.
+    - type: Tweak
+      message: Medical borgs now get the surgery module right away.
+    - type: Tweak
+      message: All borgs now get the tools module right away.
+    - type: Tweak
+      message: Borgs can now open their own UI.
+    - type: Tweak
+      message: You can now eject default modules from borgs.
+  id: 1321
+  time: '2025-09-01T20:07:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2103
