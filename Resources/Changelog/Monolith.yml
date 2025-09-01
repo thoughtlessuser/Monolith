@@ -11878,3 +11878,14 @@ Entries:
   id: 1317
   time: '2025-09-01T19:11:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2168
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Properly implemented recoil gain/recovery on guns. SMGs/rifles/DMRs/LMGs
+        should all be controllable now if you just fire in bursts. Also buffed
+        firerate of Grizzly and AK-220. No more near perfect accuracy M-90, so
+        sad for the 0 people using it.
+  id: 1318
+  time: '2025-09-01T19:37:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2155
