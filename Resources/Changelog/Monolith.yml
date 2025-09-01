@@ -11871,3 +11871,10 @@ Entries:
   id: 1316
   time: '2025-09-01T19:10:12.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2171
+- author: Honestly101
+  changes:
+    - type: Fix
+      message: Fixed missing plating under halycon walls
+  id: 1317
+  time: '2025-09-01T19:11:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2168
