@@ -11862,3 +11862,12 @@ Entries:
   id: 1315
   time: '2025-09-01T17:10:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2161
+- author: tonotom1
+  changes:
+    - type: Add
+      message: >-
+        UW-12B Helopolis: A compact breaching shotgun intended for use with
+        slugs to break down internal airlocks
+  id: 1316
+  time: '2025-09-01T19:10:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2171
