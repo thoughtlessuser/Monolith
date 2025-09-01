@@ -11844,3 +11844,12 @@ Entries:
   id: 1313
   time: '2025-09-01T04:40:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2139
+- author: mikusssssss
+  changes:
+    - type: Add
+      message: >-
+        Liquid oxygen/nitrogen canisters along with plasma canisters are buyable
+        again.
+  id: 1314
+  time: '2025-09-01T16:47:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2170
