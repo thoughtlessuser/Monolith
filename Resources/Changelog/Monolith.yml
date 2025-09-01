@@ -11833,3 +11833,14 @@ Entries:
   id: 1312
   time: '2025-09-01T04:39:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2140
+- author: Honestly101
+  changes:
+    - type: Add
+      message: Added enabled strobe lights variant.
+    - type: Add
+      message: Added Rogue cameras to Jupiter.
+    - type: Tweak
+      message: QoL changes to Jupiter.
+  id: 1313
+  time: '2025-09-01T04:40:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2139
