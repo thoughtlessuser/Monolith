@@ -11826,3 +11826,10 @@ Entries:
   id: 1311
   time: '2025-09-01T04:39:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2162
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: Tweaked the Twilight MKII to be a better designed shitbox
+  id: 1312
+  time: '2025-09-01T04:39:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2140
