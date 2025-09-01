@@ -11974,3 +11974,10 @@ Entries:
   id: 1324
   time: '2025-09-01T21:15:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2178
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Increased density of ADS capital walls, no more rammeta.
+  id: 1325
+  time: '2025-09-01T23:24:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2180
