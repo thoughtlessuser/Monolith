@@ -11889,3 +11889,12 @@ Entries:
   id: 1318
   time: '2025-09-01T19:37:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2155
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: >-
+        TSF experimental suit 10% more blunt, slash, pierce, and 25% more stam
+        resist
+  id: 1319
+  time: '2025-09-01T19:41:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2173
