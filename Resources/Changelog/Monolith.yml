@@ -11898,3 +11898,14 @@ Entries:
   id: 1319
   time: '2025-09-01T19:41:26.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2173
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Elite suit armor stats reverted to standard wizden (40%
+        blunt/slash/pierce). 0% slowdown still.
+    - type: Tweak
+      message: Jugsuit slowdown increased from 35% to 40%.
+  id: 1320
+  time: '2025-09-01T19:46:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2174
