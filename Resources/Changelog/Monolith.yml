@@ -12029,3 +12029,12 @@ Entries:
   id: 1331
   time: '2025-09-02T20:10:48.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2189
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        various shuttle console/gunnery console range increased to 768, advanced
+        radar to 1024m, etc
+  id: 1332
+  time: '2025-09-02T22:28:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2194
