@@ -11981,3 +11981,10 @@ Entries:
   id: 1325
   time: '2025-09-01T23:24:47.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2180
+- author: Honestly101
+  changes:
+    - type: Fix
+      message: AI can move around again at the cost of a rotating cube.
+  id: 1326
+  time: '2025-09-02T00:17:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2179
