@@ -11988,3 +11988,14 @@ Entries:
   id: 1326
   time: '2025-09-02T00:17:23.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2179
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Halcyon/Balkai radar change decreased to 1280m
+    - type: Tweak
+      message: >-
+        Other places using the station radar replaced with elite radar, with a
+        1024m range
+  id: 1327
+  time: '2025-09-02T04:45:22.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2183
