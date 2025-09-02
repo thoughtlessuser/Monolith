@@ -12020,3 +12020,12 @@ Entries:
   id: 1330
   time: '2025-09-02T20:05:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2198
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Buffed Charon projectile speed to 900 m/s from 600 m/s
+    - type: Add
+      message: Subnuclear shells available after T3 material research for Charon.
+  id: 1331
+  time: '2025-09-02T20:10:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2189
