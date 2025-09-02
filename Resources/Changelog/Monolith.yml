@@ -12013,3 +12013,10 @@ Entries:
   id: 1329
   time: '2025-09-02T17:50:16.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2195
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Fixes AI movement properly.
+  id: 1330
+  time: '2025-09-02T20:05:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2198
