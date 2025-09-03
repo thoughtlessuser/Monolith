@@ -12068,3 +12068,10 @@ Entries:
   id: 1336
   time: '2025-09-03T23:32:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2212
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Helopolis can breach doors a bit more reliably at sharper angles now
+  id: 1337
+  time: '2025-09-03T23:48:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2209
