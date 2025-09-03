@@ -12052,3 +12052,10 @@ Entries:
   id: 1334
   time: '2025-09-03T21:31:49.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2206
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed borg tether gun and force gun needing battery power.
+  id: 1335
+  time: '2025-09-03T21:32:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2187
