@@ -12059,3 +12059,12 @@ Entries:
   id: 1335
   time: '2025-09-03T21:32:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2187
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Replaces Deck the Halls by Kevin MacLeod with Koganusan by Simon Swerwer
+        to reduce tonal whiplash
+  id: 1336
+  time: '2025-09-03T23:32:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2212
