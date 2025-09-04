@@ -12091,3 +12091,10 @@ Entries:
   id: 1339
   time: '2025-09-04T04:45:30.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2215
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed QJ490 not having enough GCS power.
+  id: 1340
+  time: '2025-09-04T14:39:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2217
