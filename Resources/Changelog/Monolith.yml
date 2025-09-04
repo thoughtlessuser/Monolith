@@ -12105,3 +12105,10 @@ Entries:
   id: 1341
   time: '2025-09-04T22:25:19.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2219
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Higher tier shields can draw a bit more power at max draw.
+  id: 1342
+  time: '2025-09-04T22:26:00.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2218
