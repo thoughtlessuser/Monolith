@@ -12112,3 +12112,16 @@ Entries:
   id: 1342
   time: '2025-09-04T22:26:00.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2218
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        portable generators max generated power increased, efficiencies
+        unchanged
+    - type: Tweak
+      message: Plasma gen optimal power increased
+    - type: Tweak
+      message: welding fuel generator max welding fuel increased
+  id: 1343
+  time: '2025-09-05T01:47:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2227
