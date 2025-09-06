@@ -12157,3 +12157,12 @@ Entries:
   id: 1347
   time: '2025-09-06T21:57:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2240
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: >-
+        The Pantheon Collective has produced a new weapon for the sector, the
+        RAC-30 Draupnir, a rapid-fire cannon firing forth a hail of 30mm rounds
+  id: 1348
+  time: '2025-09-06T23:08:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2236
