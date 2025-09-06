@@ -12134,3 +12134,10 @@ Entries:
   id: 1344
   time: '2025-09-05T21:42:23.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2233
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Charon/charonette damage against shields increased.
+  id: 1345
+  time: '2025-09-06T18:11:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2234
