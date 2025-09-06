@@ -12173,3 +12173,10 @@ Entries:
   id: 1349
   time: '2025-09-06T23:10:27.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2223
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Maints jack can now be flipped to use its wrench end
+  id: 1350
+  time: '2025-09-06T23:11:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2192
