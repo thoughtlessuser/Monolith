@@ -12166,3 +12166,10 @@ Entries:
   id: 1348
   time: '2025-09-06T23:08:53.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2236
+- author: Honestly101
+  changes:
+    - type: Fix
+      message: Fixed the network device errors on the Jupiter.
+  id: 1349
+  time: '2025-09-06T23:10:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2223
