@@ -12180,3 +12180,13 @@ Entries:
   id: 1350
   time: '2025-09-06T23:11:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2192
+- author: Ghagliiarghii
+  changes:
+    - type: Tweak
+      message: >-
+        Military Multipurpose Assembly (faction techfab) can now print mercenary
+        techfab stuff. No more wondering why you can't print "mercenary" guns
+        with the gun printer.
+  id: 1351
+  time: '2025-09-07T02:25:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2245
