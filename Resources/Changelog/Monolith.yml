@@ -12247,3 +12247,10 @@ Entries:
   id: 1357
   time: '2025-09-07T18:28:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2247
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Asakim hardsuits now take 120 seconds to strip.
+  id: 1358
+  time: '2025-09-07T22:52:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2257
