@@ -12236,3 +12236,14 @@ Entries:
   id: 1356
   time: '2025-09-07T12:41:40.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2253
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added Polaris-class frigate to TSF shipyard. Get it via T2 research or
+        via the Colonel's voucher.
+    - type: Tweak
+      message: Vouchers have different sprites now.
+  id: 1357
+  time: '2025-09-07T18:28:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2247
