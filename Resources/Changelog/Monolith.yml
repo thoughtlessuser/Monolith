@@ -12199,3 +12199,10 @@ Entries:
   id: 1352
   time: '2025-09-07T02:41:39.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2244
+- author: 10kee
+  changes:
+    - type: Tweak
+      message: Resprited Vox magboots
+  id: 1353
+  time: '2025-09-07T02:46:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2246
