@@ -12225,3 +12225,14 @@ Entries:
   id: 1355
   time: '2025-09-07T05:30:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2248
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed USSP modsuits and L-27 pierce resist, and buffed explosion resist
+        for the heavy modsuit.
+    - type: Tweak
+      message: Buffed M86 hardsuit speed.
+  id: 1356
+  time: '2025-09-07T12:41:40.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2253
