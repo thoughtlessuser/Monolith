@@ -12190,3 +12190,12 @@ Entries:
   id: 1351
   time: '2025-09-07T02:25:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2245
+- author: Ghagliiarghii
+  changes:
+    - type: Fix
+      message: >-
+        Cybernetic left hand (which comes with a J.W.L. left arm) is now
+        properly named (and no longer called "body part")
+  id: 1352
+  time: '2025-09-07T02:41:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2244
