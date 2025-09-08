@@ -12268,3 +12268,13 @@ Entries:
   id: 1360
   time: '2025-09-08T02:07:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2249
+- author: Rubeebeebee
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Sunrise security airlocks being public access. left the public
+        room + office public access though, so clients can come in and out for
+        RP. Also fixed the duplicated radar consoles. 
+  id: 1361
+  time: '2025-09-08T02:08:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2250
