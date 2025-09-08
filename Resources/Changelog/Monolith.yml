@@ -12261,3 +12261,10 @@ Entries:
   id: 1359
   time: '2025-09-07T22:54:24.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2256
+- author: ScyronX
+  changes:
+    - type: Tweak
+      message: Hoverbikes are worse on land and better in space.
+  id: 1360
+  time: '2025-09-08T02:07:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2249
