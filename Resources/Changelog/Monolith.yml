@@ -12292,3 +12292,12 @@ Entries:
   id: 1363
   time: '2025-09-09T00:13:53.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2254
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: >-
+        The RAC-30 Now has a DOUBLED Fire rate thanks to optimizations by The
+        Pantheon collective
+  id: 1364
+  time: '2025-09-09T00:55:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2264
