@@ -1294,7 +1294,7 @@ entities:
         86:
         - - Pressed
           - Toggle
-- proto: MachineFTLDrive
+- proto: GunneryServerMedium
   entities:
   - uid: 133
     components:
