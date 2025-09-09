@@ -12342,3 +12342,10 @@ Entries:
   id: 1367
   time: '2025-09-09T23:15:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2252
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: Turbolaser batteries have been given a pretty new shine!
+  id: 1368
+  time: '2025-09-09T23:20:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2268
