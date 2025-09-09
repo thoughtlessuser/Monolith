@@ -12301,3 +12301,28 @@ Entries:
   id: 1364
   time: '2025-09-09T00:55:07.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2264
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Reworked shuttle detection.
+    - type: Add
+      message: Shuttles now have a thermal and visual signature.
+    - type: Add
+      message: >-
+        Thermal signature is produced by generators, working thrusters, and a
+        lot by firing ship guns. Some by living things.
+    - type: Add
+      message: >-
+        Visual signature scales off a ship's diagonal (building long and thin
+        ships is bad for visual signature).
+    - type: Add
+      message: >-
+        You now see ships if you're close enough, depending on their visual and
+        thermal signature.
+    - type: Add
+      message: Radar consoles (and mass scanners) can now be panned.
+    - type: Tweak
+      message: Massively increased max zoomout on most mass scanner interfaces.
+  id: 1365
+  time: '2025-09-09T19:24:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2260
