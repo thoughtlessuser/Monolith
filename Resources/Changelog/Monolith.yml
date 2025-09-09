@@ -12278,3 +12278,10 @@ Entries:
   id: 1361
   time: '2025-09-08T02:08:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2250
+- author: kyres1
+  changes:
+    - type: Tweak
+      message: Capital plastitanium walls use a separate texture and name now.
+  id: 1362
+  time: '2025-09-09T00:12:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2262
