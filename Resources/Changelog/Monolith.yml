@@ -12285,3 +12285,10 @@ Entries:
   id: 1362
   time: '2025-09-09T00:12:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2262
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Tayfun and Strayk to USSP shipyard.
+  id: 1363
+  time: '2025-09-09T00:13:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2254
