@@ -1,41 +1,40 @@
 # SPDX-FileCopyrightText: 2025 BoskiYourk
+# SPDX-FileCopyrightText: 2025 HungryCuban
 # SPDX-FileCopyrightText: 2025 Ilya246
 # SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 grandalff
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: vessel
-  id: Gadyuka
+  id: Tayfun
   parent: BaseVesselAntag
-  name: NCS Gadyuka
-  description: A small attack craft, ideal for dealing with small threats.
-  price: 30520 # WALMARTMOBILE 2
-  category: Small
+  name: NCS Tayfun
+  description: An armored gunship with 4 90mms, 2 30mms, and 2 VESPERA missile pods.
+  price: 74200
+  category: Medium
   group: Ussp
   access: USSP
-  shuttlePath: /Maps/_Mono/Shuttles/USSP/gadyuka.yml
+  shuttlePath: /Maps/_Mono/Shuttles/USSP/tayfun.yml
   guidebookPage: Null
   class:
   - Pursuit
+  - Patrol
+  - Corvette
   engine:
-  - Uranium
-  cloakHunter: true
-  company:
-  - USSP
+  - AME
 
 - type: gameMap
-  id: Gadyuka
-  mapName: 'Gadyuka'
-  mapPath: /Maps/_Mono/Shuttles/USSP/gadyuka.yml
+  id: Tayfun
+  mapName: 'Tayfun'
+  mapPath: /Maps/_Mono/Shuttles/USSP/tayfun.yml
   minPlayers: 0
   stations:
-    Gadyuka:
+    Tayfun:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Gadyuka USSP{1}'
+          mapNameTemplate: 'Tayfun USSP{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

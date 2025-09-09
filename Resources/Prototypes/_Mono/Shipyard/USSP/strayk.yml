@@ -7,15 +7,15 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: vessel
-  id: Gadyuka
+  id: Strayk
   parent: BaseVesselAntag
-  name: NCS Gadyuka
-  description: A small attack craft, ideal for dealing with small threats.
-  price: 30520 # WALMARTMOBILE 2
+  name: NCS Strayk
+  description: A poorly equipped and cramped strike craft. Outfitted with 2 torpedo launchers and 1 30mm chaingun.
+  price: 45820
   category: Small
   group: Ussp
   access: USSP
-  shuttlePath: /Maps/_Mono/Shuttles/USSP/gadyuka.yml
+  shuttlePath: /Maps/_Mono/Shuttles/USSP/strayk.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -26,16 +26,16 @@
   - USSP
 
 - type: gameMap
-  id: Gadyuka
-  mapName: 'Gadyuka'
-  mapPath: /Maps/_Mono/Shuttles/USSP/gadyuka.yml
+  id: Strayk
+  mapName: 'Strayk'
+  mapPath: /Maps/_Mono/Shuttles/USSP/strayk.yml
   minPlayers: 0
   stations:
-    Gadyuka:
+    Strayk:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Gadyuka USSP{1}'
+          mapNameTemplate: 'Strayk USSP{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
