@@ -12349,3 +12349,14 @@ Entries:
   id: 1368
   time: '2025-09-09T23:20:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2268
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Thanatos Twin mass drivers have been developed for station defense!
+    - type: Tweak
+      message: >-
+        The USSP has massively upgunned Baikal station, with new mass driver
+        technology
+  id: 1369
+  time: '2025-09-10T15:40:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2207
