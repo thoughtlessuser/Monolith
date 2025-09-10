@@ -12374,3 +12374,24 @@ Entries:
   id: 1370
   time: '2025-09-10T17:40:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2270
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed the shuttle console IFF distance slider not working.
+    - type: Fix
+      message: >-
+        Fixed IFF spam on mass scanner interfaces (now limited to 3km like it
+        was before).
+    - type: Fix
+      message: Fixed radar triangles being in company color even for IFF-less ships.
+    - type: Fix
+      message: Hopefully fixed radar/shuttle console IFF color jank.
+    - type: Fix
+      message: The shuttle console map now properly shows detected IFF-less grids.
+    - type: Tweak
+      message: Now distant grids even with IFF don't show their outline.
+    - type: Tweak
+      message: Gunnery and shuttle consoles are now pannable too.
+  id: 1371
+  time: '2025-09-10T19:04:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2271
