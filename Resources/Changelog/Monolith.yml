@@ -12427,3 +12427,12 @@ Entries:
   id: 1374
   time: '2025-09-11T15:33:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2281
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Modsuit chestplates now have inbuilt geiger counters.
+    - type: Fix
+      message: Fixed hardsuit/PDA geiger counters not working.
+  id: 1375
+  time: '2025-09-11T19:23:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2283
