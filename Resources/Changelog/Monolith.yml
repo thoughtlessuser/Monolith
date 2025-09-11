@@ -12420,3 +12420,10 @@ Entries:
   id: 1373
   time: '2025-09-11T15:16:02.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2280
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed CL not having access to the CO bank console.
+  id: 1374
+  time: '2025-09-11T15:33:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2281
