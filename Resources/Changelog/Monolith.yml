@@ -12411,3 +12411,12 @@ Entries:
   id: 1372
   time: '2025-09-10T23:29:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2259
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Increased asteroid and wreck visibility range to 1km.
+    - type: Fix
+      message: Fixed wrecks and asteroids apearing white on radar.
+  id: 1373
+  time: '2025-09-11T15:16:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2280
