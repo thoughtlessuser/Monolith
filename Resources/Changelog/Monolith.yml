@@ -12452,3 +12452,12 @@ Entries:
   id: 1377
   time: '2025-09-12T07:40:52.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2288
+- author: ScyronX
+  changes:
+    - type: Tweak
+      message: Most no longer have large recoils.
+    - type: Tweak
+      message: AP ammunition damages are rebalanced with proper calculations.
+  id: 1378
+  time: '2025-09-12T14:22:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2290
