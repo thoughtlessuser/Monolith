@@ -12481,3 +12481,12 @@ Entries:
   id: 1380
   time: '2025-09-12T18:38:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2293
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Updated Camelot.
+    - type: Fix
+      message: Fixed missing warp point on Camelot.
+  id: 1381
+  time: '2025-09-12T21:36:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2294
