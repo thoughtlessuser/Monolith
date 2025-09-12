@@ -12472,3 +12472,12 @@ Entries:
   id: 1379
   time: '2025-09-12T15:31:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2289
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Destroyed microwaves and electric ranges now come apart instead of being
+        vaporized
+  id: 1380
+  time: '2025-09-12T18:38:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2293
