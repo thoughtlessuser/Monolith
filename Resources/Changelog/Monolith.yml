@@ -12490,3 +12490,12 @@ Entries:
   id: 1381
   time: '2025-09-12T21:36:52.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2294
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Brought back blips for jetpacks/hoverbikes. 2x'd jetpack speed and
+        slightly buffed acceleration to compensate.
+  id: 1382
+  time: '2025-09-12T21:42:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2284
