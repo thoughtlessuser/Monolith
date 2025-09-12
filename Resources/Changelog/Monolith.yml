@@ -12436,3 +12436,12 @@ Entries:
   id: 1375
   time: '2025-09-11T19:23:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2283
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Replaced Baikal with (fully remapped) Camelot to follow through with
+        community vote. The cycle completes.
+  id: 1376
+  time: '2025-09-12T07:05:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2273
