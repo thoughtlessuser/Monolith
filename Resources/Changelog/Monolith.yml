@@ -12445,3 +12445,10 @@ Entries:
   id: 1376
   time: '2025-09-12T07:05:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2273
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed microwaves and electric ranges being indestructible.
+  id: 1377
+  time: '2025-09-12T07:40:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2288
