@@ -12461,3 +12461,14 @@ Entries:
   id: 1378
   time: '2025-09-12T14:22:34.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2290
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Chimera AI changed to also attack crit mobs.
+    - type: Tweak
+      message: >-
+        Infecting non-species mobs with letoferol now only makes a weaker flesh
+        monster and not a full chimera.
+  id: 1379
+  time: '2025-09-12T15:31:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2289
