@@ -12528,3 +12528,10 @@ Entries:
   id: 1385
   time: '2025-09-13T23:26:36.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2304
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Dravon projectile speed and range increased slightly.
+  id: 1386
+  time: '2025-09-14T16:18:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2308
