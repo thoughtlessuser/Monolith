@@ -12535,3 +12535,10 @@ Entries:
   id: 1386
   time: '2025-09-14T16:18:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2308
+- author: OneZerooo0
+  changes:
+    - type: Tweak
+      message: Balanced the Phalanx and Apollo.
+  id: 1387
+  time: '2025-09-15T23:28:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2307
