@@ -12549,3 +12549,18 @@ Entries:
   id: 1388
   time: '2025-09-16T12:46:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2301
+- author: starch70
+  changes:
+    - type: Remove
+      message: Removed fun!
+    - type: Tweak
+      message: Changed preset autovote timer to 150 seconds from 30.
+    - type: Tweak
+      message: >-
+        Removed all voting options except either Remnants or Biohazard (worry
+        not, these don't have the jacked up spawnrates that Apocalypse does).
+        Faction selection votes may return in the future, who knows. Likely not
+        though.
+  id: 1389
+  time: '2025-09-16T20:25:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2315
