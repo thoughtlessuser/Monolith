@@ -12564,3 +12564,12 @@ Entries:
   id: 1389
   time: '2025-09-16T20:25:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2315
+- author: Honestly101
+  changes:
+    - type: Tweak
+      message: Moved powercages to advanced power tech
+    - type: Tweak
+      message: Solar panel flatpacks added to power tech and protolathes
+  id: 1390
+  time: '2025-09-17T11:42:05.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2296
