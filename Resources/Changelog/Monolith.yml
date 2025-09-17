@@ -12573,3 +12573,10 @@ Entries:
   id: 1390
   time: '2025-09-17T11:42:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2296
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Applies a physics engine fix for memory issues
+  id: 1391
+  time: '2025-09-17T17:10:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2317
