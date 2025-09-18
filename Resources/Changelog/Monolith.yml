@@ -12580,3 +12580,10 @@ Entries:
   id: 1391
   time: '2025-09-17T17:10:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2317
+- author: Onezero0
+  changes:
+    - type: Tweak
+      message: Made the price of MLA-79 drum magazines much more sane.
+  id: 1392
+  time: '2025-09-18T02:11:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2318
