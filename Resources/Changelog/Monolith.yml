@@ -12587,3 +12587,12 @@ Entries:
   id: 1392
   time: '2025-09-18T02:11:38.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2318
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: >-
+        Temporarily reverted customizable borg sprites and new borg sounds to
+        see if this fixes borgs lagging out nearby players.
+  id: 1393
+  time: '2025-09-18T20:46:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2316
