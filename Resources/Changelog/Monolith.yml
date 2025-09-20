@@ -12656,3 +12656,12 @@ Entries:
   id: 1399
   time: '2025-09-20T16:56:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2285
+- author: Onezero0
+  changes:
+    - type: Remove
+      message: Removed synthalloy AP.
+    - type: Tweak
+      message: Altered stats of plasteel AP ammo to be more sane.
+  id: 1400
+  time: '2025-09-20T16:57:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2326
