@@ -12616,3 +12616,14 @@ Entries:
   id: 1395
   time: '2025-09-20T00:48:06.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2330
+- author: starch70
+  changes:
+    - type: Fix
+      message: >-
+        Fixed shipguns on pacified grids (fullcloak ships) being able to fire
+        via remote signaller.
+    - type: Fix
+      message: Fixed shipguns being able to fire while unanchored.
+  id: 1396
+  time: '2025-09-20T12:37:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2331
