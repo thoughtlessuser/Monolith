@@ -12645,3 +12645,14 @@ Entries:
   id: 1398
   time: '2025-09-20T16:48:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2109
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Lecter can accept 5.56x45mm mags now.
+    - type: Tweak
+      message: >-
+        Grizzly can also accept 5.56x45mm and 7.62x39mm now. Both boxes and
+        mags. Don't question how. Its sci-fi tech.
+  id: 1399
+  time: '2025-09-20T16:56:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2285
