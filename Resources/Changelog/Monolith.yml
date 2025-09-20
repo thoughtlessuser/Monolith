@@ -12601,3 +12601,18 @@ Entries:
   id: 1394
   time: '2025-09-18T21:02:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2325
+- author: Arcticular1
+  changes:
+    - type: Add
+      message: Added a CV-32 suit to the ASR Commander's room in the Jupiter
+    - type: Add
+      message: Added security huds to faction leader hardsuits
+    - type: Add
+      message: Gave Asakim advanced tactical backpacks
+    - type: Tweak
+      message: Colonel's hardsuit has recieved the same features as a M92-X
+    - type: Fix
+      message: Asakim harness now takes alot more time to put on!
+  id: 1395
+  time: '2025-09-20T00:48:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2330
