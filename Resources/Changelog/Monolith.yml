@@ -12672,3 +12672,12 @@ Entries:
   id: 1401
   time: '2025-09-22T17:36:02.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2336
+- author: Ghagliiarghii
+  changes:
+    - type: Tweak
+      message: >-
+        Gunnery Console now features a tabletop version. It is available for
+        mappers and constructable in game.
+  id: 1402
+  time: '2025-09-24T09:59:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2341
