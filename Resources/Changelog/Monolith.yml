@@ -12688,3 +12688,14 @@ Entries:
   id: 1403
   time: '2025-09-24T10:02:12.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2314
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: You can now see who speaks in collective minds.
+    - type: Tweak
+      message: >-
+        Binary is now using the collective mind system - use '+ ' in chat to
+        speak in it.
+  id: 1404
+  time: '2025-09-24T10:04:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2297
