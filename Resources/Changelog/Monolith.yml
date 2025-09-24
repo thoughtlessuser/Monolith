@@ -12681,3 +12681,10 @@ Entries:
   id: 1402
   time: '2025-09-24T09:59:47.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2341
+- author: Scyron
+  changes:
+    - type: Add
+      message: Added the Nanite Applicator, a wall repair tool.
+  id: 1403
+  time: '2025-09-24T10:02:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2314
