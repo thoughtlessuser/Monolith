@@ -12699,3 +12699,12 @@ Entries:
   id: 1404
   time: '2025-09-24T10:04:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2297
+- author: tonotom1
+  changes:
+    - type: Add
+      message: >-
+        Replaced a duplicate Shibamata track in the jukebox with Dawson's
+        Christian by Vic Tyler
+  id: 1405
+  time: '2025-09-24T10:06:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2333
