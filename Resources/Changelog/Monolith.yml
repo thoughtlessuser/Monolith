@@ -12717,3 +12717,13 @@ Entries:
   id: 1406
   time: '2025-09-25T19:47:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2350
+- author: LaCumbiaDelCoronavirus
+  changes:
+    - type: Add
+      message: >-
+        Radar computers and gunnery consoles now beep when nearby missiles (and
+        other target-seeking projectiles) are actively tracking the shuttle that
+        they are on.
+  id: 1407
+  time: '2025-09-25T22:23:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2338
