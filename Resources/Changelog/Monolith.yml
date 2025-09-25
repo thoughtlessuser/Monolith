@@ -12708,3 +12708,12 @@ Entries:
   id: 1405
   time: '2025-09-24T10:06:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2333
+- author: Ghagliiarghii
+  changes:
+    - type: Tweak
+      message: >-
+        Slight Magus QoL improvements to make it a more capable medical vessel.
+        Price raised by 9,000 credits to reflect this.
+  id: 1406
+  time: '2025-09-25T19:47:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2350
