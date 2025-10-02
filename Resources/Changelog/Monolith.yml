@@ -12771,3 +12771,10 @@ Entries:
   id: 1413
   time: '2025-10-02T20:30:48.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2365
+- author: BlueHNT
+  changes:
+    - type: Add
+      message: Added the emotes "weh" "hiss" and "yip" to our scaley friends.
+  id: 1414
+  time: '2025-10-02T20:35:36.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2364
