@@ -12778,3 +12778,14 @@ Entries:
   id: 1414
   time: '2025-10-02T20:35:36.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2364
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Peregrine and Noble entry-level salvage ships to CO shipyard.
+    - type: Add
+      message: Added Mudskipper to scrapyard.
+    - type: Remove
+      message: Removed Tide (Frontier holdover for scrapyard console)
+  id: 1415
+  time: '2025-10-02T20:40:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2351
