@@ -12796,3 +12796,10 @@ Entries:
   id: 1416
   time: '2025-10-02T20:48:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2323
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Asakim get acidifiers in their bag now.
+  id: 1417
+  time: '2025-10-02T20:51:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2368
