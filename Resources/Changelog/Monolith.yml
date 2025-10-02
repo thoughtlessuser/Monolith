@@ -12757,3 +12757,10 @@ Entries:
   id: 1411
   time: '2025-09-27T00:31:22.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2344
+- author: kleinerstation13
+  changes:
+    - type: Tweak
+      message: Changed a ton of small arms sounds
+  id: 1412
+  time: '2025-10-02T20:29:40.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2369
