@@ -12803,3 +12803,12 @@ Entries:
   id: 1417
   time: '2025-10-02T20:51:30.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2368
+- author: starch70
+  changes:
+    - type: Fix
+      message: >-
+        Fixed lizards not being able to bump into doors to open them and pilot
+        and whatnot.
+  id: 1418
+  time: '2025-10-02T23:59:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2373
