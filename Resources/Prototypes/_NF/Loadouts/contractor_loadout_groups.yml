@@ -18,6 +18,7 @@
 # SPDX-FileCopyrightText: 2025 Maxtone
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 ScyronX
+# SPDX-FileCopyrightText: 2025 Shy-ivy
 # SPDX-FileCopyrightText: 2025 UnicornOnLSD
 # SPDX-FileCopyrightText: 2025 Whatstone
 # SPDX-FileCopyrightText: 2025 core-mene
@@ -848,6 +849,13 @@
   - ContractorClothingMaskNeckGaiter
   - ContractorClothingMaskNeckGaiterRed
   - ContractorClothingMaskGasSecurity
+  - ClothingMaskJackal
+  - ClothingMaskRat
+  - ClothingMaskRaven
+  - ClothingMaskBear
+  - ClothingMaskBat
+  - ClothingMaskBee
+  - ClothingMaskFox
   fallbacks:
   - ContractorClothingMaskBreath
 
