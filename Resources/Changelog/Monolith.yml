@@ -12844,3 +12844,12 @@ Entries:
   id: 1422
   time: '2025-10-04T01:59:48.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2380
+- author: Nope1356
+  changes:
+    - type: Tweak
+      message: >-
+        Reduce projectile lifetime on neutron so that it doesn't go 3km and
+        instead goes roughly 1km. This will hopefully make TSF stop crying.
+  id: 1423
+  time: '2025-10-04T22:21:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2384
