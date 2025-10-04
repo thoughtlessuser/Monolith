@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Avalon
 # SPDX-FileCopyrightText: 2025 Ilya246
+# SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -12,8 +13,8 @@
   - type: TriggerOnSpawn
   - type: DeleteOnTrigger
   - type: EmpOnTrigger
-    range: 1 # low range
-    energyConsumption: 20000 # 20 kJ
+    range: 1.5 # low range
+    energyConsumption: 30000 # 30 kJ
     disableDuration: 20 # as opposed to 60
 
 # LIGHTNING
