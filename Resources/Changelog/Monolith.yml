@@ -12853,3 +12853,10 @@ Entries:
   id: 1423
   time: '2025-10-04T22:21:47.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2384
+- author: Androidontor and Zethine
+  changes:
+    - type: Add
+      message: Added lizard variant for most combat hardsuits!!!
+  id: 1424
+  time: '2025-10-07T23:29:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2383
