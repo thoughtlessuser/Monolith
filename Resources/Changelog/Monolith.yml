@@ -12874,3 +12874,10 @@ Entries:
   id: 1426
   time: '2025-10-09T01:32:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2386
+- author: Nope1356
+  changes:
+    - type: Tweak
+      message: ADS now engage all military ships (MIL, ASR, TSF, USSP) on sight
+  id: 1427
+  time: '2025-10-09T12:56:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2391
