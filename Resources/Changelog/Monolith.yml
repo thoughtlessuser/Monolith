@@ -12867,3 +12867,10 @@ Entries:
   id: 1425
   time: '2025-10-08T20:20:20.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2388
+- author: bitcrushing
+  changes:
+    - type: Fix
+      message: Not all instruments are bike horns now
+  id: 1426
+  time: '2025-10-09T01:32:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2386
