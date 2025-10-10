@@ -12890,3 +12890,10 @@ Entries:
   id: 1428
   time: '2025-10-10T12:49:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2390
+- author: starch70
+  changes:
+    - type: Remove
+      message: Removed Asakim death acidifers. Kept armor slowdown.
+  id: 1429
+  time: '2025-10-10T13:34:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2387
