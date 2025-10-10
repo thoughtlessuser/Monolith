@@ -12897,3 +12897,12 @@ Entries:
   id: 1429
   time: '2025-10-10T13:34:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2387
+- author: starch70
+  changes:
+    - type: Add
+      message: MARSOC has new hardsuits.
+    - type: Tweak
+      message: Support for clothing-based energy shields.
+  id: 1430
+  time: '2025-10-10T16:23:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2389
