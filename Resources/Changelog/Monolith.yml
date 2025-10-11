@@ -12913,3 +12913,10 @@ Entries:
   id: 1431
   time: '2025-10-10T19:58:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2397
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: Aghosts no longer inherently stealthy
+  id: 1432
+  time: '2025-10-11T14:20:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2399
