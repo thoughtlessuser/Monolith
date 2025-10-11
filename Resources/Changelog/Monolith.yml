@@ -12920,3 +12920,10 @@ Entries:
   id: 1432
   time: '2025-10-11T14:20:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2399
+- author: Arcticular1
+  changes:
+    - type: Tweak
+      message: The Dagger has gotten layout, thrusters and armament improvements
+  id: 1433
+  time: '2025-10-11T14:23:21.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2394
