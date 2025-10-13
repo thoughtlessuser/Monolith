@@ -12936,3 +12936,16 @@ Entries:
   id: 1434
   time: '2025-10-12T22:22:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2403
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        AMEs, AME jars, FTL drives, and shield generators will now explode when
+        taking excessive damage in one hit.
+    - type: Tweak
+      message: >-
+        Tweaked ship gun values and stuff to make stuff look really cool and
+        whatnot. Ship guns are also faster now.
+  id: 1435
+  time: '2025-10-13T14:09:40.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2406
