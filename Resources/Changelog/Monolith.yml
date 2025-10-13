@@ -12949,3 +12949,12 @@ Entries:
   id: 1435
   time: '2025-10-13T14:09:40.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2406
+- author: OneZerooo0
+  changes:
+    - type: Add
+      message: >-
+        You can now print explosives (C4, EMP, explosive) after a new universal
+        faction research.
+  id: 1436
+  time: '2025-10-13T21:39:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2408
