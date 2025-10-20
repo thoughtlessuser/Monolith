@@ -13050,3 +13050,10 @@ Entries:
   id: 1444
   time: '2025-10-20T05:22:16.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2401
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: CDETs don't play nice anymore
+  id: 1445
+  time: '2025-10-20T05:52:37.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2428
