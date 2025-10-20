@@ -13023,3 +13023,12 @@ Entries:
   id: 1441
   time: '2025-10-18T22:17:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2303
+- author: core-mene
+  changes:
+    - type: Fix
+      message: >-
+        ASMGT ammo boxes can now properly be printed and researched for all 4
+        calibers
+  id: 1442
+  time: '2025-10-20T05:14:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2437
