@@ -13082,3 +13082,12 @@ Entries:
   id: 1447
   time: '2025-10-20T06:25:12.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2434
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: >-
+        Borers now have some new rules, be sure to read it before getting das
+        boot for a day
+  id: 1448
+  time: '2025-10-20T06:29:08.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2429
