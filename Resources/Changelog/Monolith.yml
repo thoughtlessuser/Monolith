@@ -13032,3 +13032,12 @@ Entries:
   id: 1442
   time: '2025-10-20T05:14:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2437
+- author: Arcticular1
+  changes:
+    - type: Tweak
+      message: TSFMC now spawn with proper bulletproof vests.
+    - type: Add
+      message: 'Colonel and ASR Commander now spawn with eswords! '
+  id: 1443
+  time: '2025-10-20T05:16:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2431
