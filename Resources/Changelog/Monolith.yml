@@ -13071,3 +13071,14 @@ Entries:
   id: 1446
   time: '2025-10-20T05:54:26.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2276
+- author: Archylle
+  changes:
+    - type: Add
+      message: Added Tajaran
+    - type: Remove
+      message: Removed Yowies
+    - type: Tweak
+      message: Added Felinid markings to humans.
+  id: 1447
+  time: '2025-10-20T06:25:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2434
