@@ -13091,3 +13091,12 @@ Entries:
   id: 1448
   time: '2025-10-20T06:29:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2429
+- author: Ark
+  changes:
+    - type: Remove
+      message: Yowie is now gone from the Guidebook.
+    - type: Fix
+      message: Rodentia now appears under Species in the Guidebook.
+  id: 1449
+  time: '2025-10-20T22:43:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2439
