@@ -13057,3 +13057,17 @@ Entries:
   id: 1445
   time: '2025-10-20T05:52:37.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2428
+- author: Ghagliiarghii
+  changes:
+    - type: Tweak
+      message: M25 mining pulsars are now craftable.
+    - type: Tweak
+      message: M25 mining pulsars are now unlocked in the Salvage Weapons research
+    - type: Fix
+      message: >-
+        The PTK-1500e "Matter Dematerializers" are no longer unlocked in the
+        Salvage Weapons research; they have been printable without the research
+        for ~7 months
+  id: 1446
+  time: '2025-10-20T05:54:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2276
