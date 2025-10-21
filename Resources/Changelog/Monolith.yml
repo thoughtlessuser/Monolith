@@ -13100,3 +13100,12 @@ Entries:
   id: 1449
   time: '2025-10-20T22:43:27.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2439
+- author: Ark
+  changes:
+    - type: Add
+      message: >-
+        Manually reloaded ship turrets now display their live ammo count in the
+        Gunnery Control.
+  id: 1450
+  time: '2025-10-21T20:53:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2442
