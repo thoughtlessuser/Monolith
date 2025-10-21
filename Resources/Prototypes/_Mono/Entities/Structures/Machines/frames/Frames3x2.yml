@@ -21,8 +21,8 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  id: UnfinishedMachineFrame
-  name: machine frame (1x1)
+  id: UnfinishedMachineFrame3x2
+  name: machine frame (3x2)
   description: A machine under construction. Needs more parts.
   suffix: Unfinished
   placement:
@@ -37,7 +37,7 @@
         fix1:
           shape:
             !type:PhysShapeAabb
-            bounds: "-0.25,-0.5,0.25,0.5"
+            bounds: "2.25,0.25,-0.25,-1.25"
           density: 190
           mask:
           - MachineMask
@@ -52,7 +52,7 @@
       containers:
         - machine_board
         - machine_parts
-      graph: Machine
+      graph: Machine3x2
       node: missingWires
     - type: ContainerContainer
       containers:
@@ -75,13 +75,13 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
     - type: Sprite
-      sprite: Structures/Machines/parts.rsi
+      offset: 1,-0.5
+      sprite: _Mono/Structures/Machines/frames/frame_3x2.rsi
       state: box_0
-      snapCardinals: true
 
 - type: entity
-  id: MachineFrame
-  name: machine frame (1x1)
+  id: MachineFrame3x2
+  name: machine frame (3x2)
   suffix: Ready
   placement:
     mode: SnapgridCenter
@@ -95,7 +95,7 @@
         fix1:
           shape:
             !type:PhysShapeAabb
-            bounds: "-0.25,-0.5,0.25,0.5"
+            bounds: "2.25,0.25,-0.25,-1.25"
           density: 190
           mask:
           - MachineMask
@@ -107,7 +107,7 @@
     - type: Rotatable
     - type: Pullable
     - type: Construction
-      graph: Machine
+      graph: Machine3x2
       node: machineFrame
       defaultTarget: machine
       containers:
@@ -135,9 +135,9 @@
         machine_board: !type:Container
         machine_parts: !type:Container
     - type: Sprite
-      sprite: Structures/Machines/parts.rsi
+      offset: 1,-0.5
+      sprite: _Mono/Structures/Machines/frames/frame_3x2.rsi
       state: box_1
-      snapCardinals: true
     - type: Appearance
     - type: ItemMapper
       mapLayers:
@@ -148,9 +148,9 @@
             - MachineBoard
 
 - type: entity
-  id: MachineFrameDestroyed
+  id: MachineFrameDestroyed3x2
   parent: BaseStructureDynamic
-  name: destroyed machine frame (1x1)
+  name: destroyed machine frame (3x2)
   placement:
     mode: SnapgridCenter
   components:
@@ -160,7 +160,7 @@
     - type: Physics
       bodyType: Static
     - type: Construction
-      graph: Machine
+      graph: Machine3x2
       node: destroyedMachineFrame
     - type: Damageable
       damageContainer: StructuralInorganic
@@ -174,10 +174,22 @@
         - !type:SpawnEntitiesBehavior
           spawn:
             SheetSteel1:
-              min: 1
-              max: 3
+              min: 6
+              max: 18
         - !type:DoActsBehavior
           acts: ["Destruction"]
     - type: Sprite
-      sprite: Structures/Machines/parts.rsi
+      sprite: _Mono/Structures/Machines/frames/frame_3x2.rsi
       state: destroyed
+      offset: 1,-0.5
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "2.25,0.25,-0.25,-1.25"
+          density: 190
+          mask:
+          - MachineMask
+          layer:
+          - MachineLayer
