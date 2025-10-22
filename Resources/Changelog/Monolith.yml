@@ -13171,3 +13171,10 @@ Entries:
   id: 1456
   time: '2025-10-22T19:16:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2443
+- author: core-mene
+  changes:
+    - type: Add
+      message: new NT branded pre-corpowar lootboxes
+  id: 1457
+  time: '2025-10-22T19:35:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2448
