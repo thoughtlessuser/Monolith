@@ -13145,3 +13145,18 @@ Entries:
   id: 1454
   time: '2025-10-22T08:20:20.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2359
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Added fun!
+    - type: Remove
+      message: Removed fun!
+    - type: Tweak
+      message: Changed fun!
+    - type: Fix
+      message: Fixed fun
+    - type: Tweak
+      message: The ASR Jupiter Carrier has received some updates and upgrades
+  id: 1455
+  time: '2025-10-22T09:51:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2425
