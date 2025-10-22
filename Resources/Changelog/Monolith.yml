@@ -13109,3 +13109,12 @@ Entries:
   id: 1450
   time: '2025-10-21T20:53:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2442
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Corporate war era shuttle guns from the syndicate have emerged in sector
+    - type: Tweak
+      message: LPB and all Syndicate shuttles have been outfitted with these weapons
+  id: 1451
+  time: '2025-10-22T08:04:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2445
