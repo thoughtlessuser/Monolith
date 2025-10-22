@@ -13138,3 +13138,10 @@ Entries:
   id: 1453
   time: '2025-10-22T08:10:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2426
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Asakim have been equipped with more fitting melee weapons
+  id: 1454
+  time: '2025-10-22T08:20:20.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2359
