@@ -13178,3 +13178,10 @@ Entries:
   id: 1457
   time: '2025-10-22T19:35:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2448
+- author: Ark
+  changes:
+    - type: Fix
+      message: Footsteps (without shoes) should be silent now for Tajaran.
+  id: 1458
+  time: '2025-10-22T19:38:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2450
