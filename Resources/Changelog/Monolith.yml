@@ -13160,3 +13160,14 @@ Entries:
   id: 1455
   time: '2025-10-22T09:51:24.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2425
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: >-
+        AI cores can now simultaneously use gunnery and shuttle consoles even on
+        capitals.
+    - type: Fix
+      message: TSFMC AIs can now speak Sol Common.
+  id: 1456
+  time: '2025-10-22T19:16:25.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2443
