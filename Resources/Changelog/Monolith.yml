@@ -13125,3 +13125,16 @@ Entries:
   id: 1452
   time: '2025-10-22T08:09:24.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2413
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: >-
+        Ulliman Industries has pushed its new overcoats to market, fitting over
+        most hardsuits
+    - type: Tweak
+      message: >-
+        Ulliman Industries Engineer Hardsuits and Pilot Voidsuits now available
+        in loadouts to Spacers, ASR, Mercs, Pilots, and a few others.
+  id: 1453
+  time: '2025-10-22T08:10:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2426
