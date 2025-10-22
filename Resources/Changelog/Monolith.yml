@@ -13118,3 +13118,10 @@ Entries:
   id: 1451
   time: '2025-10-22T08:04:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2445
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: Sevastapol has upped its security after many heists on its techvault.
+  id: 1452
+  time: '2025-10-22T08:09:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2413
