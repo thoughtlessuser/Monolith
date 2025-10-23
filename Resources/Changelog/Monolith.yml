@@ -13203,3 +13203,10 @@ Entries:
   id: 1460
   time: '2025-10-23T00:26:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2452
+- author: kyres1
+  changes:
+    - type: Add
+      message: Added the Acera bounty hunting ship
+  id: 1461
+  time: '2025-10-23T06:39:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2424
