@@ -13194,3 +13194,12 @@ Entries:
   id: 1459
   time: '2025-10-22T23:55:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2451
+- author: ark1368
+  changes:
+    - type: Add
+      message: >-
+        Sounds in large areas now have an echo. This effect can be disabled in
+        settings. This is all client-side.
+  id: 1460
+  time: '2025-10-23T00:26:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2452
