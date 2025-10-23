@@ -13210,3 +13210,18 @@ Entries:
   id: 1461
   time: '2025-10-23T06:39:48.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2424
+- author: Onezero0
+  changes:
+    - type: Tweak
+      message: Stealth options can no longer become completely invisible.
+    - type: Tweak
+      message: ASR Elite hardsuit and TSF M92-X hardsuits now have shields!
+    - type: Tweak
+      message: M82, M86 and ASR Scaf stats are a bit more equalized now.
+    - type: Add
+      message: >-
+        There is now a guidebook entry detailing armor mechanics under
+        Miscellaneous.
+  id: 1462
+  time: '2025-10-23T06:41:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2398
