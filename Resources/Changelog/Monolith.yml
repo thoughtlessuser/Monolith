@@ -13252,3 +13252,10 @@ Entries:
   id: 1465
   time: '2025-10-24T23:02:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2472
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Hoverbike ground movement buffed.
+  id: 1466
+  time: '2025-10-24T23:49:08.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2471
