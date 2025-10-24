@@ -13259,3 +13259,10 @@ Entries:
   id: 1466
   time: '2025-10-24T23:49:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2471
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Languages are properly transfered by cloning now.
+  id: 1467
+  time: '2025-10-24T23:49:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2469
