@@ -13234,3 +13234,14 @@ Entries:
   id: 1463
   time: '2025-10-24T01:00:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2461
+- author: core-mene
+  changes:
+    - type: Tweak
+      message: >-
+        Expeder capable of finding NT loot crates and smugglers reduced chance
+        of finding one
+    - type: Tweak
+      message: Defrontierified exped armory crates spawner loot
+  id: 1464
+  time: '2025-10-24T01:01:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2459
