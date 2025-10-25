@@ -13289,3 +13289,12 @@ Entries:
   id: 1470
   time: '2025-10-25T00:22:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2454
+- author: Onezero0
+  changes:
+    - type: Remove
+      message: Temporarily removed current implementation of trade goods.
+    - type: Fix
+      message: Hopefully fixed some lag
+  id: 1471
+  time: '2025-10-25T00:25:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2473
