@@ -13282,3 +13282,10 @@ Entries:
   id: 1469
   time: '2025-10-25T00:11:34.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2465
+- author: Ark
+  changes:
+    - type: Add
+      message: Four types of armor plates have been added. Rook would be proud.
+  id: 1470
+  time: '2025-10-25T00:22:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2454
