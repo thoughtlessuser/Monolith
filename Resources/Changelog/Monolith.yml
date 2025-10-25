@@ -13275,3 +13275,10 @@ Entries:
   id: 1468
   time: '2025-10-25T00:05:23.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2462
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Cortical borers now may use hivemind while direct controlling.
+  id: 1469
+  time: '2025-10-25T00:11:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2465
