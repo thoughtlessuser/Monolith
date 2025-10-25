@@ -13266,3 +13266,12 @@ Entries:
   id: 1467
   time: '2025-10-24T23:49:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2469
+- author: Ark
+  changes:
+    - type: Add
+      message: >-
+        Armor piercing is now available. Projectiles can now pierce through
+        compatible walls.
+  id: 1468
+  time: '2025-10-25T00:05:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2462
