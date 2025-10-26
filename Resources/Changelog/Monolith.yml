@@ -13315,3 +13315,10 @@ Entries:
   id: 1472
   time: '2025-10-26T06:14:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2479
+- author: core-mene
+  changes:
+    - type: Tweak
+      message: Rogue silicon no longer new player trap
+  id: 1473
+  time: '2025-10-26T06:18:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2476
