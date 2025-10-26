@@ -13298,3 +13298,20 @@ Entries:
   id: 1471
   time: '2025-10-25T00:25:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2473
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Added fun!
+    - type: Remove
+      message: Removed fun!
+    - type: Tweak
+      message: Changed fun!
+    - type: Fix
+      message: Fixed fun!
+    - type: Tweak
+      message: >-
+        Serpent Torpedos slightly tuned down, should now be able to shoot them
+        down too
+  id: 1472
+  time: '2025-10-26T06:14:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2479
