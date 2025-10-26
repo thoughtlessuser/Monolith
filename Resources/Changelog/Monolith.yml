@@ -13340,3 +13340,12 @@ Entries:
   id: 1475
   time: '2025-10-26T07:48:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2482
+- author: Ark
+  changes:
+    - type: Add
+      message: >-
+        Combat music has arrived. Time for epic combat! Please contribute better
+        songs, I beg you.
+  id: 1476
+  time: '2025-10-26T21:41:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2485
