@@ -13369,3 +13369,10 @@ Entries:
   id: 1479
   time: '2025-10-26T22:04:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2486
+- author: Ark
+  changes:
+    - type: Fix
+      message: Smartgun laser no longer shows up on different maps.
+  id: 1480
+  time: '2025-10-26T23:23:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2488
