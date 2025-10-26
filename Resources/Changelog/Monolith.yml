@@ -13362,3 +13362,12 @@ Entries:
   id: 1477
   time: '2025-10-26T22:01:09.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2477
+- author: bitcrushing
+  changes:
+    - type: Tweak
+      message: >-
+        No more water vapor expeditions due to visibility issues, replaced with
+        healium atmospheres
+  id: 1478
+  time: '2025-10-26T22:03:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2484
