@@ -13333,3 +13333,10 @@ Entries:
   id: 1474
   time: '2025-10-26T06:22:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1628
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Missiles now obey their intended max speed.
+  id: 1475
+  time: '2025-10-26T07:48:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2482
