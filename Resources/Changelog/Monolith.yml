@@ -13349,3 +13349,16 @@ Entries:
   id: 1476
   time: '2025-10-26T21:41:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2485
+- author: EckoAurum
+  changes:
+    - type: Add
+      message: Medical Cyborgs now start with the defibrillator module.
+    - type: Remove
+      message: Removed all lights from Cyborgs.
+    - type: Add
+      message: Cyborgs now have Nightvision.
+    - type: Tweak
+      message: Returned Cyborg sprites.
+  id: 1477
+  time: '2025-10-26T22:01:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2477
