@@ -13371,3 +13371,10 @@ Entries:
   id: 1478
   time: '2025-10-26T22:03:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2484
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed very-high-velocity projectiles having issues like not exploding.
+  id: 1479
+  time: '2025-10-26T22:04:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2486
