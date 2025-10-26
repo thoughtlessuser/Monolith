@@ -13322,3 +13322,14 @@ Entries:
   id: 1473
   time: '2025-10-26T06:18:47.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2476
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: New Hermes Shuttle for courier players
+    - type: Remove
+      message: The TM and CO no longer have mail teleporters
+    - type: Remove
+      message: The Letterbox is no more
+  id: 1474
+  time: '2025-10-26T06:22:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1628
