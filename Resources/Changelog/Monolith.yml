@@ -13422,8 +13422,14 @@ Entries:
     - type: Tweak
       message: syndicate jammer price reduced 20 -> 5
     - type: Tweak
-      message: >-
-        Weswords are now slightly harder to make and require tools.
+      message: Weswords are now slightly harder to make and require tools.
   id: 1485
   time: '2025-10-27T04:02:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2337
+- author: kyres1
+  changes:
+    - type: Add
+      message: Added the Acera bounty hunting ship but fixed this time
+  id: 1486
+  time: '2025-10-27T04:20:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2456
