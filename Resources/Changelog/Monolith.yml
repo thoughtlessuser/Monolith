@@ -13440,3 +13440,10 @@ Entries:
   id: 1487
   time: '2025-10-27T04:41:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2494
+- author: kyres1
+  changes:
+    - type: Add
+      message: Added corner lattices for prettifying mapped ships
+  id: 1488
+  time: '2025-10-27T20:53:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2457
