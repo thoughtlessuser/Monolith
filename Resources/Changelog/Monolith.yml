@@ -13385,3 +13385,10 @@ Entries:
   id: 1481
   time: '2025-10-27T01:02:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2491
+- author: Primusirius
+  changes:
+    - type: Add
+      message: Added multiple new departments to a new Medical dispatch station.
+  id: 1482
+  time: '2025-10-27T01:09:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2490
