@@ -13392,3 +13392,12 @@ Entries:
   id: 1482
   time: '2025-10-27T01:09:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2490
+- author: bitcrushing
+  changes:
+    - type: Tweak
+      message: >-
+        Remove water vapor atmosphere expeditions, adds nitrous oxide ones
+        instead
+  id: 1483
+  time: '2025-10-27T01:11:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2489
