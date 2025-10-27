@@ -1,3 +1,4 @@
+// SPDX-FileCopyrightText: 2025 Ark
 // SPDX-FileCopyrightText: 2025 ark1368
 //
 // SPDX-License-Identifier: MPL-2.0
@@ -28,6 +29,17 @@ public sealed class CombatMusicStartEvent : EntityEventArgs
 /// Sent by the server to clients to stop combat music locally.
 /// </summary>
 [Serializable, NetSerializable]
-public sealed class CombatMusicStopEvent : EntityEventArgs;
+public sealed class CombatMusicStopEvent : EntityEventArgs
+{
+    /// <summary>
+    /// How long to fade out the music before stopping.
+    /// </summary>
+    public float FadeOutDuration { get; }
+
+    public CombatMusicStopEvent(float fadeOutDuration = 0f)
+    {
+        FadeOutDuration = fadeOutDuration;
+    }
+}
 
 
