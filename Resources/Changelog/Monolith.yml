@@ -13401,3 +13401,12 @@ Entries:
   id: 1483
   time: '2025-10-27T01:11:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2489
+- author: OneZerooo0
+  changes:
+    - type: Remove
+      message: Removed fun! And the USSP's influence.
+    - type: Tweak
+      message: USSP content is now mercenary-accessible, and is a selectable company.
+  id: 1484
+  time: '2025-10-27T04:00:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2395
