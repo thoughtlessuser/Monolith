@@ -13433,3 +13433,10 @@ Entries:
   id: 1486
   time: '2025-10-27T04:20:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2456
+- author: Ark
+  changes:
+    - type: Tweak
+      message: Combat music now fades rather than ending abruptly. Rejoice!
+  id: 1487
+  time: '2025-10-27T04:41:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2494
