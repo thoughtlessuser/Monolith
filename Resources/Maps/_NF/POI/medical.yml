@@ -12228,7 +12228,7 @@ entities:
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 15.5,36.5
+      pos: 9.5,35.5
       parent: 1
   - uid: 1583
     components:
@@ -13458,16 +13458,16 @@ entities:
   - uid: 1729
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -7.5,7.5
+      rot: 3.141592653589793 rad
+      pos: -9.5,-20.5
       parent: 1
     - type: AtmosPipeColor
       color: '#FF1212FF'
   - uid: 1730
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -6.5,7.5
+      rot: 3.141592653589793 rad
+      pos: -9.5,-19.5
       parent: 1
     - type: AtmosPipeColor
       color: '#FF1212FF'
