@@ -37709,24 +37709,11 @@ entities:
     - type: Transform
       pos: -10.5,70.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 756
-      - 10517
-      - 10488
   - uid: 5742
     components:
     - type: Transform
       pos: -15.5,70.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 756
-      - 1775
   - uid: 5752
     components:
     - type: Transform
@@ -50347,11 +50334,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -13.5,70.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 756
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 5941
@@ -50852,11 +50834,6 @@ entities:
     - type: Transform
       pos: -14.5,71.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 756
     - type: AtmosPipeLayers
       pipeLayer: Secondary
     - type: AtmosPipeColor
@@ -51155,11 +51132,6 @@ entities:
     - type: Transform
       pos: -11.5,75.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 756
     - type: AtmosPipeLayers
       pipeLayer: Secondary
 - proto: Gavel
