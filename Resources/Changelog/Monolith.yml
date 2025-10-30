@@ -13499,3 +13499,10 @@ Entries:
   id: 1493
   time: '2025-10-28T22:07:12.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2458
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: ASR hideout now has higher spawn distance variation.
+  id: 1494
+  time: '2025-10-30T21:27:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2520
