@@ -24,7 +24,7 @@
 - type: gameMap
   id: UrsaMajor
   mapName: 'CDM-MIL Ursa Major'
-  mapPath: /Maps/_Mono/Shuttles/Capitals/ursamajor.yml
+  mapPath: /Maps/_Mono/Shuttles/Capitals/ursamajormap.yml
   minPlayers: 0
   stations:
     UrsaMajor:
