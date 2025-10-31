@@ -6,6 +6,22 @@
 
 - type: entity
   parent: ClothingArmbandBase
+  id: ClothingArmbandATU
+  name: armed trauma unit armband
+  description: An armband denoting ones affiliation with the ATU of Harmony Medical Enterprise.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Armbands/armband_ATU.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Armbands/armband_ATU.rsi
+    clothingVisuals:
+      leftarmband:
+      - state: equipped-ARMBANDLEFT
+      rightarmband:
+      - state: equipped-ARMBANDRIGHT
+
+- type: entity
+  parent: ClothingArmbandBase
   id: ClothingArmbandUNSA
   name: UNSA vanguard armband
   description: An armband bearing the flag of the Universal States of America, worn by Vanguards for indentification.

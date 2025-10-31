@@ -501,6 +501,18 @@
 #    coefficient: 0.2
 
 # SCAF hardsuit
+
+- type: entity
+  parent: ClothingOuterHardsuitScaf
+  id: ClothingOuterHardsuitScafATU
+  name: SCAF ATU hardsuit
+  description: A standard SCAF hardsuit with fixations akin to the Armed Trauma Unit of Harmony Medical Enterprises.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_ATU.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_ATU.rsi
+
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitScaf
