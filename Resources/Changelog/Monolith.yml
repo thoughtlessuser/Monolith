@@ -13506,3 +13506,10 @@ Entries:
   id: 1494
   time: '2025-10-30T21:27:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2520
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: All USSP shuttles now marked as MIL
+  id: 1495
+  time: '2025-10-31T00:25:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2517
