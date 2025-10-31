@@ -13513,3 +13513,12 @@ Entries:
   id: 1495
   time: '2025-10-31T00:25:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2517
+- author: Ark
+  changes:
+    - type: Add
+      message: >-
+        New batch of Physical traits inspired by EE. I will be working on more
+        soon!
+  id: 1496
+  time: '2025-10-31T00:31:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2522
