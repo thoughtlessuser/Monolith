@@ -13522,3 +13522,10 @@ Entries:
   id: 1496
   time: '2025-10-31T00:31:06.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2522
+- author: Primusirius
+  changes:
+    - type: Tweak
+      message: Medical Dispatch atmos has been rebuilt from the ground up
+  id: 1497
+  time: '2025-10-31T00:59:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2521
