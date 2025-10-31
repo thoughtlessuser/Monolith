@@ -13529,3 +13529,16 @@ Entries:
   id: 1497
   time: '2025-10-31T00:59:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2521
+- author: Ark
+  changes:
+    - type: Add
+      message: Most armors and hardsuits now start with durathread armor plates.
+    - type: Add
+      message: You now buy armor plates from cargo.
+    - type: Fix
+      message: >-
+        Fixed USSP loadout for special guns and removed it from the gamemode
+        title.
+  id: 1498
+  time: '2025-10-31T03:09:37.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2525
