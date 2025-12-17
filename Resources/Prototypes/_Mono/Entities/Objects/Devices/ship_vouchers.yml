@@ -151,7 +151,7 @@
   parent: BaseShipLPC
   id: ShipVoucherFlyssa #tier 2 research bracket, capital
   name: TSF flyssa LPC 
-  description: A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship's reserves.
+  description: A small card that contains the data for the procurement of an advanced TSF vessel, Flyssa-class destroyer, from the flagship's reserves.
   components:
   - type: Sprite
     layers:
@@ -171,7 +171,7 @@
   parent: BaseShipLPC
   id: ShipVoucherPolaris #tier 2 research bracket, commander
   name: TSF polaris LPC
-  description: A small card that contains the data for the procurement of a Polaris-class frigate from the flagship's reserves.
+  description: A small card that contains the data for the procurement of advanced ship, Polaris-class frigate, from the flagship's reserves.
   components:
   - type: Sprite
     layers:
@@ -256,7 +256,7 @@
   parent: BaseShipLPC
   id: ShipVoucherProwler #tier 3 research bracket, experimental
   name: PDV prowler LPC
-  description: A small card that authorizes the procurement of a Prowler.
+  description: A small card that authorizes the procurement of an experimental PDV ship, Prowler.
   components:
   - type: Sprite
     layers:
@@ -276,7 +276,7 @@
   parent: BaseShipLPC
   id: ShipVoucherSaintie #tier 2 research bracket, commander
   name: PDV saintie LPC
-  description: A small card that authorizes the procurement of a Saintie.
+  description: A small card that authorizes the procurement of a Saintie, an advanced PDV vessel.
   components:
   - type: Sprite
     layers:
