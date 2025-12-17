@@ -146,6 +146,48 @@
 
 - type: entity
   parent: BaseShipLPC
+  id: ShipVoucherFlyssa
+  name: TSF flyssa LPC
+  description: A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship's reserves.
+  components:
+  - type: Sprite
+    layers:
+    - state: htech
+    - state: stripetsfmc
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Security
+    companyName: TSF
+    vessels:
+    - Flyssa
+  - type: StaticPrice
+    vendPrice: 500000
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherPolaris
+  name: TSF polaris LPC
+  description: A small card that contains the data for the procurement of a Polaris-class frigate from the flagship's reserves.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripetsfmc
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Security
+    companyName: TSF
+    vessels:
+    - PolarisShip
+  - type: StaticPrice
+    vendPrice: 300000
+
+#pdv
+
+- type: entity
+  parent: BaseShipLPC
   id: ShipVoucherProwler
   name: PDV prowler LPC
   description: A small card that authorizes the procurement of a Prowler.
@@ -186,40 +228,220 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherFlyssa
-  name: TSF flyssa LPC
-  description: A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship's reserves.
-  components:
-  - type: Sprite
-    layers:
-    - state: htech
-    - state: stripetsfmc
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: Security
-    companyName: TSF
-    vessels:
-    - Flyssa
-  - type: StaticPrice
-    vendPrice: 500000
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherPolaris
-  name: TSF polaris LPC
-  description: A small card that contains the data for the procurement of a Polaris-class frigate from the flagship's reserves.
+  id: ShipVoucherVulture
+  name: PDV vulture LPC
+  description: A small card that authorizes the procurement of a Vulture.
   components:
   - type: Sprite
     layers:
     - state: mtech
-    - state: stripetsfmc
+    - state: stripepdv
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Security
-    companyName: TSF
+    consoleType: BlackMarket
+    companyName: PDV
     vessels:
-    - PolarisShip
+    - Vulture
   - type: StaticPrice
-    vendPrice: 300000
+    vendPrice: 285580
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherVega
+  name: PDV vega LPC
+  description: A small card that authorizes the procurement of a Vega.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Vega
+  - type: StaticPrice
+    vendPrice: 71450
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherTethys
+  name: PDV tethys LPC
+  description: A small card that authorizes the procurement of a Tethys.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Tethys
+  - type: StaticPrice
+    vendPrice: 72000
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherSpyglassMKII
+  name: PDV spyglass MKII LPC
+  description: A small card that authorizes the procurement of a Spyglass MKII.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Spyglass MKII
+  - type: StaticPrice
+    vendPrice: 62500
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherScorpion
+  name: PDV scorpion LPC
+  description: A small card that authorizes the procurement of a Scorpion.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Scorpion
+  - type: StaticPrice
+    vendPrice: 113200
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherSable
+  name: PDV sable LPC
+  description: A small card that authorizes the procurement of a Sable.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Sable
+  - type: StaticPrice
+    vendPrice: 8000
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherMercury
+  name: PDV mercury LPC
+  description: A small card that authorizes the procurement of a Mercury.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Mercury
+  - type: StaticPrice
+    vendPrice: 126800
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherHourglass
+  name: PDV hourglass LPC
+  description: A small card that authorizes the procurement of a Hourglass.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Hourglass
+  - type: StaticPrice
+    vendPrice: 120000
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherEuropa
+  name: PDV europa LPC
+  description: A small card that authorizes the procurement of a Europa.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Europa
+  - type: StaticPrice
+    vendPrice: 160750
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherDefector
+  name: PDV defector LPC
+  description: A small card that authorizes the procurement of a Defector.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Defector
+  - type: StaticPrice
+    vendPrice: 91500
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherAnaconda
+  name: PDV anaconda LPC
+  description: A small card that authorizes the procurement of a Anaconda.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Anaconda
+  - type: StaticPrice
+    vendPrice: 122500
