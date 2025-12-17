@@ -149,8 +149,8 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherFlyssa
-  name: TSF flyssa LPC
+  id: ShipVoucherFlyssa #tier 2 research bracket, capital
+  name: TSF flyssa LPC 
   description: A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship's reserves.
   components:
   - type: Sprite
@@ -169,7 +169,7 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherPolaris
+  id: ShipVoucherPolaris #tier 2 research bracket, commander
   name: TSF polaris LPC
   description: A small card that contains the data for the procurement of a Polaris-class frigate from the flagship's reserves.
   components:
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherTSFTier0
-  name: TSF tier 0 LPC
-  description: A small card that authorizes the procurement of a tier 0 ship.
+  name: TSF basic LPC
+  description: A small card that authorizes the procurement of a basic TSF ship.
   components:
   - type: Sprite
     layers:
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherTSFTier1
-  name: TSF tier 1 LPC
-  description: A small card that authorizes the procurement of a tier 1 ship.
+  name: TSF intermediate LPC
+  description: A small card that authorizes the procurement of an intermediate TSF ship.
   components:
   - type: Sprite
     layers:
@@ -233,8 +233,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherTSFTier2 #Capital/Commander ships included in research bracket but have independant vouchers for higher costs
-  name: TSF tier 2 LPC
-  description: A small card that authorizes the procurement of a tier 2 ship.
+  name: TSF advanced LPC
+  description: A small card that authorizes the procurement of an advanced TSF ship.
   components:
   - type: Sprite
     layers:
@@ -254,7 +254,7 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherProwler
+  id: ShipVoucherProwler #tier 3 research bracket, experimental
   name: PDV prowler LPC
   description: A small card that authorizes the procurement of a Prowler.
   components:
@@ -274,7 +274,7 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherSaintie
+  id: ShipVoucherSaintie #tier 2 research bracket, commander
   name: PDV saintie LPC
   description: A small card that authorizes the procurement of a Saintie.
   components:
@@ -295,8 +295,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherPDVTier0
-  name: PDV tier 0 LPC
-  description: A small card that authorizes the procurement of a tier 0 ship.
+  name: PDV basic LPC
+  description: A small card that authorizes the procurement of a basic PDV ship.
   components:
   - type: Sprite
     layers:
@@ -317,8 +317,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherPDVTier1
-  name: PDV tier 1 LPC
-  description: A small card that authorizes the procurement of a tier 1 ship.
+  name: PDV intermediate LPC
+  description: A small card that authorizes the procurement of an intermediate PDV ship.
   components:
   - type: Sprite
     layers:
@@ -338,8 +338,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherPDVTier2 #Capital/Commander ships included in research bracket but have independant vouchers for higher costs
-  name: PDV tier 2 LPC
-  description: A small card that authorizes the procurement of a tier 2 ship.
+  name: PDV advanced LPC
+  description: A small card that authorizes the procurement of an advanced PDV ship.
   components:
   - type: Sprite
     layers:
