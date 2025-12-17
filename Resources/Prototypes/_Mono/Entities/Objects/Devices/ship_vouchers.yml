@@ -1,3 +1,5 @@
+#Notes: all of tier 3 LPCs have their own vouchers with their own unique costs. All tier 2 capital/commander ships have their own LPC and unique cost.
+
 #LPC base (just different sprites)
 - type: entity
   abstract: true
@@ -125,15 +127,16 @@
     vessels:
     - Kupol
 
-# Tsfmc
+# ussp end / tsfmc start
+
 - type: entity
   parent: ShipVoucherNfsdBailiff
   id: ShipVoucherTsfmcColonel
   name: TSFMC colonel ship voucher
-  description: Allows for two TSFMC ship purchases of any size, and allows for the procurement of a Polaris. Destroyed on sale.
+  description: Allows for one TSFMC ship purchase of any size, and allows for the procurement of a Polaris. Destroyed on sale.
   components:
   - type: ShipyardVoucher
-    redemptionsLeft: 2
+    redemptionsLeft: 1
     access: # note - removed HOS/colonel access to prevent free flyssa (its only ship that uses HOS access, so it should be fine)
     - Armory
     - Sergeant
@@ -184,7 +187,70 @@
   - type: StaticPrice
     vendPrice: 300000
 
-#pdv
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherTSFTier0
+  name: TSF tier 0 LPC
+  description: A small card that authorizes the procurement of a tier 0 ship.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Security
+    companyName: TSF
+    vessels:
+    - Legionnare
+    - Ocelot
+    - Splinter
+    - Syringe
+    - Tumour
+    - Welder
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherTSFTier1
+  name: TSF tier 1 LPC
+  description: A small card that authorizes the procurement of a tier 1 ship.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Security
+    companyName: TSF
+    vessels:
+    - Calypso
+    - Legionnare-TOV
+    - Tarantula
+    
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherTSFTier2 #Capital/Commander ships included in research bracket but have independant vouchers for higher costs
+  name: TSF tier 2 LPC
+  description: A small card that authorizes the procurement of a tier 2 ship.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Security
+    companyName: TSF
+    vessels:
+    - Dagger
+    - Andromeda
+    - Sentinel
+
+#tsf end / pdv start
 
 - type: entity
   parent: BaseShipLPC
@@ -228,49 +294,9 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherVulture
-  name: PDV vulture LPC
-  description: A small card that authorizes the procurement of a Vulture.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
-    - Vulture
-  - type: StaticPrice
-    vendPrice: 285580
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherVega
-  name: PDV vega LPC
-  description: A small card that authorizes the procurement of a Vega.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
-    - Vega
-  - type: StaticPrice
-    vendPrice: 71450
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherTethys
-  name: PDV tethys LPC
-  description: A small card that authorizes the procurement of a Tethys.
+  id: ShipVoucherPDVTier0
+  name: PDV tier 0 LPC
+  description: A small card that authorizes the procurement of a tier 0 ship.
   components:
   - type: Sprite
     layers:
@@ -283,34 +309,16 @@
     companyName: PDV
     vessels:
     - Tethys
-  - type: StaticPrice
-    vendPrice: 72000
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherSpyglassMKII
-  name: PDV spyglass MKII LPC
-  description: A small card that authorizes the procurement of a Spyglass MKII.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
+    - Vega
     - Spyglass MKII
-  - type: StaticPrice
-    vendPrice: 62500
+    - Sable
+    - Vulture
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherScorpion
-  name: PDV scorpion LPC
-  description: A small card that authorizes the procurement of a Scorpion.
+  id: ShipVoucherPDVTier1
+  name: PDV tier 1 LPC
+  description: A small card that authorizes the procurement of a tier 1 ship.
   components:
   - type: Sprite
     layers:
@@ -323,74 +331,15 @@
     companyName: PDV
     vessels:
     - Scorpion
-  - type: StaticPrice
-    vendPrice: 113200
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherSable
-  name: PDV sable LPC
-  description: A small card that authorizes the procurement of a Sable.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
-    - Sable
-  - type: StaticPrice
-    vendPrice: 8000
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherMercury
-  name: PDV mercury LPC
-  description: A small card that authorizes the procurement of a Mercury.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
     - Mercury
-  - type: StaticPrice
-    vendPrice: 126800
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherHourglass
-  name: PDV hourglass LPC
-  description: A small card that authorizes the procurement of a Hourglass.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
     - Hourglass
-  - type: StaticPrice
-    vendPrice: 120000
-
+    - Defector
+    
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherEuropa
-  name: PDV europa LPC
-  description: A small card that authorizes the procurement of a Europa.
+  id: ShipVoucherPDVTier2 #Capital/Commander ships included in research bracket but have independant vouchers for higher costs
+  name: PDV tier 2 LPC
+  description: A small card that authorizes the procurement of a tier 2 ship.
   components:
   - type: Sprite
     layers:
@@ -403,45 +352,4 @@
     companyName: PDV
     vessels:
     - Europa
-  - type: StaticPrice
-    vendPrice: 160750
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherDefector
-  name: PDV defector LPC
-  description: A small card that authorizes the procurement of a Defector.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
-    - Defector
-  - type: StaticPrice
-    vendPrice: 91500
-
-- type: entity
-  parent: BaseShipLPC
-  id: ShipVoucherAnaconda
-  name: PDV anaconda LPC
-  description: A small card that authorizes the procurement of a Anaconda.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
     - Anaconda
-  - type: StaticPrice
-    vendPrice: 122500
