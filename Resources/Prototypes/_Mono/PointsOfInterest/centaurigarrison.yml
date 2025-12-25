@@ -1,0 +1,31 @@
+- type: pointOfInterest
+  id: CentauriGarrison
+  parent: BaseMobilePOI
+  name: 'PDV Centauri Garrison'
+  description: Once used by the Phaethon Dynasties industrial workforce for prolonged activity under the Automated Defense System's radars, this small station is now inhabited by Vanguard detachments in the Colossus Sector for publicized activity.
+  minimumDistance: 3000
+  maximumDistance: 4500
+  spawnGroup: Required
+  gridPath: /Maps/_Mono/POI/pdvcentaurigarrison.yml
+
+- type: gameMap
+  id: CentauriGarrison
+  mapName: 'PDV Centauri Garrison'
+  mapPath: /Maps/_Mono/POI/centaurigarrison.yml
+  minPlayers: 0
+  stations:
+    CentauriGarrison:
+      stationProto: RecordsFrontierOutpostCargo
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'PDV Centauri Garrison'
+        - type: ExtraStationInformation
+          iconPath: /Textures/_NF/Interface/Pirate/piratelogo.png
+          stationSubtext: 'frontier-lobby-pirate-subtext'
+          stationDescription: 'frontier-lobby-pirate-description'
+        - type: StationJobs
+          availableJobs:
+            PDVDenasvar: [ 1, 1 ]
+            Pirate: [ 3, 3 ]
+          tags:
+          - RogueCommander
