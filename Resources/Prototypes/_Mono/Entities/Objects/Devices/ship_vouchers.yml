@@ -185,7 +185,10 @@
     vendPrice: 300000
 
 # PDV
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherProwler
@@ -228,6 +231,7 @@
 
 - type: entity
   parent: BaseShipLPC
+<<<<<<< HEAD
   id: ShipVoucherMotleyAnne
   name: PDV Motley Anne LPC
   description: A small card that authorizes the procurement of a Motley Anne.
@@ -245,3 +249,44 @@
     - Motley Anne
   - type: StaticPrice
     vendPrice: 195000
+=======
+  id: ShipVoucherSaturn
+  name: PDV saturn LPC
+  description: A small card that authorizes the procurement of the Saturn.
+  components:
+  - type: Sprite
+    layers:
+    - state: htech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Saturn
+  - type: StaticPrice
+    vendPrice: 1555000
+
+# CC
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherRavager
+  name: ravager LPC
+  description: A small card that contains the data for the procurement of a Ravager-class mothership from the flagship's reserves.
+  components:
+  - type: Sprite
+    layers:
+    - state: htech
+    - state: stripesec
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Sr
+    companyName: Colonial
+    vessels:
+    - Ravager
+  - type: StaticPrice
+    vendPrice: 325000
+>>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e

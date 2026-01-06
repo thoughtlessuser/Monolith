@@ -108,7 +108,7 @@
     Silver: 10000
     Gold: 5000
 
-# Rogues
+# PDV
 - type: latheRecipe
   parent: BaseVoucherRecipe
   id: ProwlerVoucherRogue
@@ -139,6 +139,7 @@
 
 - type: latheRecipe
   parent: BaseVoucherRecipe
+<<<<<<< HEAD
   id: MotleyAnneVoucherRogue
   result: ShipVoucherMotleyAnne
   materials:
@@ -150,3 +151,17 @@
     Uranium: 5000
     Silver: 5000
     Gold: 5000
+=======
+  id: SaturnVoucherRogue
+  result: ShipVoucherSaturn
+  completetime: 10
+  materials:
+    Steel: 60000
+    Plasteel: 85000
+    Plastic: 50000
+    Glass: 10000
+    Plasma: 7500
+    Uranium: 10000
+    Silver: 10000
+    Gold: 10000
+>>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e
