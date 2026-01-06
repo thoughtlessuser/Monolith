@@ -139,7 +139,6 @@
 
 - type: latheRecipe
   parent: BaseVoucherRecipe
-<<<<<<< HEAD
   id: MotleyAnneVoucherRogue
   result: ShipVoucherMotleyAnne
   materials:
@@ -151,7 +150,6 @@
     Uranium: 5000
     Silver: 5000
     Gold: 5000
-=======
   id: SaturnVoucherRogue
   result: ShipVoucherSaturn
   completetime: 10
@@ -164,4 +162,3 @@
     Uranium: 10000
     Silver: 10000
     Gold: 10000
->>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e

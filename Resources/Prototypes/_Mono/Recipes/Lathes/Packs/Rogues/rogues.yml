@@ -24,13 +24,10 @@
   recipes:
   - ProwlerVoucherRogue
   - SaintieVoucherRogue
-<<<<<<< HEAD
+  - MotleyAnneVoucherRogue
+  - SaturnVoucherRogue
   - MotleyAnneVoucherRogue
   
-=======
-  - SaturnVoucherRogue
-
->>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e
 - type: latheRecipePack
   id: MonoRogueMiscDynamic
   recipes:

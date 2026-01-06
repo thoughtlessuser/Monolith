@@ -186,9 +186,13 @@
 
 # PDV
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e
+=======
+
+>>>>>>> 3796fe1f3e16eb02f16a63dbea65e6270e0d8e2b
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherProwler
@@ -232,6 +236,9 @@
 - type: entity
   parent: BaseShipLPC
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3796fe1f3e16eb02f16a63dbea65e6270e0d8e2b
   id: ShipVoucherMotleyAnne
   name: PDV Motley Anne LPC
   description: A small card that authorizes the procurement of a Motley Anne.
@@ -249,7 +256,6 @@
     - Motley Anne
   - type: StaticPrice
     vendPrice: 195000
-=======
   id: ShipVoucherSaturn
   name: PDV saturn LPC
   description: A small card that authorizes the procurement of the Saturn.
@@ -289,4 +295,3 @@
     - Ravager
   - type: StaticPrice
     vendPrice: 325000
->>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e
