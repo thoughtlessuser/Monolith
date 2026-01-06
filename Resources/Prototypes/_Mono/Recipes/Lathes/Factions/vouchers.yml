@@ -108,7 +108,7 @@
     Silver: 10000
     Gold: 5000
 
-# Rogues
+# PDV
 - type: latheRecipe
   parent: BaseVoucherRecipe
   id: ProwlerVoucherRogue

@@ -12,6 +12,7 @@ research-technology-rogue-jaws = Advanced Jaws of Life
 research-technology-rogue-energy-dagger = Experimental Plasma Weaponization
 research-technology-rogue-basic-guns = Basic Ballistics
 research-technology-rogue-thermals = Thermal Imaging
+research-technology-pdv-basic-module = PDV Basic Cyborg Module Developpment
 
 # T2 rogue
 research-technology-rogue-advanced-guns = Advanced Ballistics
@@ -25,6 +26,7 @@ research-technology-rogue-saintie-voucher = PDV Saintie Procurement LPC
 research-technology-rogue-motley-anne-voucher = PDV Motley Anne Procurement LPC
 
 # T3 rogue
+research-technology-rogue-saturn-voucher = PDV Saturn Procurement LPC
 research-technology-rogue-prowler-voucher = Stealthcraft Technologies
 research-technology-rogue-energy-weapon = Advanced Plasma Weaponization
 research-technology-rogue-access-breaker = Advanced Hacking Procedures
@@ -32,3 +34,4 @@ research-technology-rogue-hf-sword = Weaponised Resonance Technology
 research-technology-rogue-syndicate-tacsuits = Blood-Red Imitation
 research-technology-rogue-syndicate-tacsuits-t3 = Synthalloy Utilization
 research-technology-rogue-rx01 = RX-01 Modsuit
+research-technology-pdv-advanced-module = PDV Advanced Cyborg Module Development
