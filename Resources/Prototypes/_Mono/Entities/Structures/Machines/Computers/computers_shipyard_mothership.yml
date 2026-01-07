@@ -108,11 +108,7 @@
 
 
 - type: entity
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3796fe1f3e16eb02f16a63dbea65e6270e0d8e2b
-  id: PDVCarrierComputer
+  id: PDVMotleyAnneCarrierComputer
   parent: BaseCarrierComputer
   name: motley anne shipyard console
   components:
@@ -132,6 +128,8 @@
       state: shipyard_blackmarket
     - map: ["computerLayerKeys"]
       state: blackmarket_key
+
+- type: entity
   id: RavagerCarrierComputer
   parent: BaseCarrierComputer
   name: ravager shipyard console

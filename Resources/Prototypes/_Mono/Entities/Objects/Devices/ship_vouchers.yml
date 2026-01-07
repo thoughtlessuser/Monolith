@@ -185,14 +185,7 @@
     vendPrice: 300000
 
 # PDV
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 0668a9696b347692cfe3dd68f2faf62b1096795e
-=======
-
->>>>>>> 3796fe1f3e16eb02f16a63dbea65e6270e0d8e2b
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherProwler
@@ -235,12 +228,8 @@
 
 - type: entity
   parent: BaseShipLPC
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3796fe1f3e16eb02f16a63dbea65e6270e0d8e2b
   id: ShipVoucherMotleyAnne
-  name: PDV Motley Anne LPC
+  name: PDV motley anne LPC
   description: A small card that authorizes the procurement of a Motley Anne.
   components:
   - type: Sprite
@@ -256,6 +245,68 @@
     - Motley Anne
   - type: StaticPrice
     vendPrice: 195000
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherMock
+  name: PDV mock LPC
+  description: A small card that authorizes the procurement of a Mock aboard the Motley Anne.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Mock
+  - type: StaticPrice
+    vendPrice: 30000
+
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherInertia
+  name: PDV inertia LPC
+  description: A small card that authorizes the procurement of an Inertia aboard the Motley Anne.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Inertia
+  - type: StaticPrice
+    vendPrice: 30000
+    
+- type: entity
+  parent: BaseShipLPC
+  id: ShipVoucherSnakelet
+  name: PDV snakelet LPC
+  description: A small card that authorizes the procurement of a Snakelet aboard the Motley Anne.
+  components:
+  - type: Sprite
+    layers:
+    - state: mtech
+    - state: stripepdv
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: BlackMarket
+    companyName: PDV
+    vessels:
+    - Snakelet
+  - type: StaticPrice
+    vendPrice: 30000
+
+- type: entity
   id: ShipVoucherSaturn
   name: PDV saturn LPC
   description: A small card that authorizes the procurement of the Saturn.

@@ -150,6 +150,52 @@
     Uranium: 5000
     Silver: 5000
     Gold: 5000
+
+- type: latheRecipe
+  parent: BaseVoucherRecipe
+  id: MockVoucherRogue
+  result: ShipVoucherMock
+  materials:
+    Steel: 225
+    Plasteel: 55
+    Plastic: 35
+    Glass: 10
+    Plasma: 15
+    Uranium: 15
+    Silver: 45
+    Gold: 35
+
+- type: latheRecipe
+  parent: BaseVoucherRecipe
+  id: InertiaVoucherRogue
+  result: ShipVoucherInertia
+  materials:
+    Steel: 200
+    Plasteel: 70
+    Plastic: 35
+    Glass: 10
+    Plasma: 15
+    Uranium: 15
+    Silver: 45
+    Gold: 35
+
+- type: latheRecipe
+  parent: BaseVoucherRecipe
+  id: SnakeletVoucherRogue
+  result: ShipVoucherSnakelet
+  materials:
+    Steel: 165
+    Plasteel: 65
+    Plastic: 35
+    Glass: 10
+    Plasma: 15
+    Uranium: 15
+    Silver: 45
+    Gold: 35
+
+
+- type: latheRecipe
+  parent: BaseVoucherRecipe
   id: SaturnVoucherRogue
   result: ShipVoucherSaturn
   completetime: 10
