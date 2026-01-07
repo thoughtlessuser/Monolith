@@ -18,7 +18,7 @@
     [color=#a4885c]Voucher:[/color] Required
 
 
-  "The Motley Anne is a mobile dockyard manufactured on demand by the House Ikarus's Economic Divisions military production line for Vanguard use. It provides a closer back line for engagements in order to safely and quickly resupply. 
+  "The Motley Anne is a mobile dockyard manufactured on demand by the House Ikarus's Economic Divisions military production line for Vanguard use. It provides a closer back line for engagements in order to safely and quickly resupply.
 
 IED's expert logistics sector has determined that in order to produce the Motley efficiently, rather than expending military salaries, resource quotas must be met to make up for the dip in labor and supply costs."
 
@@ -84,12 +84,12 @@ IED's expert logistics sector has determined that in order to produce the Motley
   ## Fighters
 
   <Box>
-  <GuideEntityEmbed Entity="PDVCarrierComputer"/>
+  <GuideEntityEmbed Entity="PDVMotleyAnneCarrierComputer"/>
   </Box>
 
 
-  - The fighters Motley Anne produces have specially shaped docks that must either be refit for general purpose or docked back at its dockyard to resupply.
-  - No fighters come equipped with an atmospheric setup or gravity generation, prepare for a bumpy flight.
+  - The fighters produced by Motley Anne are controlled using an advanced integrated and semi-automated flight system. The onboard AI servers allow the ships to perform basic commands using the console within Motley Anne's bridge.
+  - Some fighters require manual loading of ammunition to function properly. Read descriptions often!
 
   ## Sidenotes
 
