@@ -8,9 +8,10 @@
 - type: vessel
   id: Inertia
   parent: BaseVesselAntag
-  name: IED Interceptor Fighter 'Inertia'
+  name: IED Interceptor Drone 'Inertia'
   description: A fighter equipped with high mobility and two RAC-30 Draupnirs for shooting down artillery fire.
   price: 15000
+  purchasable: false #voucher only
   category: Small
   group: Custom
   mapchecker_group_override: Shipyard  # Treat this as a Shipyard vessel for mapchecker purposes

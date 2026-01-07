@@ -307,6 +307,7 @@
     vendPrice: 30000
 
 - type: entity
+  parent: BaseShipLPC
   id: ShipVoucherSaturn
   name: PDV saturn LPC
   description: A small card that authorizes the procurement of the Saturn.
@@ -324,7 +325,6 @@
     - Saturn
   - type: StaticPrice
     vendPrice: 1555000
-
 # CC
 
 - type: entity

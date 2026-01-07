@@ -8,9 +8,10 @@
 - type: vessel
   id: Mock
   parent: BaseVesselAntag
-  name: IED Brawler Fighter 'Mock'
+  name: IED Brawler Drone 'Mock'
   description: A lightly armored fighter equipped with 2 90mm autocannons for harassing targets and taking down enemy fighters.
   price: 13500
+  purchasable: false #voucher only
   category: Small
   group: Custom
   mapchecker_group_override: Shipyard  # Treat this as a Shipyard vessel for mapchecker purposes

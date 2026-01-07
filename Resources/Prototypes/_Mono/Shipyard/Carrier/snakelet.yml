@@ -8,9 +8,10 @@
 - type: vessel
   id: Snakelet
   parent: BaseVesselAntag
-  name: IED Bomber Fighter 'Snakelet'
-  description: A front-heavy fighter with an externally reloaded torpedo bay. Designed for hit-and-run bombardments.
+  name: IED Bomber Drone 'Snakelet'
+  description: A front-heavy fighter with a manually reloaded torpedo bay. Designed for hit-and-run bombardments.
   price: 20000
+  purchasable: false #voucher only
   category: Small
   group: Custom
   mapchecker_group_override: Shipyard  # Treat this as a Shipyard vessel for mapchecker purposes
