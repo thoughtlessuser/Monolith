@@ -27,7 +27,10 @@
   - MotleyAnneVoucherRogue
   - SaturnVoucherRogue
   - MotleyAnneVoucherRogue
-  
+  - SnakeletVoucherRogue
+  - InertiaVoucherRogue
+  - MockVoucherRogue
+
 - type: latheRecipePack
   id: MonoRogueMiscDynamic
   recipes:
