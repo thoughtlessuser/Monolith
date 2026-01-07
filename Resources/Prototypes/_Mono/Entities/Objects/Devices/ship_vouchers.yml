@@ -242,7 +242,7 @@
     consoleType: BlackMarket
     companyName: PDV
     vessels:
-    - Motley Anne
+    - MotleyAnne
   - type: StaticPrice
     vendPrice: 195000
 
@@ -259,7 +259,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: BlackMarket
+    consoleType: Custom
     companyName: PDV
     vessels:
     - Mock
@@ -279,7 +279,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: BlackMarket
+    consoleType: Custom
     companyName: PDV
     vessels:
     - Inertia
@@ -299,7 +299,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: BlackMarket
+    consoleType: Custom
     companyName: PDV
     vessels:
     - Snakelet

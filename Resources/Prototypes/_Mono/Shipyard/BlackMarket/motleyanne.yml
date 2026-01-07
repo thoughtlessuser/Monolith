@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: vessel
-  id: Motley Anne
+  id: MotleyAnne
   parent: BaseVesselAntag
   name: IED Motley Anne
   description: A mobile dockyard equipped to produce mechs and deploy fighters in bulk. Doubles as a cargo ship for resupplies. Research and materials NOT included.
@@ -25,12 +25,12 @@
   - AME
 
 - type: gameMap
-  id: Motley Anne
+  id: MotleyAnne
   mapName: 'PDV Motley Anne'
   mapPath: /Maps/_Mono/Shuttles/BlackMarket/motleyanne.yml
   minPlayers: 0
   stations:
-    Motley Anne:
+    MotleyAnne:
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup

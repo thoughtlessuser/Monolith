@@ -24,6 +24,7 @@ research-technology-rogue-stealthsuit = Metamaterial Fibers
 research-technology-rogue-subsonic = Subsonic Firearms
 research-technology-rogue-saintie-voucher = PDV Saintie Procurement LPC
 research-technology-rogue-motley-anne-voucher = PDV Motley Anne Procurement LPC
+research-technology-rogue-motley-anne-fighters = PDV Motley Anne's Drones
 
 # T3 rogue
 research-technology-rogue-saturn-voucher = PDV Saturn Procurement LPC

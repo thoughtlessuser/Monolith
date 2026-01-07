@@ -55,7 +55,7 @@
 
 - type: technology
   id: RogueMotleyAnneFighters
-  name: research-technology-rogue-motley-anne-voucher
+  name: research-technology-rogue-motley-anne-fighters
   entityIcon: ShipVoucherMotleyAnne
   discipline: RogueShipyard
   tier: 1
