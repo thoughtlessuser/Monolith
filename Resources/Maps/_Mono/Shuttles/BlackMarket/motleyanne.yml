@@ -7446,23 +7446,11 @@ entities:
     - type: Transform
       pos: -2.5,1.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 2073
-      - 2045
   - uid: 2044
     components:
     - type: Transform
       pos: -6.5,-1.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 2073
-      - 2045
 - proto: FirelockEdge
   entities:
   - uid: 497
@@ -8920,11 +8908,6 @@ entities:
     - type: Transform
       pos: -10.5,-0.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 2073
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1974
@@ -8932,11 +8915,6 @@ entities:
     - type: Transform
       pos: -5.5,0.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 2073
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GasVentScrubber
@@ -8982,11 +8960,6 @@ entities:
     - type: Transform
       pos: -4.5,0.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 2073
     - type: AtmosPipeLayers
       pipeLayer: Secondary
     - type: AtmosPipeColor
@@ -8996,11 +8969,6 @@ entities:
     - type: Transform
       pos: -9.5,-0.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 2073
     - type: AtmosPipeLayers
       pipeLayer: Secondary
     - type: AtmosPipeColor
