@@ -170,8 +170,8 @@
   suffix: BlackMarket
   parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerBankATMDeposit]
   id: ComputerBlackMarketBankATM
-  name: phaethon treasury ATM
-  description: An ATM connected to the Phaethon Dynasties treasury. There is a 5% deposit fee.
+  name: phaethon treasury ATM #mono
+  description: An ATM connected to the Phaethon Dynasties treasury. There is a 5% deposit fee. #mono
   components:
   - type: Sprite
     netsync: false
@@ -196,8 +196,8 @@
   suffix: Wallmount, BlackMarket
   parent: [BaseStructureDisableToolUse, BaseStructureDestructible, BaseStructureComputerWallmount, ComputerBankATMDeposit]
   id: ComputerWallmountBlackMarketBankATM
-  name: phaethon treasury ATM
-  description: An ATM connected to the Phaethon Dynasties treasury. There is a 5% deposit fee.
+  name: phaethon treasury ATM #mono
+  description: An ATM connected to the Phaethon Dynasties treasury. There is a 5% deposit fee. #mono
   components:
   - type: Sprite
     netsync: false
