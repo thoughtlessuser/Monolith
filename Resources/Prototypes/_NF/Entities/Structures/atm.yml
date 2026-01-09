@@ -170,7 +170,8 @@
   suffix: BlackMarket
   parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerBankATMDeposit]
   id: ComputerBlackMarketBankATM
-  description: Has some sketchy looking modifications and a sticker that says DEPOSIT FEE 20%
+  name: phaethon treasury ATM
+  description: An ATM connected to the Phaethon Dynasties treasury. There is a 5% deposit fee.
   components:
   - type: Sprite
     netsync: false
