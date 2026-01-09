@@ -156,42 +156,42 @@
   id: MockVoucherRogue
   result: ShipVoucherMock
   materials:
-    Steel: 225
-    Plasteel: 55
-    Plastic: 35
-    Glass: 10
-    Plasma: 15
-    Uranium: 15
-    Silver: 45
-    Gold: 35
+    Steel: 4500
+    Plasteel: 5000
+    Plastic: 3500
+    Glass: 2000
+    Plasma: 1000
+    Uranium: 1000
+    Silver: 2500
+    Gold: 2500
 
 - type: latheRecipe
   parent: BaseVoucherRecipe
   id: InertiaVoucherRogue
   result: ShipVoucherInertia
   materials:
-    Steel: 200
-    Plasteel: 70
-    Plastic: 35
-    Glass: 10
-    Plasma: 15
-    Uranium: 15
-    Silver: 45
-    Gold: 35
+    Steel: 7500
+    Plasteel: 6500
+    Plastic: 3500
+    Glass: 5000
+    Plasma: 2000
+    Uranium: 2000
+    Silver: 4500
+    Gold: 4500
 
 - type: latheRecipe
   parent: BaseVoucherRecipe
   id: SnakeletVoucherRogue
   result: ShipVoucherSnakelet
   materials:
-    Steel: 165
-    Plasteel: 65
-    Plastic: 35
-    Glass: 10
-    Plasma: 15
-    Uranium: 15
-    Silver: 45
-    Gold: 35
+    Steel: 6500
+    Plasteel: 4500
+    Plastic: 3000
+    Glass: 1000
+    Plasma: 1500
+    Uranium: 1500
+    Silver: 3000
+    Gold: 3000
 
 
 - type: latheRecipe

@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 01/08/2026 22:03:54
-  entityCount: 198
+  time: 01/09/2026 00:13:54
+  entityCount: 200
 maps: []
 grids:
 - 1
@@ -688,6 +688,20 @@ entities:
       rot: 3.141592653589793 rad
       pos: 4.5,2.5
       parent: 1
+- proto: LightFighterOrdinanceGPOItem
+  entities:
+  - uid: 198
+    components:
+    - type: Transform
+      parent: 197
+    - type: Physics
+      canCollide: False
+  - uid: 199
+    components:
+    - type: Transform
+      parent: 197
+    - type: Physics
+      canCollide: False
 - proto: PoweredDimSmallLight
   entities:
   - uid: 95
@@ -953,7 +967,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 5.5,1.5
       parent: 1
-  - uid: 198
+  - uid: 200
     components:
     - type: Transform
       pos: 5.5,1.5
@@ -1290,4 +1304,16 @@ entities:
       rot: 3.141592653589793 rad
       pos: 5.5,4.5
       parent: 1
+    - type: BallisticAmmoProvider
+      entities:
+      - 198
+      - 199
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 198
+          - 199
 ...

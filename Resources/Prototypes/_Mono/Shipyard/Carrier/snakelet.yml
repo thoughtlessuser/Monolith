@@ -7,7 +7,7 @@
 
 - type: vessel
   id: Snakelet
-  parent: BaseVesselAntag
+  parent: BaseVessel
   name: IED Bomber Drone 'Snakelet'
   description: A front-heavy fighter with a manually reloaded torpedo bay. Designed for hit-and-run bombardments.
   price: 20000
