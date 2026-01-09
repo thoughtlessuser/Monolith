@@ -193,30 +193,6 @@
       BlackMarket: 0.02 # Monolith #STOP-TAXES
 
 - type: entity
-  suffix: Wallmount, BlackMarket
-  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, BaseStructureComputerWallmount, ComputerBankATMDeposit]
-  id: ComputerWallmountBlackMarketBankATM
-  description: Has some sketchy looking modifications and a sticker that says DEPOSIT FEE 20%
-  components:
-  - type: Sprite
-    netsync: false
-    sprite: _NF/Structures/Machines/atm/wall_illegal_atm.rsi
-    layers:
-    - map: ["computerLayerBody"]
-      state: icon
-    - map: ["computerLayerScreen"]
-      state: unshaded
-  - type: ActivatableUI
-    key: enum.BankATMMenuUiKey.BlackMarket
-  - type: UserInterface
-    interfaces:
-      enum.BankATMMenuUiKey.BlackMarket:
-        type: BankATMMenuBoundUserInterface
-  - type: BankATM
-    taxAccounts:
-      BlackMarket: 0.02 # Monolith #STOP-TAXES
-
-- type: entity
   name: station administration console
   parent: [BaseStructureDisableScrewing, BaseStructureDisablePrying, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, ComputerBankATMBase]
   id: BaseStationAdminBankATM
