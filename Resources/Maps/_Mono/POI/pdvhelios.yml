@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 01/10/2026 06:26:36
+  time: 01/10/2026 07:34:41
   entityCount: 8415
 maps: []
 grids:
@@ -5742,84 +5742,6 @@ entities:
     - type: Transform
       pos: -11.5,7.5
       parent: 1
-    components:
-    - type: Transform
-      pos: 12.5,7.5
-      parent: 1
-  - uid: 127
-    components:
-    - type: Transform
-      pos: -11.5,7.5
-      parent: 1
-- proto: AirlockHatchPDVCommandLocked
-  entities:
-  - uid: 4
-    components:
-    - type: Transform
-      pos: 2.5,26.5
-      parent: 1
-  - uid: 76
-    components:
-    - type: Transform
-      pos: -1.5,58.5
-      parent: 1
-  - uid: 77
-    components:
-    - type: Transform
-      pos: -1.5,42.5
-      parent: 1
-  - uid: 79
-    components:
-    - type: Transform
-      pos: -2.5,42.5
-      parent: 1
-  - uid: 80
-    components:
-    - type: Transform
-      pos: -0.5,39.5
-      parent: 1
-  - uid: 83
-    components:
-    - type: Transform
-      pos: 1.5,41.5
-      parent: 1
-  - uid: 87
-    components:
-    - type: Transform
-      pos: -4.5,58.5
-      parent: 1
-  - uid: 89
-    components:
-    - type: Transform
-      pos: -5.5,46.5
-      parent: 1
-  - uid: 91
-    components:
-    - type: Transform
-      pos: -7.5,31.5
-      parent: 1
-  - uid: 98
-    components:
-    - type: Transform
-      pos: 4.5,30.5
-      parent: 1
-  - uid: 128
-    components:
-    - type: Transform
-      pos: -2.5,54.5
-      parent: 1
-  - uid: 5847
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,34.5
-      parent: 1
-  - uid: 5849
-    components:
-    - type: Transform
-      pos: 1.5,30.5
-      parent: 1
->>>>>>> 1dd754dff81b92192013f6ab540286f2a4a66a47
 - proto: AirlockHatchGrandVizierLocked
   entities:
   - uid: 81
@@ -54697,11 +54619,6 @@ entities:
     components:
     - type: Transform
       pos: 0.5,25.5
-      parent: 1
-  - uid: 5808
-    components:
-    - type: Transform
-      pos: -4.5,16.5
       parent: 1
   - uid: 7842
     components:
