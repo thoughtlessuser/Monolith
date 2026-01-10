@@ -16033,3 +16033,10 @@ Entries:
   id: 1776
   time: '2026-01-10T14:41:34.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3006
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Topology guidebook entry modernized
+  id: 1777
+  time: '2026-01-10T21:44:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3002
