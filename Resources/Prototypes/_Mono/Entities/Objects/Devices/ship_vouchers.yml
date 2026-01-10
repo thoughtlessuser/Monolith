@@ -11,6 +11,22 @@
   - type: Sprite
     sprite: _Mono/Objects/Misc/lpc.rsi
 
+#Ironman Voucher
+- type: entity
+  parent: BaseShipVoucher
+  id: ShipVoucherFrontierIronMan
+  name: Baeg Voucher
+  description: Allows for one free Baeg purchase from the Shipyard. Destroyed on sale.
+  components:
+  - type: Sprite
+    layers:
+    - state: blue
+  - type: ShipyardVoucher
+    vessels:
+    - Baeg
+    consoleType: Shipyard
+
+
 #Ussp
 
 - type: entity
@@ -29,7 +45,7 @@
     consoleType: USSP
     companyName: USSP
     vessels:
-    - Gadyuka
+    - Svinya
     - Gruznyk
     - Natisk
     - Strayk
@@ -261,16 +277,18 @@
   - type: Sprite
     layers:
     - state: mtech
-    - state: stripepdv
+    - state: stripetsfmc
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
+    consoleType: Security
+    companyName: TSF
     vessels:
-    - Prowler
+    - PolarisShip
   - type: StaticPrice
-    vendPrice: 250000
+    vendPrice: 300000
+
+# PDV
 
 - type: entity
   parent: BaseShipLPC
