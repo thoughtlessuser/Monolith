@@ -219,12 +219,11 @@
     consoleType: Security
     companyName: TSF
     vessels:
-    - Legionnaire
     - Ocelot
-    - Splinter
     - Syringe
     - Tumour
     - Welder
+    - Shiv
 
 - type: entity
   parent: BaseShipLPC
@@ -243,8 +242,8 @@
     companyName: TSF
     vessels:
     - Calypso
-    - Legionnaire-TOV
     - Tarantula
+    - Hoplite
     
 - type: entity
   parent: BaseShipLPC
@@ -288,8 +287,6 @@
   - type: StaticPrice
     vendPrice: 300000
 
-# PDV
-
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherSaintie #tier 2 research bracket, commander
@@ -327,9 +324,7 @@
     companyName: PDV
     vessels:
     - Tethys
-    - Vega
     - Spyglass MKII
-    - Sable
     - Vulture
 
 - type: entity
@@ -352,6 +347,7 @@
     - Mercury
     - Hourglass
     - Defector
+    - Hazel
     
 - type: entity
   parent: BaseShipLPC
