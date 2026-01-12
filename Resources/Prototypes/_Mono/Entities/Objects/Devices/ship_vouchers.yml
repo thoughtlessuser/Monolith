@@ -204,26 +204,6 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherProwler
-  name: PDV prowler LPC
-  description: A small card that authorizes the procurement of a Prowler.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: BlackMarket
-    companyName: PDV
-    vessels:
-    - Prowler
-  - type: StaticPrice
-    vendPrice: 250000
-
-- type: entity
-  parent: BaseShipLPC
   id: ShipVoucherSaintie
   name: PDV saintie LPC
   description: A small card that authorizes the procurement of a Saintie.
