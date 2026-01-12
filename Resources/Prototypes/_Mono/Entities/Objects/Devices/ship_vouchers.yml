@@ -269,26 +269,6 @@
 
 - type: entity
   parent: BaseShipLPC
-  id: ShipVoucherProwler #tier 3 research bracket, experimental
-  name: PDV prowler LPC
-  description: A small card that authorizes the procurement of an experimental PDV ship, Prowler.
-  components:
-  - type: Sprite
-    layers:
-    - state: mtech
-    - state: stripetsfmc
-    - state: vouchermilitary
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: Security
-    companyName: TSF
-    vessels:
-    - PolarisShip
-  - type: StaticPrice
-    vendPrice: 300000
-
-- type: entity
-  parent: BaseShipLPC
   id: ShipVoucherSaintie #tier 2 research bracket, commander
   name: PDV saintie LPC
   description: A small card that authorizes the procurement of a Saintie, an advanced PDV vessel.
