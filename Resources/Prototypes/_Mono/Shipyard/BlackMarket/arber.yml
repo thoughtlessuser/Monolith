@@ -1,0 +1,34 @@
+- type: vessel
+  id: Arber
+  parent: BaseVesselAntag
+  name: PDV Arber
+  description: A small and front heavy harasser. Designed for strafing, disabling, and with manually loaded "Vanyk" missile pods.
+  price: 65000
+  category: Medium
+  group: BlackMarket
+  access: Pirate
+  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/arber.yml
+  guidebookPage: Null
+  class:
+  - Pirate
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Arber
+  mapName: 'PDV Arber'
+  mapPath: /Maps/_Mono/Shuttles/BlackMarket/arber.yml
+  minPlayers: 0
+  stations:
+    Arber:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Arber PDV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Pirate: [ 0, 0 ]
+            PdvBorg: [ 0, 0 ]
