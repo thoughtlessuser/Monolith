@@ -2077,8 +2077,6 @@ entities:
       pos: -3.5,2.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 273
   - uid: 279
@@ -2087,8 +2085,6 @@ entities:
       pos: -2.5,2.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 273
   - uid: 280
@@ -2097,8 +2093,6 @@ entities:
       pos: -1.5,2.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 273
 - proto: FirelockGlass
@@ -2110,8 +2104,6 @@ entities:
       pos: -6.5,5.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 273
       - 274
@@ -2122,8 +2114,6 @@ entities:
       pos: 1.5,4.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 273
       - 275
