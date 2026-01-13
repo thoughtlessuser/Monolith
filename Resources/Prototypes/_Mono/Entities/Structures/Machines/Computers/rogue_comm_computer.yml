@@ -2,7 +2,7 @@
   parent: ComputerComms
   id: RogueComputerComms
   name: imperial vanguard communications computer
-  description: The Imperial Vanguard's primary communications computer for issuing announcements and emergency sector EVAC.
+  description: The Imperial Vanguard's primary communications computer for issuing announcements.
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/computers.rsi
