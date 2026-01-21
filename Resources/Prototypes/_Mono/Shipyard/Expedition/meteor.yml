@@ -1,31 +1,37 @@
+# Author Info
+# GitHub: starch70
+# Discord: _starch_
+
+# Shuttle Notes:
+#
 - type: vessel
-  id: Comet
+  id: Meteor
   parent: BaseVessel
-  name: CDM Comet
-  description: A de-militarized, jack-of-all-trades, utility vessel with expeditionary functionality.
-  price: 110000
+  name: SKR Meteor
+  description: An expedition ship with an analysis lab and a large depressurized cargo bay.
+  price: 92440
   category: Large
   group: Expedition
-  shuttlePath: /Maps/_Mono/Shuttles/Expedition/comet.yml
+  shuttlePath: /Maps/_Mono/Shuttles/Expedition/meteor.yml
   guidebookPage: null
   class:
   - Expedition
   - Science
   - Salvage
   engine:
-  - Plasma
+  - AME
 
 - type: gameMap
-  id: Comet
-  mapName: 'CDM Comet'
-  mapPath: /Maps/_Mono/Shuttles/Expedition/comet.yml
+  id: Meteor
+  mapName: 'SKR Meteor'
+  mapPath: /Maps/_Mono/Shuttles/Expedition/meteor.yml
   minPlayers: 0
   stations:
-    Comet:
+    Meteor:
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Comet EXP{1}'
+          mapNameTemplate: 'Meteor EXP{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

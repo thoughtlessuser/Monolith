@@ -14,21 +14,6 @@
     - WeaponTurretLaserTSFMC
 
 - type: entity
-  id: SpawnMobWeaponTurretLaserMD
-  parent: MarkerBase
-  name: medical dispatch laser turret spawner
-  suffix: MD, Frontier
-  components:
-  - type: Sprite
-    layers:
-    - state: red
-    - sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
-      state: base
-  - type: ConditionalSpawner
-    prototypes:
-    - WeaponTurretLaserMD
-
-- type: entity
   id: SpawnMobWeaponTurretLaserSilicon
   parent: MarkerBase
   name: silicon laser turret spawner
