@@ -34,6 +34,18 @@
     - SiliconsExpeditionNF
 
 - type: entity
+  id: WeaponTurretLaserMD
+  name: medical dispatch laser turret
+  description: A laser turret programmed to shoot personnel or otherwise that are not affiliated with MD.
+  suffix: Frontier, MD
+  parent:
+  - WeaponTurretLaserTSFMC
+  components:
+  - type: NpcFactionMember
+    factions:
+    - MD
+
+- type: entity
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretTSFMC
   suffix: TSFMC
