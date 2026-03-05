@@ -46,7 +46,7 @@
   - type: Rotatable
     rotateWhilePulling: false
     rotateWhileAnchored: false
-    increment: 45
+    increment: 90
   - type: DeviceLinkSink
     ports:
     - SpaceArtilleryFire
@@ -66,6 +66,12 @@
     visibleFromOtherGrids: true
     radarColor: "#9999FF"
     scale: 1
+    gridConfig:
+      color: "#9999FF"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-1,-1,1,1"
   - type: ShipGunType
     shipType: Kinetic
   - type: ShipGunClass
@@ -155,6 +161,12 @@
     visibleFromOtherGrids: false
     radarColor: "#9999FF"
     scale: 1
+    gridConfig:
+      color: "#9999FF"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-1,-1,1,1"
   - type: Gun
     fireRate: 3
     selectedMode: FullAuto
@@ -183,6 +195,10 @@
   components:
   - type: Anchorable
     delay: 10
+  - type: Rotatable
+    rotateWhilePulling: false
+    rotateWhileAnchored: false
+    increment: 90
   - type: Pullable
   - type: PirateBountyItem # not putting this on the other, because like. how do you get a cyrexa for your bounty. thats stupid.
     id: ShipWeapon
@@ -253,6 +269,12 @@
     visibleFromOtherGrids: false
     radarColor: "#9999FF"
     scale: 1
+    gridConfig:
+      color: "#9999FF"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-1,-1,1,1"
   - type: Gun
     fireRate: 3
     selectedMode: FullAuto
@@ -289,6 +311,10 @@
   components:
   - type: Anchorable
     delay: 10
+  - type: Rotatable
+    rotateWhilePulling: false
+    rotateWhileAnchored: false
+    increment: 90
   - type: Pullable
   - type: PirateBountyItem # not putting this on the other, because like. how do you get a cyrexa for your bounty. thats stupid.
     id: ShipWeapon
