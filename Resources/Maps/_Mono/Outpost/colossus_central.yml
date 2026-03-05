@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/12/2026 00:44:15
-  entityCount: 11718
+  time: 03/05/2026 20:48:49
+  entityCount: 11730
 maps:
 - 3782
 grids:
@@ -314,8 +314,8 @@ entities:
     - type: SpreaderGrid
       spreadQueues:
         Smoke: []
-        Puddle: []
         MetalFoam: []
+        Puddle: []
         Kudzu: []
     - type: Shuttle
       dampingModifier: 0.25
@@ -32366,6 +32366,13 @@ entities:
     - type: Transform
       pos: 36.527122,50.51537
       parent: 2
+- proto: CrewMonitoringServer
+  entities:
+  - uid: 10752
+    components:
+    - type: Transform
+      pos: -11.5,68.5
+      parent: 2
 - proto: Crowbar
   entities:
   - uid: 3906
@@ -64349,6 +64356,68 @@ entities:
       rot: 3.141592653589793 rad
       pos: 41.5,32.5
       parent: 2
+  - uid: 11719
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -25.5,27.5
+      parent: 2
+  - uid: 11720
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -25.5,26.5
+      parent: 2
+  - uid: 11721
+    components:
+    - type: Transform
+      pos: -27.5,43.5
+      parent: 2
+  - uid: 11722
+    components:
+    - type: Transform
+      pos: -27.5,44.5
+      parent: 2
+  - uid: 11723
+    components:
+    - type: Transform
+      pos: -27.5,41.5
+      parent: 2
+  - uid: 11724
+    components:
+    - type: Transform
+      pos: -27.5,40.5
+      parent: 2
+  - uid: 11725
+    components:
+    - type: Transform
+      pos: -27.5,42.5
+      parent: 2
+  - uid: 11726
+    components:
+    - type: Transform
+      pos: -27.5,15.5
+      parent: 2
+  - uid: 11727
+    components:
+    - type: Transform
+      pos: -27.5,16.5
+      parent: 2
+  - uid: 11728
+    components:
+    - type: Transform
+      pos: -27.5,17.5
+      parent: 2
+  - uid: 11729
+    components:
+    - type: Transform
+      pos: -27.5,19.5
+      parent: 2
+  - uid: 11730
+    components:
+    - type: Transform
+      pos: -27.5,18.5
+      parent: 2
 - proto: RadioHandheldNF
   entities:
   - uid: 7540
@@ -71319,13 +71388,6 @@ entities:
     components:
     - type: Transform
       pos: 37.48813,27.647888
-      parent: 2
-- proto: ToyNuke
-  entities:
-  - uid: 10752
-    components:
-    - type: Transform
-      pos: -11.505302,68.53766
       parent: 2
 - proto: TrashBag
   entities:
