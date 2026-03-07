@@ -1,13 +1,13 @@
 - type: vessel
-  id: Karkinoma
+  id: Tumour
   parent: BaseVesselAntag
-  name: TSF-AMC Karkinoma
-  description: A brittle utility vessel designed for field-operated production of both fighter vessels and mechs.
-  price: 75000
+  name: TSF-SKR Tumour
+  description: A ugly potato of a carrier. Little armament to defend itself, but carries lathes to support its fighters and other ships.
+  price: 68250
   category: Medium
   group: Security
   access: Security
-  shuttlePath: /Maps/_Mono/Shuttles/Nfsd/karkinoma.yml
+  shuttlePath: /Maps/_Mono/Shuttles/Nfsd/tumour.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -16,16 +16,16 @@
   - Uranium
 
 - type: gameMap
-  id: Karkinoma
-  mapName: 'karinoma'
-  mapPath: /Maps/_Mono/Shuttles/Nfsd/karkinoma.yml
+  id: Tumour
+  mapName: 'Tumour'
+  mapPath: /Maps/_Mono/Shuttles/Nfsd/tumour.yml
   minPlayers: 0
   stations:
-    Karkinoma:
+    Tumour:
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'karkinoma TSF{1}'
+        mapNameTemplate: 'Tumour TSF{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
