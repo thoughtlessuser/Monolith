@@ -17,7 +17,7 @@
 
 - type: gameMap
   id: Karkinoma
-  mapName: 'karinoma'
+  mapName: 'karkinoma'
   mapPath: /Maps/_Mono/Shuttles/Nfsd/karkinoma.yml
   minPlayers: 0
   stations:
