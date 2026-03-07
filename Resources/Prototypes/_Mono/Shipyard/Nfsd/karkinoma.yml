@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: TSF-AMC Karkinoma
   description: A brittle utility vessel designed for field-operated production of both fighter vessels and mechs.
-  price: 75000
+  price: 85000
   category: Medium
   group: Security
   access: Security
