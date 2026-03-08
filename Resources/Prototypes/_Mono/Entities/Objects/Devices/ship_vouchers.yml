@@ -166,7 +166,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherFlyssa #tier 2 research bracket, capital
-  name: TSF flyssa LPC 
+  name: TSF flyssa LPC
   description: A small card that contains the data for the procurement of an advanced TSF vessel, Flyssa-class destroyer, from the flagship's reserves.
   components:
   - type: Sprite
@@ -187,7 +187,7 @@
   parent: BaseShipLPC
   id: ShipVoucherPolaris #tier 2 research bracket, commander
   name: TSF polaris LPC
-  description: A small card that contains the data for the procurement of advanced ship, Polaris-class frigate, from the flagship's reserves.
+  description: A small card that contains the data for the procurement of an advanced ship, Polaris-class frigate, from the flagship's reserves.
   components:
   - type: Sprite
     layers:
