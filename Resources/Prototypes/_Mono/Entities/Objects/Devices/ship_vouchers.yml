@@ -358,8 +358,8 @@
   - type: Sprite
     layers:
     - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
+    - state: stripetsfmc
+    - state: icon0
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: Security
@@ -382,8 +382,8 @@
   - type: Sprite
     layers:
     - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
+    - state: stripedtsfmc
+    - state: icon1
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: Security
@@ -401,8 +401,8 @@
   - type: Sprite
     layers:
     - state: mtech
-    - state: stripepdv
-    - state: vouchermilitary
+    - state: stripetsfmc
+    - state: icon2
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: Security
@@ -419,9 +419,9 @@
   components:
   - type: Sprite
     layers:
-    - state: mtech
+    - state: ltech
     - state: stripepdv
-    - state: vouchermilitary
+    - state: icon0
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: BlackMarket
@@ -442,9 +442,9 @@
   components:
   - type: Sprite
     layers:
-    - state: mtech
+    - state: ltech
     - state: stripepdv
-    - state: vouchermilitary
+    - state: icon1
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: BlackMarket
@@ -463,9 +463,9 @@
   components:
   - type: Sprite
     layers:
-    - state: mtech
+    - state: ltech
     - state: stripepdv
-    - state: vouchermilitary
+    - state: icon2
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: BlackMarket
