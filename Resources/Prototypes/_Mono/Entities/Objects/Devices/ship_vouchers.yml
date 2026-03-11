@@ -382,7 +382,7 @@
   - type: Sprite
     layers:
     - state: mtech
-    - state: stripedtsfmc
+    - state: stripetsfmc
     - state: icon1
   - type: ShipyardVoucher
     destroyOnEmpty: true
