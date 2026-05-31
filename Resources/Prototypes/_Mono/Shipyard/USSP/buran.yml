@@ -1,3 +1,5 @@
+#Author: Hverabrao on Github and Discord.
+
 - type: vessel
   id: Buran
   parent: BaseVesselAntag
@@ -8,11 +10,11 @@
   group: Ussp
   access: Mercenary
   shuttlePath: /Maps/_Mono/Shuttles/USSP/buran.yml
-  guidebookPage: Null
+  guidebookPage: ShipyardNFROperation
   class:
   - Frigate
   engine:
-  - AME
+  - NFR
 
 - type: gameMap
   id: Buran

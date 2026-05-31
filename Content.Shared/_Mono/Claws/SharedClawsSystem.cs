@@ -11,6 +11,7 @@ using Content.Shared.Jittering;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
 using Content.Shared.StatusEffect;
+using Content.Shared.Tag;
 using Content.Shared.Throwing;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Melee.Events;
@@ -26,17 +27,18 @@ namespace Content.Shared._Mono.Claws;
 /// </summary>
 public abstract partial class SharedClawsSystem : EntitySystem
 {
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly SharedDoAfterSystem _doafter = default!;
-    [Dependency] private readonly SharedMeleeWeaponSystem _melee = default!;
-    [Dependency] protected readonly IRobustRandom _random = default!;
-    [Dependency] protected readonly IPrototypeManager _protoMan = default!;
-    [Dependency] private readonly SharedHandsSystem _hands = default!;
-    [Dependency] private readonly ThrowingSystem _throw = default!;
-    [Dependency] private readonly SharedJitteringSystem _jitter = default!;
-    [Dependency] private readonly MobStateSystem _state = default!;
-    [Dependency] private readonly StatusEffectsSystem _effects = default!;
-    [Dependency] private readonly DamageableSystem _damage = default!;
+    [Dependency] protected SharedPopupSystem _popup = default!;
+    [Dependency] private SharedDoAfterSystem _doafter = default!;
+    [Dependency] private SharedMeleeWeaponSystem _melee = default!;
+    [Dependency] protected IRobustRandom _random = default!;
+    [Dependency] protected IPrototypeManager _protoMan = default!;
+    [Dependency] private SharedHandsSystem _hands = default!;
+    [Dependency] private ThrowingSystem _throw = default!;
+    [Dependency] private SharedJitteringSystem _jitter = default!;
+    [Dependency] private MobStateSystem _state = default!;
+    [Dependency] private StatusEffectsSystem _effects = default!;
+    [Dependency] private DamageableSystem _damage = default!;
+    [Dependency] private TagSystem _tagSystem = default!;
 
     public override void Initialize()
     {
@@ -70,7 +72,7 @@ public abstract partial class SharedClawsSystem : EntitySystem
         if (!TryGetStage<SharpClaw>(ent.Comp, out var stage))
             return;
 
-        if (stage.CanShoot)
+        if (stage.CanShoot || _tagSystem.HasTag(args.Used, "IgnoreClawPenalty"))
             return;
 
         _popup.PopupClient(Loc.GetString("clawed-shoot-fail"), Transform(ent).Coordinates, ent);
@@ -100,6 +102,11 @@ public abstract partial class SharedClawsSystem : EntitySystem
         melee.CanWideSwing = stage.CanWideSwing;
         melee.AltDisarm = !stage.CanWideSwing;
         gunAccuracyComp.SpreadMultiplier = stage.GunSpreadMultiplier;
+    }
+
+    public void GrowClaws(TimeSpan bonusGrowth, ClawsComponent component)
+    {
+        component.AccumulatedBonusGrowth += bonusGrowth;
     }
 
     protected bool TryGetStage<T>(ClawsComponent comp, [NotNullWhen(true)] out T? stage) where T : ClawType

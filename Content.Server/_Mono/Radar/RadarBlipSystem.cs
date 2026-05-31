@@ -10,8 +10,8 @@ namespace Content.Server._Mono.Radar;
 
 public sealed partial class RadarBlipSystem : EntitySystem
 {
-    [Dependency] private readonly SharedTransformSystem _xform = default!;
-    [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+    [Dependency] private SharedTransformSystem _xform = default!;
+    [Dependency] private SharedPhysicsSystem _physics = default!;
 
     // Pooled collections to avoid per-request heap churn
     private readonly List<BlipNetData> _tempBlipsCache = new();
@@ -107,7 +107,8 @@ public sealed partial class RadarBlipSystem : EntitySystem
             if (blipGrid != null)
             {
                 var gridXform = Transform(blipGrid.Value);
-                blipVelocity -= _physics.GetLinearVelocity(blipGrid.Value, coord.Position);
+                if (TryComp<PhysicsComponent>(blipGrid.Value, out var gridBody)) // prevent log spam
+                    blipVelocity -= _physics.GetLinearVelocity(blipGrid.Value, coord.Position, gridBody);
                 // it's local-frame velocity so rotate it too
                 blipVelocity = (-gridXform.LocalRotation).RotateVec(blipVelocity);
                 // and also offset the rotation
