@@ -26,3 +26,17 @@
   name: Defusal
   text: "/ServerInfo/Guidebook/Security/Defusal.xml"
   priority: 5
+
+- type: guideEntry
+  id: Minor_Factions_Entry
+  name: Minor Factions
+  text: "/ServerInfo/_Mono/Guidebook/Factions/minor_factions.xml"
+  priority: 6
+  children:
+  - Viper_Group
+
+- type: guideEntry
+  id: Viper_Group
+  name: The Viper Group
+  text: "/ServerInfo/_Mono/Guidebook/Factions/viper_group.xml"
+  priority: 7

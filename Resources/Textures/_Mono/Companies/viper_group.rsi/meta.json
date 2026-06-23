@@ -1,0 +1,14 @@
+{
+   "version": 1,
+   "license": "GFDL-1.3-or-later",
+   "copyright": "Viper Group Logo courtesy of blitz7211, Discord.",
+   "size": {
+      "x": 500,
+      "y": 500
+    },
+    "states": [
+    {
+      "name": "thevipergroup"
+    }
+  ]
+}
