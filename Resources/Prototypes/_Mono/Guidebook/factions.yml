@@ -22,7 +22,6 @@
   name: TSFMC
   text: "/ServerInfo/_Mono/Guidebook/Factions/PDV.xml"
   priority: 3
-  children:
 
 - type: guideEntry
   id: Smuggling
