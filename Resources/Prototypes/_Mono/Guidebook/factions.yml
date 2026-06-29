@@ -5,6 +5,7 @@
   priority: 1
   children:
   - TSFMC_Entry
+  - PDV_Entry
   - Minor_Factions
 
 - type: guideEntry
@@ -15,6 +16,13 @@
   children:
   - Smuggling
   - Defusal
+
+- type: guideEntry
+  id: PDV_Entry
+  name: TSFMC
+  text: "/ServerInfo/_Mono/Guidebook/Factions/PDV.xml"
+  priority: 3
+  children:
 
 - type: guideEntry
   id: Smuggling
