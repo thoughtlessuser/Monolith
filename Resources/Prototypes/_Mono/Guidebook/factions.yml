@@ -19,7 +19,7 @@
 
 - type: guideEntry
   id: PDV_Entry
-  name: TSFMC
+  name: PDV
   text: "/ServerInfo/_Mono/Guidebook/Factions/PDV.xml"
   priority: 3
 
@@ -37,7 +37,7 @@
 
 - type: guideEntry
   id: Minor_Factions
-  name: Minor_Factions
+  name: Minor Factions
   text: "/ServerInfo/_Mono/Guidebook/Factions/Minor_Factions.xml"
   priority: 6
   children:
