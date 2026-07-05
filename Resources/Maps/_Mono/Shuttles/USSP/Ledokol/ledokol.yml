@@ -8177,11 +8177,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 45.5,14.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 1315
   - uid: 1624
     components:
     - type: Transform
@@ -8210,11 +8205,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 34.5,15.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 1315
 - proto: FirelockGlass
   entities:
   - uid: 780
@@ -13398,9 +13388,6 @@ entities:
     - type: Transform
       pos: 25.5,9.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
 - proto: SodaDispenser
   entities:
   - uid: 1334
