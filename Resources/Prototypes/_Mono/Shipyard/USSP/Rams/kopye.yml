@@ -21,7 +21,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: VesselInfo
-        - description: "Swift and furious is the clamor to remain whole."
+          description: "Swift and furious is the clamor to remain whole."
         - type: StationNameSetup
           mapNameTemplate: 'Kopye USSP Ram{1}'
           nameGenerator:
