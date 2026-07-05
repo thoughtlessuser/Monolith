@@ -22,7 +22,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: VesselInfo
-        description: "Bloom the embers of our decrepit and resentful noll."
+        - description: "Bloom the embers of our decrepit and resentful noll."
         - type: StationNameSetup
           mapNameTemplate: 'Kupol USSP Ram{1}'
           nameGenerator:
