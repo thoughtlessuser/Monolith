@@ -21,7 +21,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: VesselInfo
-        description: "Heavy the hand of our rage. Devastating all who seek to snuff our crawl."
+        - description: "Heavy the hand of our rage. Devastating all who seek to snuff our crawl."
         - type: StationNameSetup
           mapNameTemplate: 'Molotok USSP Ram{1}'
           nameGenerator:
