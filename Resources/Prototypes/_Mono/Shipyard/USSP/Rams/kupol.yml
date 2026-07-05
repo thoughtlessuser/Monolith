@@ -2,7 +2,7 @@
   id: Kupol
   parent: BaseVesselAntag
   name: BYP Kupol
-  description: A gunnery unit made to make up for the lacking fire-power of the Ledokol.
+  description: A gunnery unit to make up for the lacking fire-power of the Ledokol. Equipped with three 250mm paladin class missile pods and four 50mm AK570s. 
   limit: 1
   price: 90000
   purchasable: false # voucher only
@@ -21,6 +21,8 @@
     Kupol:
       stationProto: StandardFrontierVessel
       components:
+        - type: VesselInfo
+        description: "Bloom the embers of our decrepit and resentful noll."
         - type: StationNameSetup
           mapNameTemplate: 'Kupol USSP Ram{1}'
           nameGenerator:

@@ -4,7 +4,7 @@
   id: Ledokol
   parent: BaseVesselAntag
   name: BYP Ledokol
-  description: A massive shuttle originally made for ramming through compact debris fields. Trades off fire-power for thrust-power.
+  description: Extremely un-ergonomic and just as reliable; the hammer of the union is a laughingly under-armed vessel that supports a variety of lethal tactics in the form of semi-interchangeable attachments.
   limit: 1
   price: 425000
   purchasable: false # voucher only
@@ -15,11 +15,11 @@
   guidebookPage: Null
   class:
   - Capital
-  - Frigate
   - Medical
-  - Chemistry
+  - Cargo
+  - Frigate
   engine:
-  - AME
+  - NFR
 
 - type: gameMap
   id: Ledokol
@@ -31,7 +31,7 @@
       stationProto: StandardFrontierVessel
       gridComponents:
       - type: VesselInfo
-        description: "Why did I come to this sector?"
+        description: "Befallen are those beneath the thirteenth hammer of the unions soul."
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Ledokol USSP{1}'
