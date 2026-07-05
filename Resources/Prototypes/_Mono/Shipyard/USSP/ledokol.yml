@@ -6,7 +6,7 @@
   name: BYP Ledokol
   description: Extremely un-ergonomic and just as reliable; the hammer of the union is a laughingly under-armed vessel that supports a variety of lethal tactics in the form of semi-interchangeable attachments.
   limit: 1
-  price: 425000
+  price: 999999 # prevent price invalid
   purchasable: false # voucher only
   category: Large
   group: Ussp

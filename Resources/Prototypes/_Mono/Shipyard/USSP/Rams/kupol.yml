@@ -4,7 +4,7 @@
   name: BYP Kupol
   description: A gunnery unit to make up for the lacking fire-power of the Ledokol. Equipped with three 250mm paladin class missile pods and four 50mm AK570s. 
   limit: 1
-  price: 90000
+  price: 999999 # prevent price invalid
   purchasable: false # voucher only
   category: Small
   group: Custom

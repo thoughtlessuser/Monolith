@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: BYP Kopye
   description: A thin, pointed ram made to fit the connection port of the Ledokol. Lined with uranium for extra heft.
-  price: 45000
+  price: 999999 # prevent price invalid
   purchasable: false # voucher only
   category: Large
   group: Custom
