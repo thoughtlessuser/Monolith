@@ -21,6 +21,29 @@
     - Book
 
 - type: entity
+  id: BookFreeCharter
+  parent: BaseGuidebook
+  name: freeport camelot charter
+  description: This contains a copy of Freeport Camelot's regulations. Each and every interaction between the inhabitants of said station are both entitled and inhibited by this charter.
+  components:
+  - type: Sprite
+    layers:
+    - state: detail_bookmark
+      color: "#DB9B09"
+    - state: paper
+    - state: cover_strong
+      color: "#3B2A1B"
+    - state: decor_wingette_circle
+      color: "#7D400C"
+    - state: icon_stars2
+  - type: GuideHelp
+    guides:
+    - Free_Charter
+  - type: Tag
+    tags:
+    - Book
+
+- type: entity
   id: BookTheCommonCause
   parent: BookBase
   name: The Common Cause
