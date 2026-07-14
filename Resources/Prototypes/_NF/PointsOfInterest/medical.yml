@@ -20,7 +20,25 @@
 #  - type: IFF
 #    color: "#00b7eb"
 #  - type: StationTransit
-
+#- type: pointOfInterest
+#  id: Medical
+#  parent: [BasePOI, BaseRepairablePOI]
+#  name: 'Medical Dispatch'
+#  minimumDistance: 1650
+#  maximumDistance: 2700
+#  spawnGroup: Required
+#  gridPath: /Maps/_NF/POI/medical.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#00b7eb"
+#  - type: StationTransit
+#  - type: WorldGenDistanceCarver
+#    distanceThresholds:
+#    # Dead zone
+#    - maxDistance: 800
+#      prob: 0.0
+#    - maxDistance: 1500
+#      prob: 0.3
 #- type: gameMap
 #  id: Medical
 #  mapName: 'Medical Dispatch'
