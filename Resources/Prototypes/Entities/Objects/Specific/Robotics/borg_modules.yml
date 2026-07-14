@@ -340,14 +340,14 @@
     moduleId: AdvancedTools # Frontier
     items:
     - OmnitoolBorg # Mono
- #   - JawsOfLife
- #   - PowerDrill
+ #   - JawsOfLife # Mono
+ #   - PowerDrill # Mono
     - Multitool
     - WelderExperimental
-#    - GasAnalyzer
+#    - GasAnalyzer # Mono
     - NaniteApplicatorExperimental # Monolith
     - RemoteSignaller
-#    - GeigerCounter
+#    - GeigerCounter # Mono
     - MaintenanceJack # Frontier
     - RPED
   - type: BorgModuleIcon
@@ -368,7 +368,7 @@
 #    items:
 #    - SheetSteelLingering0
 #    - SheetGlassLingering0
-#    - SheetPlasticLingering0
+#    - SheetPlasticLingering0                 # Mono
 #    - SheetPlasteelLingering0
 #    - PartRodMetalLingering0
 #    - FloorTileItemSteelLingering0
@@ -382,12 +382,12 @@
       whitelist:
         components:
         - ConstructionBag
-    - id: FloorTileItemSteel
+    - id: FloorTileItemSteel # Mono
       whitelist:
         components:
         - Material
         - FloorTile
-    - id: SheetSteel10
+    - id: SheetSteel10 # Mono
       whitelist:
         components:
         - Material
@@ -403,7 +403,7 @@
       whitelist:
         components:
         - MachinePart
-    - id: JerryCanWeldingFuel
+    - id: JerryCanWeldingFuel # Mono
       whitelist:
         components:
         - ReagentTank
@@ -416,8 +416,8 @@
 - type: entity
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: matter manipulator cyborg module
-  description: Includes an RCD functionality and ship repair tool for a chassis to use.
+  name: matter manipulator cyborg module # Mono rebrand
+  description: Includes an RCD, RPD, and ship repair tool for a chassis to use.
   components:
   - type: Sprite
     layers:
@@ -443,7 +443,7 @@
 #    layers:
 #    - state: janitor
 #    - state: icon-light-replacer
-#  - type: ItemBorgModule
+#  - type: ItemBorgModule                     # Mono
 #    moduleId: LightReplacer # Frontier
 #    items:
 #    - LightReplacer
@@ -469,7 +469,7 @@
     # - Bucket # Frontier
     - TrashBag
   # Frontier: droppable items
-    - LightReplacer
+    - LightReplacer # Mono
   - type: DroppableBorgModule
     moduleId: Cleaning
     items:
@@ -514,7 +514,7 @@
 #    layers:
 #    - state: medical
 #    - state: icon-diagnosis
-#  - type: ItemBorgModule
+#  - type: ItemBorgModule                             # Mono
 #    moduleId: Diagnosis # Frontier
 #    items:
 #    - HandheldHealthAnalyzerUnpowered
@@ -559,6 +559,7 @@
     items:
     - EmergencyMedipenBorg # Mono
     - DefibrillatorOneHandedUnpowered
+    - HandheldHealthAnalyzerUnpowered # Mono
   - type: DroppableBorgModule # Mono
     moduleId: Defibrillator
     items:
@@ -581,7 +582,7 @@
 - type: entity
   id: BorgModuleAdvancedTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: chemistry cyborg module
+  name: chemistry cyborg module # Mono - rename from adv treatment
   description: Utilizes various tools for a cyborg to perform chemical manipulation and administration.
   components:
   - type: Sprite
@@ -628,11 +629,11 @@
     moduleId: Artifact # Frontier
     items:
     - NodeScanner
-    - AnomalyScanner
-    - AnomalyLocatorUnpowered
-    - AnomalyLocatorWideUnpowered
-    - RemoteSignaller
-    - Multitool
+    - AnomalyScanner # Mono
+    - AnomalyLocatorUnpowered # Mono
+    - AnomalyLocatorWideUnpowered # Mono
+    - RemoteSignaller # Mono
+    - Multitool # Mono
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: node-scanner-module }
 
@@ -649,7 +650,7 @@
 #  - type: ItemBorgModule
 #    moduleId: Anomaly # Frontier           
 #    items:
-#    - AnomalyScanner
+#    - AnomalyScanner                               # Mono
 #    - AnomalyLocatorUnpowered
 #    - AnomalyLocatorWideUnpowered
 #    - RemoteSignaller
@@ -691,7 +692,7 @@
         - NFLighter
 #    - id: DrinkShaker
 #      whitelist:
-#        components:
+#        components:    # Mono
 #        - NFShaker
   # End Frontier
   - type: BorgModuleIcon
@@ -716,7 +717,7 @@
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: musical-module }
 
-- type: entity # Mono
+- type: entity # Mono addition
   id: BorgModuleBartending
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
   name: bartending cyborg module
@@ -798,7 +799,7 @@
 #    moduleId: Harvesting # Frontier
  #   items:
  #   - HydroponicsToolScythe
-#    - HydroponicsToolHatchet            # what psycho made TWO gardening modules
+#    - HydroponicsToolHatchet            # what psycho made TWO gardening modules - Mono
 #    # - PlantBag # Frontier
 #  # Frontier: droppable borg items
 #  - type: DroppableBorgModule
@@ -867,7 +868,7 @@
       - Emag
       - AccessBreaker
 #      - WeaponGrapplingGun # Mono
-#      - PinpointerSyndicateNuclear
+#      - PinpointerSyndicateNuclear # Mono
     - type: BorgModuleIcon
       icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-operative-module }
 
@@ -885,7 +886,7 @@
       moduleId: EnergySword # Frontier
       items:
       - CyborgEnergySwordDouble
-#      - PinpointerSyndicateNuclear
+#      - PinpointerSyndicateNuclear # Mono
     - type: BorgModuleIcon
       icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-esword-module }
 
@@ -903,7 +904,7 @@
       moduleId: L6CROW # Frontier
       items:
         - WeaponLightMachineGunL6C
- #       - PinpointerSyndicateNuclear
+ #       - PinpointerSyndicateNuclear # Mono
     - type: BorgModuleIcon
       icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-l6c-module }
 
@@ -942,13 +943,12 @@
     - OmnimedToolBorg # Mono
     - HandheldHealthAnalyzerUnpowered # Mono
 #    - Scalpel
-#    - Drill
+#    - Drill 
 #    - Hemostat
-#    - Retractor
+#    - Retractor              # Mono
 #    - Cautery
 #    - SawElectric
 #    - BoneGel
-# Mono - Replaced Droppable with entirely new module
 # Frontier -> GoobStation -> Monolith: droppable borg items
   - type: DroppableBorgModule
     moduleId: Surgery
@@ -958,17 +958,17 @@
         components:
         - Organ
         - BodyPart
-    - id: OrganHumanHeart
+    - id: OrganHumanHeart # Mono
       whitelist:
         components:
         - Organ
         - BodyPart
-    - id: OrganHumanLungs
+    - id: OrganHumanLungs # Mono
       whitelist:
         components:
         - Organ
         - BodyPart
-    - id: OrganHumanLungs
+    - id: OrganHumanLungs # Mono
       whitelist:
         components:
         - Organ
@@ -978,7 +978,7 @@
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: surgery-module }
 
 - type: entity # Mono
-  id: BorgModuleSurgeryKhorpeks
+  id: BorgModuleSurgeryKhorpeks # Mono - Adv surgery reskin - Normal surgery is faster
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
   name: khorpeks surgery cyborg module
   description: Equips a cyborg with nano-surgeon skills more capable than any modern hospitals throughout the galaxy. Product related injuries are not eligible for reconciliation.

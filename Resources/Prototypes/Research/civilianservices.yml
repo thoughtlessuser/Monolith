@@ -176,7 +176,7 @@
   - EnergyScalpel
   - EnergyCautery
   - AdvancedRetractor
-#  - BorgModuleAdvancedSurgery
+#  - BorgModuleAdvancedSurgery # Mono
   - DefibrillatorCompact # Mono
   technologyPrerequisites:
   - SuperParts
