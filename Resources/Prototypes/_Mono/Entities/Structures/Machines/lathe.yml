@@ -26,6 +26,7 @@
     - StaticAmmoRecipePack
     - NFMercenaryTechfabDeprecatedStatic
     - RoundstartShipgunAmmo
+    - StaticGrenades
     - MonoAttachmentsStatic
     dynamicPacks:
     # rogue start
@@ -262,6 +263,7 @@
     - StaticAmmoRecipePack
     - NFMercenaryTechfabDeprecatedStatic
     - RoundstartShipgunAmmo
+    - StaticGrenades
     - MonoAttachmentsStatic
     - MonoUSSPStatic
     dynamicPacks:
@@ -325,6 +327,7 @@
     - StaticAmmoRecipePack
     - NFMercenaryTechfabDeprecatedStatic
     - RoundstartShipgunAmmo
+    - StaticGrenades
     - MonoAttachmentsStatic
     - MonoViperGroupStatic
     dynamicPacks:

@@ -694,3 +694,11 @@
 
 - type: Tag
   id: Bartending
+  
+# Nukeops tags
+
+- type: Tag
+  id: TsfStation
+
+- type: Tag
+  id: PdvStation
