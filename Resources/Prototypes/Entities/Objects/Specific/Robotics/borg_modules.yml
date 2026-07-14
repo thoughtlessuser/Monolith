@@ -166,7 +166,8 @@
   - type: ItemBorgModule
     moduleId: Surveillance # mono
     items:
-    - GeigerCounter
+    - GasAnalyzer # Mono
+    - GeigerCounter # Mono
     - HandheldGPSBasic
     - HandHeldMassScannerBorg
 #    - HandheldStationMapUnpowered
@@ -343,7 +344,7 @@
  #   - PowerDrill
     - Multitool
     - WelderExperimental
-    - GasAnalyzer
+#    - GasAnalyzer
     - NaniteApplicatorExperimental # Monolith
     - RemoteSignaller
 #    - GeigerCounter
@@ -949,14 +950,29 @@
 #    - BoneGel
 # Mono - Replaced Droppable with entirely new module
 # Frontier -> GoobStation -> Monolith: droppable borg items
-#  - type: DroppableBorgModule
-#    moduleId: Surgery
-#    items:
-#    - id: OrganHumanBrain
-#      whitelist:
-#        components:
-#        - Organ
-#        - BodyPart
+  - type: DroppableBorgModule
+    moduleId: Surgery
+    items:
+    - id: OrganHumanBrain
+      whitelist:
+        components:
+        - Organ
+        - BodyPart
+    - id: OrganHumanHeart
+      whitelist:
+        components:
+        - Organ
+        - BodyPart
+    - id: OrganHumanLungs
+      whitelist:
+        components:
+        - Organ
+        - BodyPart
+    - id: OrganHumanLungs
+      whitelist:
+        components:
+        - Organ
+        - BodyPart
 # End Frontier -> GoobStation -> Monolith: droppable borg items
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: surgery-module }

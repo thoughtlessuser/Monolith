@@ -169,7 +169,6 @@
   - BorgModuleSurgery # Mono
   - BorgModuleDefibrillator # Mono
   - BorgModuleSurveillance # Mono
-  - BorgModuleColdStorage # Mono
 
   radioChannels:
   - Science
