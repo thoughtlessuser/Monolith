@@ -162,6 +162,9 @@
   cost: 10000
   recipeUnlocks:
   - ShuttleConsoleCircuitboard
+  - ShuttleConsoleCircuitboardTSFN # Mono
+  - ShuttleConsoleCircuitboardKPV63RWR # Mono
+  - ShuttleConsoleCircuitboardANALR67RWR # Mono
   - ThrusterMachineCircuitboard
   - GyroscopeMachineCircuitboard
   - MiniGravityGeneratorCircuitboard
@@ -212,6 +215,7 @@
   #- NFBlueprintWelderExperimental # Frontier
   # Mono edit start
   - RCD
+  - RPD
   - RCDAmmo
   - ShipRepairDevice
   - ShipRepairDeviceAmmo
@@ -231,6 +235,7 @@
   recipeUnlocks:
   - OreBagOfHolding
   - MiningDrillDiamond
+  - ShipDrillMachineCircuitboard
   - AdvancedMineralScannerEmpty
   - NFBlueprintOreBagOfHolding # Frontier
   - NFBlueprintMiningDrillDiamond # Frontier
