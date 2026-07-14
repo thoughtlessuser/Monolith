@@ -77,7 +77,6 @@
     inHandsMaxFillLevels: 1
     inHandsFillBaseName: -fill-
   # Mono tag
-  addComponent:
   - type: Tag
     tags:
     - Bartending

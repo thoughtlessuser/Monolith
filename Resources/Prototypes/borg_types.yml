@@ -128,7 +128,7 @@
 
   defaultModules:
   - BorgModuleTool # Mono
-  - BorgModuleLightReplacer
+#  - BorgModuleLightReplacer
   - BorgModuleCleaning
   - BorgModuleSurveillance # Mono
 

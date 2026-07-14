@@ -112,9 +112,6 @@
   - type: Stack
     lingering: true
     count: 0
-  - type: Tag
-    tags:
-    - SheetsBorg
 
 - type: entity
   parent: SheetMetalBase
