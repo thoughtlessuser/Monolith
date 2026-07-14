@@ -399,7 +399,7 @@
     - MechParts
     - MechEquipment
     # Shitmed Change
-    - BorgModulesDynamic
+ #   - BorgModulesDynamic
     - SMCybernetics
     # Goob/Mono - modsuits
     - Modsuits
