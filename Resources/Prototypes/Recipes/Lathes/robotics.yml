@@ -134,8 +134,8 @@
 
 - type: latheRecipe
   parent: BaseBorgModuleRecipe
-  id: BorgModuleGPS
-  result: BorgModuleGPS
+  id: BorgModuleSurveillance
+  result: BorgModuleSurveillance
 
 - type: latheRecipe
   parent: BaseBorgModuleRecipe
@@ -205,8 +205,8 @@
 # Shitmed Recipes
 
 - type: latheRecipe
-  id: BorgModuleSurgery
-  result: BorgModuleSurgery
+  id: BorgModuleSurgeryT1
+  result: BorgModuleSurgeryT1
   completetime: 3
   materials:
     Steel: 250
@@ -277,7 +277,7 @@
     Plastic: 500
     Gold: 300
     Silver: 300
-    
+
 - type: latheRecipe
   id: DexLeftHand
   result: DexLeftHand

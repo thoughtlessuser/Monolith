@@ -684,7 +684,7 @@
         - BorgModuleTool
         # - BorgModuleFireExtinguisher # Frontier
         - BorgModuleJetpack # Frontier
-        - BorgModuleGPS
+        - BorgModuleSurveillance
   - type: ItemSlots
     slots:
       cell_slot:

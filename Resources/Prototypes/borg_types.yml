@@ -13,6 +13,7 @@
 
   defaultModules:
   - BorgModuleTool
+  - BorgModuleSurveillance # Mono
 
   radioChannels:
   - Science
@@ -48,6 +49,7 @@
   - BorgModuleConstruction
   - BorgModuleRCD
   - BorgModuleCable
+  - BorgModuleSurveillance # Mono
 
   radioChannels:
   - Engineering
@@ -91,6 +93,7 @@
   - BorgModuleGrapplingGun
   - BorgModuleMining
   - BorgModuleAppraisal
+  - BorgModuleSurveillance # Mono
 
   radioChannels:
   - Supply
@@ -127,6 +130,7 @@
   - BorgModuleTool # Mono
   - BorgModuleLightReplacer
   - BorgModuleCleaning
+  - BorgModuleSurveillance # Mono
 
   radioChannels:
   - Science
@@ -164,6 +168,8 @@
   - BorgModuleTreatment
   - BorgModuleSurgery # Mono
   - BorgModuleDefibrillator # Mono
+  - BorgModuleSurveillance # Mono
+  - BorgModuleColdStorage # Mono
 
   radioChannels:
   - Science
@@ -214,6 +220,8 @@
   - BorgModuleMusique
   - BorgModuleService
   - BorgModuleClowning
+  - BorgModuleSurveillance # Mono
+  - BorgModuleBartending # Mono
 
   radioChannels:
   - Science

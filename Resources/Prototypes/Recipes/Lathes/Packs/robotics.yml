@@ -16,7 +16,7 @@
   - BorgModuleFireExtinguisher
   - BorgModuleRadiationDetection
   - BorgModuleTool
-  - BorgModuleSurgery # Shitmed Change
+  - BorgModuleSurgeryT1 # Shitmed Change
 
 - type: latheRecipePack
   id: BorgModulesDynamic
@@ -60,7 +60,7 @@
   recipes:
   - BorgModuleAdvancedCleaning
   - BorgModuleAdvancedTool
-  - BorgModuleGPS
+  - BorgModuleSurveillance
   - BorgModuleArtifact
   - BorgModuleAnomaly
   - BorgModuleGardening

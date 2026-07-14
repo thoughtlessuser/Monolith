@@ -674,3 +674,14 @@
 
 - type: Tag
   id: WhitelistChameleonIdViperSpec
+
+# Various tags for cyborg pseudo hands
+
+- type: Tag
+  id: FoldedRollerBed
+
+- type: Tag
+  id: FoldedBodyBag
+
+- type: Tag
+  id: Bartending
