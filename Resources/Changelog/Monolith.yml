@@ -22522,3 +22522,12 @@ Entries:
   id: 2488
   time: '2026-07-14T18:55:22.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/4257
+- author: Corrupt142
+  changes:
+    - type: Fix
+      message: >-
+        turrets no longer suffer from bluetooth bullets (they can hit mobs right
+        next to them
+  id: 2489
+  time: '2026-07-14T19:15:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4254
