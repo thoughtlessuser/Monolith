@@ -340,12 +340,12 @@
  #   - PowerDrill
     - Multitool
     - WelderExperimental
-    - RemoteSignaller
     - GasAnalyzer
-    - GeigerCounter
+    - NaniteApplicatorExperimental # Monolith
+    - RemoteSignaller
+#    - GeigerCounter
     - MaintenanceJack # Frontier
     - RPED
-    - NaniteApplicatorExperimental # Monolith
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-tools-module }
 
@@ -383,7 +383,6 @@
         components:
         - Material
         - FloorTile
-        - ReactorPart
     - id: SheetSteel10
       whitelist:
         components:
@@ -400,10 +399,12 @@
       whitelist:
         components:
         - MachinePart
-    - id: JerryCan
+    - id: JerryCanWeldingFuel
       whitelist:
         components:
         - ReagentTank
+        - AmeFuelContainer
+        - ReactorPart
   # End Frontier: droppable borg items
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: construction-module }
@@ -732,6 +733,7 @@
       whitelist:
         components:
         - Bartending
+  - type: ItemBorgModule
     moduleId: Bartending
     items:
     - DrinkBeerBottleFullRegen
@@ -739,6 +741,7 @@
     - DrinkWineBottleFullRegen
     - DrinkChampagneBottleFullRegen
     - DrinkSodaWaterBottleFullRegen
+    - DrinkWhiskeyBottleFullRegen
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: service-module }
 

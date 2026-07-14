@@ -132,3 +132,17 @@
       reagents:
         - ReagentId: Champagne
           Quantity: 5
+
+- type: entity
+  parent: DrinkWhiskeyBottleFull
+  id: DrinkWhiskeyBottleFullRegen
+  name: bottomless Uncle Git's Special Reserve
+  description: An endless premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
+  suffix: Regen
+  components:
+  - type: SolutionRegeneration
+    solution: drink
+    generated:
+      reagents:
+        - ReagentId: Whiskey
+          Quantity: 5
