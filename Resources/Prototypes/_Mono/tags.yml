@@ -46,6 +46,9 @@
 - type: Tag # Prevents a crash and makes future cherry-picks hurt less but not actually implemented
   id: TurretCompatibleWeapon # Used in the construction of sentry turrets
 
+- type: Tag
+  id: UnavoidableTrap # For "traps" (step triggers) that TrapAvoider shouldn't dodge, like lava or chasms.
+
 # Weapon attachments
 
 - type: Tag
@@ -289,6 +292,12 @@
 
 - type: Tag
   id: MagazineDP29
+
+- type: Tag
+  id: MagazineShenzhen
+
+- type: Tag
+  id: CartridgeShenzhen
 
 #8x65mm SKR tags
 

@@ -8,8 +8,8 @@
   price: 45820
   category: Small
   group: Ussp
-  access: Mercenary
-  shuttlePath: /Maps/_Mono/Shuttles/USSP/strayk.yml
+  access: USSP
+  shuttlePath: /SharedMaps/_Mono/Shuttles/USSP/strayk.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -20,7 +20,7 @@
 - type: gameMap
   id: Strayk
   mapName: 'Strayk'
-  mapPath: /Maps/_Mono/Shuttles/USSP/strayk.yml
+  mapPath: /SharedMaps/_Mono/Shuttles/USSP/strayk.yml
   minPlayers: 0
   stations:
     Strayk:
