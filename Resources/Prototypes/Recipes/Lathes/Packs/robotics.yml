@@ -14,14 +14,14 @@
   recipes:
   - BorgModuleCable
   - BorgModuleFireExtinguisher
-  - BorgModuleRadiationDetection
+#  - BorgModuleRadiationDetection
   - BorgModuleTool
-  - BorgModuleSurgeryT1 # Shitmed Change
+#  - BorgModuleSurgery # Shitmed Change
 
-- type: latheRecipePack
-  id: BorgModulesDynamic
-  recipes:
-  - BorgModuleAdvancedSurgery
+#- type: latheRecipePack
+#  id: BorgModulesDynamic
+#  recipes:
+#  - BorgModuleAdvancedSurgery
 
 - type: latheRecipePack
   id: SMCybernetics
@@ -62,9 +62,9 @@
   - BorgModuleAdvancedTool
   - BorgModuleSurveillance
   - BorgModuleArtifact
-  - BorgModuleAnomaly
+ # - BorgModuleAnomaly
   - BorgModuleGardening
-  - BorgModuleHarvesting
+ # - BorgModuleHarvesting
   - BorgModuleDefibrillator
   - BorgModuleAdvancedTreatment
   - BorgModuleJetpack # Frontier

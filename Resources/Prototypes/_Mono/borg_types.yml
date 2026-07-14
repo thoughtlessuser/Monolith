@@ -148,7 +148,7 @@
   - BorgModuleSurveillance
   - BorgModuleTool
   - BorgModuleTreatment
-  - BorgModuleSurgeryT1
+  - BorgModuleSurgery
   - BorgModuleDefibrillator
   addComponents:
   - type: ShowHealthBars
