@@ -1,0 +1,19 @@
+# region Frontier Outpost
+- type: entity
+  id: CentralStation
+  parent:
+  - BaseStation
+  - BaseStationJobsSpawning
+  - BaseStationRecords
+  - BaseStationSiliconLawFrontierStation
+  - BaseStationSectorNews
+  - BaseStationMail # Mail
+  - BaseStationSectorServices # Hosts all sector-wide services
+  - BaseStationDeadDropHintExempt # No hints
+  - BaseStationRenameWarpPoints
+  - NFBaseStationCargo
+  - StandardFrontierOutpost
+  - BaseStationCargoMarket
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Transform
