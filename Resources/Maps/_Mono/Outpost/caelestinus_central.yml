@@ -4,7 +4,7 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/16/2026 18:48:46
+  time: 07/17/2026 04:50:52
   entityCount: 9549
 maps:
 - 1
@@ -332,9 +332,9 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        MetalFoam: []
-        Puddle: []
         Kudzu: []
+        Puddle: []
+        MetalFoam: []
         Smoke: []
     - type: Shuttle
       dampingModifier: 0.25
@@ -7658,7 +7658,7 @@ entities:
       pos: -8.5,27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -51117.984
+      secondsUntilStateChange: -51280.445
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7705,20 +7705,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -59.5,19.5
-      parent: 2
-- proto: AirlockCargoLocked
-  entities:
-  - uid: 1355
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -32.5,35.5
-      parent: 2
-  - uid: 6177
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -38.5,25.5
       parent: 2
 - proto: AirlockCommandLocked
   entities:
@@ -8352,6 +8338,18 @@ entities:
         440:
         - - DoorStatus
           - Close
+- proto: AirlockMailCarrierLocked
+  entities:
+  - uid: 1056
+    components:
+    - type: Transform
+      pos: -32.5,35.5
+      parent: 2
+  - uid: 1355
+    components:
+    - type: Transform
+      pos: -38.5,25.5
+      parent: 2
 - proto: AirlockMedicalGlass
   entities:
   - uid: 121
@@ -38416,6 +38414,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -2.5,10.5
       parent: 2
+    - type: DeviceNetwork
+      configurators:
+      - invalid
+      deviceLists:
+      - 8181
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 8100
@@ -40673,13 +40676,6 @@ entities:
     - type: Transform
       pos: 3.5,-9.5
       parent: 2
-- proto: GunSafeBaseSecure
-  entities:
-  - uid: 1056
-    components:
-    - type: Transform
-      pos: -12.5,35.5
-      parent: 2
 - proto: GunSafeSr
   entities:
   - uid: 68
@@ -40687,6 +40683,15 @@ entities:
     - type: Transform
       pos: -18.5,4.5
       parent: 2
+- proto: GunSafeTurretsCdet
+  entities:
+  - uid: 2952
+    components:
+    - type: Transform
+      pos: -12.5,35.5
+      parent: 2
+    - type: Lock
+      locked: False
 - proto: HandheldCrewMonitor
   entities:
   - uid: 479

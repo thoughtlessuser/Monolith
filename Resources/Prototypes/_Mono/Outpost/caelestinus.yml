@@ -12,12 +12,12 @@
       gridComponents:
       - type: StationCargoOrderDatabase
         capacity: 60
+      - type: TradeCrateDestination
+        destinationProto: Trade
       - type: VesselMusic
         ambientMusicPrototype: ColossusCentralMusic
       - type: VesselInfo
         description: "The closest thing to civilisation in this sector. You almost feel safe."
-      - type: TradeCrateDestination
-        destinationProto: Trade
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Caelestinus Central'
