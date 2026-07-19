@@ -29,7 +29,7 @@ public sealed partial class PassiveHeatGenerationSystem : EntitySystem
         {
             // Mono
             // If you're sleeping, don't update. - thanks eris
-            if (TryComp<SleepingComponent(uid, out _))
+            if (TryComp<SleepingComponent>(uid, out _))
                 continue;
             // Mono end
 
