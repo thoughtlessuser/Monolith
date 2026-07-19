@@ -65,6 +65,7 @@
         },
         {
             "name": "ears_thin_overlay",
+            "directions": 4
         },
         {
             "name": "ears_old",
