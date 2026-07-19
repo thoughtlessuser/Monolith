@@ -32,10 +32,13 @@
             "directions": 4
         },
         {
+<<<<<<< HEAD
             "name": "eyes_seer",
             "directions": 4
         },
         {
+=======
+>>>>>>> a1761ba7445 (Port Hydrakin (#6633))
             "name": "eyes_none",
             "directions": 4
         },
@@ -56,6 +59,7 @@
             "directions": 4
         },
         {
+<<<<<<< HEAD
             "name": "ears_default_overlay",
             "directions": 4
         },
@@ -65,6 +69,9 @@
         },
         {
             "name": "ears_thin_overlay",
+=======
+            "name": "ears_old",
+>>>>>>> a1761ba7445 (Port Hydrakin (#6633))
             "directions": 4
         },
         {
@@ -72,14 +79,18 @@
             "directions": 4
         },
         {
+<<<<<<< HEAD
             "name": "ears_fin_overlay",
             "directions": 4
         },
         {
+=======
+>>>>>>> a1761ba7445 (Port Hydrakin (#6633))
             "name": "ears_frilled",
             "directions": 4
         },
         {
+<<<<<<< HEAD
             "name": "ears_frilled_overlay",
             "directions": 4
         },
@@ -92,6 +103,8 @@
             "directions": 4
         },
         {
+=======
+>>>>>>> a1761ba7445 (Port Hydrakin (#6633))
             "name": "tail_fins_overlay",
             "directions": 4
         },
@@ -114,6 +127,7 @@
         {
             "name": "tail_nub_overlay",
             "directions": 4
+<<<<<<< HEAD
         },
         {
             "name": "tail_feathers_seer",
@@ -125,3 +139,8 @@
         }
     ]
 }
+=======
+        }
+    ]
+}
+>>>>>>> a1761ba7445 (Port Hydrakin (#6633))

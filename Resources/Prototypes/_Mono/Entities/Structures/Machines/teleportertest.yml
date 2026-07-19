@@ -1,0 +1,23 @@
+- type: entity
+  id: TeleporterTestPrimary
+  name: teleportertestprimary
+  parent: BaseComputer
+  description: Teleports you.
+  components:
+  - type: HandTeleporter
+    firstPortalPrototype: ChronoPortal
+    secondPortalPrototype: ChronoPortal
+    allowPortalsOnDifferentGrids: true  
+    maxTeleportRadius: 3000
+
+- type: entity
+  id: TeleporterTestSecondary
+  name: teleportertestsecondary
+  parent: BaseComputer
+  description: Teleports you.
+  components:
+  - type: HandTeleporter
+    firstPortalPrototype: ChronoPortal
+    secondPortalPrototype: ChronoPortal
+    allowPortalsOnDifferentGrids: true
+    maxTeleportRadius: 3000
