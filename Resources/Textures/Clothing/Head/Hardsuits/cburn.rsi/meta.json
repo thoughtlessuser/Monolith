@@ -42,6 +42,14 @@
     {
       "name": "equipped-head-unshaded-vulpkanin",
       "directions": 4
+    },
+    {
+      "name": "equipped-head-unshaded-hydrakin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-head-hydrakin",
+      "directions": 4
     }
   ]
 }
