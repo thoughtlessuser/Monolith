@@ -118,9 +118,10 @@
       outerClothing: # Mono 
         sizeMaps:
           32:
-            sprite: Mobs/Species/Hydrakin/displacement.rsi
+            sprite: _Obelisk/Mobs/Species/Hydrakin/displacement.rsi
             state: outerClothing
-  - type: Carriable # Frontier: Carrying system from nyanotrasen.
+ # Frontier: Carrying system from nyanotrasen.
+  - type: Carriable
   - type: Speech
     speechSounds: Hydrakin
     speechVerb: Reptilian
@@ -172,5 +173,5 @@
       outerClothing: # Mono 
         sizeMaps:
           32:
-            sprite: Mobs/Species/Hydrakin/displacement.rsi
+            sprite: _Obelisk/Mobs/Species/Hydrakin/displacement.rsi
             state: outerClothing
