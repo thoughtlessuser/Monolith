@@ -4,7 +4,6 @@
 
 - type: entity
   id: ActionHydrakinCoolOff
-  parent: BaseAction
   name: hydrakin-action-name-cool-off
   description: hydrakin-action-description-cool-off
   categories: [ HideSpawnMenu ] # Frontier
