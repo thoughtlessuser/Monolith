@@ -11,3 +11,7 @@
   - type: IFF
     color: "#37946e"
     readOnly: true # mono
+  - type: VesselMusic
+    ambientMusicPrototype: ColossusCentralMusic
+  - type: VesselInfo
+    description: "Even the air has a thin coat of dust."
