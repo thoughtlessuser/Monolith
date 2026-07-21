@@ -12,7 +12,7 @@
         type: GatewayBoundUserInterface
   - type: Gateway
     enabled: true
-    tagRestriction: Node
+#    tagRestriction: Node  #TODO: implement this
   - type: Tag
     tags:
     - Structure
@@ -32,7 +32,7 @@
         type: GatewayBoundUserInterface
   - type: Gateway
     enabled: true
-    tagRestriction: Central
+ #   tagRestriction: Central  #TODO: implement this
   - type: Tag
     tags:
     - Structure

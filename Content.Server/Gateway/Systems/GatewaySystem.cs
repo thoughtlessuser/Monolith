@@ -4,28 +4,29 @@ using Content.Shared.UserInterface;
 using Content.Shared.Access.Systems;
 using Content.Shared.Gateway;
 using Content.Shared.Popups;
-using Content.Shared.Tag; // Goobstation
 using Content.Shared.Teleportation.Components;
 using Content.Shared.Teleportation.Systems;
+using Content.Shared.Verbs;
 using Robust.Server.GameObjects;
+using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
 namespace Content.Server.Gateway.Systems;
 
-public sealed class GatewaySystem : EntitySystem
+public sealed partial class GatewaySystem : EntitySystem
 {
-    [Dependency] private readonly AccessReaderSystem _accessReader = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly LinkedEntitySystem _linkedEntity = default!;
-    [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly MetaDataSystem _metadata = default!;
-    [Dependency] private readonly StationSystem _stations = default!;
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly UserInterfaceSystem _ui = default!;
-    [Dependency] private readonly TagSystem _tag = default!; // Goobstation
+    [Dependency] private AccessReaderSystem _accessReader = default!;
+    [Dependency] private IGameTiming _timing = default!;
+    [Dependency] private LinkedEntitySystem _linkedEntity = default!;
+    [Dependency] private SharedAppearanceSystem _appearance = default!;
+    [Dependency] private SharedAudioSystem _audio = default!;
+    [Dependency] private MetaDataSystem _metadata = default!;
+    [Dependency] private StationSystem _stations = default!;
+    [Dependency] private SharedPopupSystem _popup = default!;
+    [Dependency] private UserInterfaceSystem _ui = default!;
 
     public override void Initialize()
     {
@@ -98,11 +99,7 @@ public sealed class GatewaySystem : EntitySystem
 
         while (query.MoveNext(out var destUid, out var dest, out var destXform))
         {
-            // Goobstation
-            if (!dest.Enabled
-                || destUid == uid
-                || (comp.TagRestriction != null && !_tag.HasTag(destUid, comp.TagRestriction.Value)) // if we have a tag restriction and destination doesn't have it, abort
-                || (dest.TagRestriction != null && !_tag.HasTag(uid, dest.TagRestriction.Value))) // if destination has a tag restriction but we don't have the tag, abort
+            if (!dest.Enabled || destUid == uid)
                 continue;
 
             // Show destination if either no destination comp on the map or it's ours.
