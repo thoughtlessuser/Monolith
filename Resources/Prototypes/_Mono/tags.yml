@@ -688,3 +688,12 @@
 
 - type: Tag
   id: PdvStation
+
+# Gateway tags
+
+- type: Tag
+  id: Node
+
+- type: Tag
+  id: Central
+
