@@ -63,11 +63,4 @@ public sealed partial class GatewayComponent : Component
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
     [AutoPausedField]
     public TimeSpan NextReady;
-
-    // Goobstation
-    /// <summary>
-    /// Restrict this gate's destinations and sources to gates tagged with this.
-    /// </summary>
-    [DataField]
-    public ProtoId<TagPrototype>? TagRestriction;
 }
