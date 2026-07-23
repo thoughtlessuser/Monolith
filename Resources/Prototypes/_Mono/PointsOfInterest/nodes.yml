@@ -4,6 +4,7 @@
   name: 'Zeta Node'
   minimumDistance: 500
   maximumDistance: 750
+  randomRotation: true
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
   spawnGroup: Required
   gridPath: /Maps/_Mono/POI/zetanode.yml
