@@ -39,8 +39,13 @@
   description: Non-conductive mesh, pressure-sealed seams. Surprisingly legal. Proudly produced in Sector by Ullman Industries. One wrist has a small hook protruding from the bottom. 
   categories: [HideSpawnMenu]
   components:
-  - type: ItemToggle
-    onUse: false
+  - type: Thieving
+    stripTimeReduction: 2.5
+    stealthy: true
+  - type: InstantAction
+    itemIconStyle: BigItem
+    event: !type:ToggleActionEvent
+    disableOnUnequip: true
   - type: AmmoCounter
   - type: GrapplingGun
     ropeBreakPoint: 100000 # Mono
