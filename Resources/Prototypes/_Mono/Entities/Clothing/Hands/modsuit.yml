@@ -45,7 +45,6 @@
   - type: InstantAction
     itemIconStyle: BigItem
     event: !type:ToggleActionEvent
-    disableOnUnequip: true
   - type: AmmoCounter
   - type: GrapplingGun
     ropeBreakPoint: 100000 # Mono
