@@ -127,7 +127,7 @@
   - AutosurgeonDermalArmorPDV
   technologyPrerequisites:
   - UniversalMaterialResearchT2
-  position: 13, -4
+  position: -3, -21
 
 - type: technology
   id: PDVAdvancedBorgModule

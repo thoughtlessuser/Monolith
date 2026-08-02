@@ -25,7 +25,7 @@
   - HFSwordVT7
   technologyPrerequisites:
   - RogueMeleeWeapons
-  position: -4, -21
+  position: -3, -22
 
 - type: technology
   id: RogueBasicGuns
@@ -60,7 +60,7 @@
   technologyPrerequisites:
   - UniversalMaterialResearchT2
   - RogueBasicGuns
-  position: -3, -22
+  position: -4, -22
 
 - type: technology
   id: RogueHeavyWeapons
@@ -104,4 +104,4 @@
   - AmmoBox635x40mmCaselessBig
   technologyPrerequisites:
   - RogueAdvancedGuns
-  position: -4, -23
+  position: -5, -22
