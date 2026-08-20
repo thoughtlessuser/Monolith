@@ -44,18 +44,5 @@
   - ClothingOuterHardsuitJuggernautRogue
   technologyPrerequisites:
   - RogueAdvancedEquipment
-  position: -2, -29
-
-- type: technology
-  id: RogueSuperArmor
-  name: research-technology-rogue-super-armor
-  entityIcon: ClothingOuterHardsuitCybersunStealth
-  discipline: RogueEquipment
-  tier: 2
-  cost: 20000
-  recipeUnlocks:
-  - ClothingOuterHardsuitCybersunStealthRogue
-  - ClothingOuterHardsuitJuggernautRogue
-  technologyPrerequisites:
   - UniversalMaterialResearchT3
-  position: -3, -29
+  position: -2, -29
