@@ -65,7 +65,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
     ];
 
     public bool ShowIFF { get; set; } = true;
-    public bool ShowIFFShuttles { get; set; } = true;
+    public bool ShowIFFDetailed { get; set; } = true;
     public bool ShowDocks { get; set; } = true;
 
     public float MaximumIFFDistance { get; set; } = 3000f; // Frontier // Mono - 3000 by default to not gigaclutter
@@ -596,6 +596,9 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
         var shuttleToView = Matrix3x2.CreateScale(new Vector2(MinimapScale, -MinimapScale)) * Matrix3x2.CreateTranslation(MidPointVector);
         var worldToView = worldToShuttle * shuttleToView;
 
+        DrawStarSystem(handle, worldToShuttle, shuttleToView, xform.MapUid); // Far Horizons
+        DrawIFFBeacons(handle, worldToView, mapPos, xform.MapUid); // Far Horizons
+
         // Draw shields
         DrawShields(handle, xform, worldToShuttle);
 
@@ -695,12 +698,13 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
                 : _shuttles.GetIFFLabel(grid, self: false, component: iff);
 
             var shouldDrawIFF = ShowIFF && labelName != null;
+            var shouldDrawDetailedIFF = ShowIFFDetailed && shouldDrawIFF; // Mono
             if (shouldDrawIFF)
             {
                 if (IFFFilter != null)
                     shouldDrawIFF &= IFFFilter(gUid, grid.Comp, iff, hideLabel, labelName!);
-                if (isPlayerShuttle)
-                    shouldDrawIFF &= ShowIFFShuttles;
+                //if (isPlayerShuttle) // Mono - comments this out, replaced elsewere
+                //    shouldDrawIFF &= ShowIFFShuttles;
             }
 
             //var mapCenter = curGridToWorld. * gridBody.LocalCenter;
@@ -827,6 +831,8 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
                     handle.DrawString(Font, (uiPosition + labelOffset) * UIScale, mainLabel, UIScale * 0.9f, displayColor);
 
                     // Mono start - draw main stack of info
+                    if (shouldDrawDetailedIFF)
+                    {
                             // Get company label & draw
                             var companyLabel =  !hideLabel ? lines[1] : Loc.GetString("shuttle-console-company-unknown");
                             var companyLabelOffset = new Vector2(
@@ -849,6 +855,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
                                 labelOffset.Y + handle.GetDimensions(Font, mainLabel, 0.9f).Y + handle.GetDimensions(Font, companyLabel, 0.7f).Y + handle.GetDimensions(Font, coordsText, 0.7f).Y);
                             if (iff != null)
                                 handle.DrawString(Font, (uiPosition + trackIdOffset) * UIScale, trackIdText, 0.7f * UIScale, displayColor);
+                    }
                     // Mono end
                 }
 

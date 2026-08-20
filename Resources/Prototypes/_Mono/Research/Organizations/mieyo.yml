@@ -112,6 +112,7 @@
   cost: 125000
   recipeUnlocks:
   - AutosurgeonSandevistanMMC
+  - AutosurgeonAdvHeartMMC
   technologyPrerequisites:
   - UniversalMaterialResearchT3
   - MieyoBionicsT2

@@ -8,10 +8,7 @@
       state: security
     - type: MachineBoard
       prototype: ShieldGeneratorSmall
-      componentRequirements:
-        AmeFuelContainer:
-          amount: 3
-          defaultPrototype: AmeJar
+      flatpackable: false
       stackRequirements:
         Glass: 10
         Steel: 10
@@ -41,10 +38,7 @@
     state: security
   - type: MachineBoard
     prototype: ShieldGeneratorMedium
-    componentRequirements:
-      AmeFuelContainer:
-        amount: 5
-        defaultPrototype: AmeJar
+    flatpackable: false
     stackRequirements:
       Glass: 10
       Steel: 10
@@ -59,7 +53,7 @@
         defaultPrototype: ComponentBrickEconomy1
       ElectromagnetEconomy2:
         amount: 3
-        defaultPrototype: ElectromagnetEconomy1
+        defaultPrototype: ElectromagnetEconomy2
       MicroprocessorEconomy1:
         amount: 3
         defaultPrototype: MicroprocessorEconomy1
@@ -77,10 +71,7 @@
     state: security
   - type: MachineBoard
     prototype: ShieldGenerator
-    componentRequirements:
-      AmeFuelContainer:
-        amount: 8
-        defaultPrototype: AmeJar
+    flatpackable: false
     stackRequirements:
       Glass: 30
       Steel: 30
@@ -95,7 +86,7 @@
         defaultPrototype: ComponentBrickEconomy1
       ElectromagnetEconomy2:
         amount: 3
-        defaultPrototype: ElectromagnetEconomy1
+        defaultPrototype: ElectromagnetEconomy2
       MicroprocessorEconomy1:
         amount: 3
         defaultPrototype: MicroprocessorEconomy1
